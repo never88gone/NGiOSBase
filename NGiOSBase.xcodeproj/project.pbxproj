@@ -46,7 +46,6 @@
 		388EF6631F32C22000AE3826 /* UIImage+bundleRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81D31F0A38D900207394 /* UIImage+bundleRes.m */; };
 		388EF6671F32C22000AE3826 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81D71F0A38D900207394 /* UIImage+Tint.m */; };
 		388EF6691F32C22000AE3826 /* UIImage+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81D91F0A38D900207394 /* UIImage+tool.m */; };
-		388EF66B1F32C22000AE3826 /* UIImageView+LoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81DB1F0A38D900207394 /* UIImageView+LoadingIndicator.m */; };
 		388EF66D1F32C22000AE3826 /* UILabel+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81DD1F0A38D900207394 /* UILabel+Attribute.m */; };
 		388EF66F1F32C22000AE3826 /* UILabel+DynamicSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81DF1F0A38D900207394 /* UILabel+DynamicSize.m */; };
 		388EF6731F32C22000AE3826 /* UINib+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81E31F0A38D900207394 /* UINib+create.m */; };
@@ -274,8 +273,6 @@
 		38EA81D71F0A38D900207394 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		38EA81D81F0A38D900207394 /* UIImage+tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+tool.h"; sourceTree = "<group>"; };
 		38EA81D91F0A38D900207394 /* UIImage+tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+tool.m"; sourceTree = "<group>"; };
-		38EA81DA1F0A38D900207394 /* UIImageView+LoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LoadingIndicator.h"; sourceTree = "<group>"; };
-		38EA81DB1F0A38D900207394 /* UIImageView+LoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LoadingIndicator.m"; sourceTree = "<group>"; };
 		38EA81DC1F0A38D900207394 /* UILabel+Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Attribute.h"; sourceTree = "<group>"; };
 		38EA81DD1F0A38D900207394 /* UILabel+Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Attribute.m"; sourceTree = "<group>"; };
 		38EA81DE1F0A38D900207394 /* UILabel+DynamicSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DynamicSize.h"; sourceTree = "<group>"; };
@@ -761,8 +758,6 @@
 				38EA81D71F0A38D900207394 /* UIImage+Tint.m */,
 				38EA81D81F0A38D900207394 /* UIImage+tool.h */,
 				38EA81D91F0A38D900207394 /* UIImage+tool.m */,
-				38EA81DA1F0A38D900207394 /* UIImageView+LoadingIndicator.h */,
-				38EA81DB1F0A38D900207394 /* UIImageView+LoadingIndicator.m */,
 				38EA81DC1F0A38D900207394 /* UILabel+Attribute.h */,
 				38EA81DD1F0A38D900207394 /* UILabel+Attribute.m */,
 				38EA81DE1F0A38D900207394 /* UILabel+DynamicSize.h */,
@@ -1435,7 +1430,6 @@
 				388EF6631F32C22000AE3826 /* UIImage+bundleRes.m in Sources */,
 				388EF6671F32C22000AE3826 /* UIImage+Tint.m in Sources */,
 				388EF6691F32C22000AE3826 /* UIImage+tool.m in Sources */,
-				388EF66B1F32C22000AE3826 /* UIImageView+LoadingIndicator.m in Sources */,
 				388EF66D1F32C22000AE3826 /* UILabel+Attribute.m in Sources */,
 				388EF66F1F32C22000AE3826 /* UILabel+DynamicSize.m in Sources */,
 				388EF6731F32C22000AE3826 /* UINib+create.m in Sources */,
@@ -1632,6 +1626,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1680,6 +1675,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

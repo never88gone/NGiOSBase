@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "Foundation", "UIKit", "MobileCoreServices"
   s.library = 'sqlite3'
-
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.xcconfig = {"OHTER_LINKER_FLAGS" => "-OjbC"}
   s.dependency "BlocksKit","2.2.5"
   s.dependency "CSStickyHeaderFlowLayout","0.2.11"
