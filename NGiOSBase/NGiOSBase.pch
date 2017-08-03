@@ -1,0 +1,24 @@
+//
+//  OneStoreBase.pch
+//  OneStoreBase
+//
+//  Created by huangjiming on 8/12/15.
+//  Copyright (c) 2015 OneStoreBase. All rights reserved.
+//
+
+#ifndef OneStoreBase_OneStoreBase_pch
+#define OneStoreBase_OneStoreBase_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreData/CoreData.h>
+#import "objc/runtime.h"
+
+//pod
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
+#import "JSONModel.h"
+#import "UIImagePickerController+BlocksKit.h"
+#import "ALView+PureLayout.h"
+#endif
