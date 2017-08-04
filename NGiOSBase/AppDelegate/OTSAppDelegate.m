@@ -11,8 +11,6 @@
 #import "OTSNotificationDefine.h"
 //tools
 #import "OTSLog.h"
-//common
-#import "OTSRouter.h"
 
 //define
 #import "OTSMacroDefine.h"
@@ -23,12 +21,6 @@
 
 
 #import "OTSTopWindow.h"
-
-@interface OTSRouter ()
-
-- (void)registerPCContainer:(UIViewController *)aPCContainer;
-
-@end
 
 @interface OTSAppDelegate ()
 
@@ -60,8 +52,6 @@
     [self.topWindow makeKeyAndVisible];
     self.topWindow.hidden = YES;
     
-    //router
-    [[OTSRouter singletonInstance] registerPCContainer:self.pcWindow.rootViewController];
     
     //setup SDImageCache
     [SDImageCache sharedImageCache].maxCacheSize  = 50 * 1024 * 1024;//50MB

@@ -10,30 +10,12 @@
 //tool
 #import "OTSLog.h"
 #import "OTSWeakObjectDeathNotifier.h"
-//controllers
-#import "OTSContainerController.h"
 //category
 #import "NSObject+category.h"
 
 @implementation UIViewController (base)
 
 #pragma mark - Property
-- (void)setContainerVC:(OTSContainerController *)containerVC
-{
-    OTSWeakObjectDeathNotifier *dn = [OTSWeakObjectDeathNotifier new];
-    dn.owner = containerVC;
-    [self objc_setAssociatedObject:@"container" value:dn policy:OBJC_ASSOCIATION_RETAIN];
-}
-
-- (OTSContainerController *)containerVC
-{
-    OTSWeakObjectDeathNotifier *dn = [self objc_getAssociatedObject:@"container"];
-    OTSContainerController *container = dn.owner;
-    if (!container) {
-        container = self.navigationController.containerVC;
-    }
-    return container;
-}
 
 #pragma mark - API
 //添加到rootvc

@@ -62,12 +62,7 @@
 		388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FB1F0A38D900207394 /* UIView+Plus.m */; };
 		388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FE1F0A38D900207394 /* UIButton+webp.m */; };
 		388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82001F0A38D900207394 /* UIImageView+webp.m */; };
-		388EF6911F32C22100AE3826 /* OTSContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82031F0A38D900207394 /* OTSContainerController.m */; };
 		388EF6931F32C22100AE3826 /* OTSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82051F0A38D900207394 /* OTSImagePickerController.m */; };
-		388EF6951F32C22100AE3826 /* OTSPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82071F0A38D900207394 /* OTSPresentController.m */; };
-		388EF6971F32C22100AE3826 /* BigImageCustomScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA820A1F0A38D900207394 /* BigImageCustomScrollview.m */; };
-		388EF6991F32C22100AE3826 /* OTSBigImageBrowserPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA820C1F0A38D900207394 /* OTSBigImageBrowserPC.m */; };
-		388EF69B1F32C22100AE3826 /* OTSBigImageItemCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA820E1F0A38D900207394 /* OTSBigImageItemCVC.m */; };
 		388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82121F0A38D900207394 /* OTSArchiveData.m */; };
 		388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82151F0A38D900207394 /* OTSCoreDataManager.m */; };
 		388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82171F0A38D900207394 /* OTSManagedObject.m */; };
@@ -80,11 +75,6 @@
 		388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82321F0A38D900207394 /* OTSClientInfo.m */; };
 		388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82361F0A38D900207394 /* OTSGlobalValue.m */; };
 		388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82381F0A38D900207394 /* OTSValueObject.m */; };
-		388EF6BE1F32C22100AE3826 /* NSString+router.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA823C1F0A38D900207394 /* NSString+router.m */; };
-		388EF6C01F32C22100AE3826 /* UIViewController+router.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA823E1F0A38D900207394 /* UIViewController+router.m */; };
-		388EF6C21F32C22100AE3826 /* OTSNativeFuncVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82411F0A38D900207394 /* OTSNativeFuncVO.m */; };
-		388EF6C41F32C22100AE3826 /* OTSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82441F0A38D900207394 /* OTSRouter.m */; };
-		388EF6C61F32C22100AE3826 /* OTSMappingVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82471F0A38D900207394 /* OTSMappingVO.m */; };
 		388EF6C81F32C22100AE3826 /* OTSActivityTracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA824B1F0A38D900207394 /* OTSActivityTracing.m */; };
 		388EF6CC1F32C22100AE3826 /* OTSMagicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82511F0A38D900207394 /* OTSMagicAnimation.m */; };
 		388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82531F0A38D900207394 /* OTSVCAnimation.m */; };
@@ -120,7 +110,6 @@
 		388EF70E1F32C22100AE3826 /* OTSCoreGraphicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82941F0A38D900207394 /* OTSCoreGraphicHelper.m */; };
 		388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82961F0A38D900207394 /* OTSCorner.m */; };
 		388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */; };
-		388EF7161F32C22100AE3826 /* OTSDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829C1F0A38D900207394 /* OTSDeepLink.m */; };
 		388EF7181F32C22100AE3826 /* OTSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829E1F0A38D900207394 /* OTSFont.m */; };
 		388EF71A1F32C22100AE3826 /* OTSImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A01F0A38D900207394 /* OTSImagePicker.m */; };
 		388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A21F0A38D900207394 /* OTSIPAddress.m */; };
@@ -305,18 +294,8 @@
 		38EA81FE1F0A38D900207394 /* UIButton+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+webp.m"; sourceTree = "<group>"; };
 		38EA81FF1F0A38D900207394 /* UIImageView+webp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+webp.h"; sourceTree = "<group>"; };
 		38EA82001F0A38D900207394 /* UIImageView+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+webp.m"; sourceTree = "<group>"; };
-		38EA82021F0A38D900207394 /* OTSContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSContainerController.h; sourceTree = "<group>"; };
-		38EA82031F0A38D900207394 /* OTSContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSContainerController.m; sourceTree = "<group>"; };
 		38EA82041F0A38D900207394 /* OTSImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSImagePickerController.h; sourceTree = "<group>"; };
 		38EA82051F0A38D900207394 /* OTSImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSImagePickerController.m; sourceTree = "<group>"; };
-		38EA82061F0A38D900207394 /* OTSPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPresentController.h; sourceTree = "<group>"; };
-		38EA82071F0A38D900207394 /* OTSPresentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPresentController.m; sourceTree = "<group>"; };
-		38EA82091F0A38D900207394 /* BigImageCustomScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigImageCustomScrollview.h; sourceTree = "<group>"; };
-		38EA820A1F0A38D900207394 /* BigImageCustomScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigImageCustomScrollview.m; sourceTree = "<group>"; };
-		38EA820B1F0A38D900207394 /* OTSBigImageBrowserPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSBigImageBrowserPC.h; sourceTree = "<group>"; };
-		38EA820C1F0A38D900207394 /* OTSBigImageBrowserPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSBigImageBrowserPC.m; sourceTree = "<group>"; };
-		38EA820D1F0A38D900207394 /* OTSBigImageItemCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSBigImageItemCVC.h; sourceTree = "<group>"; };
-		38EA820E1F0A38D900207394 /* OTSBigImageItemCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSBigImageItemCVC.m; sourceTree = "<group>"; };
 		38EA82111F0A38D900207394 /* OTSArchiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSArchiveData.h; sourceTree = "<group>"; };
 		38EA82121F0A38D900207394 /* OTSArchiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSArchiveData.m; sourceTree = "<group>"; };
 		38EA82141F0A38D900207394 /* OTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCoreDataManager.h; sourceTree = "<group>"; };
@@ -344,16 +323,6 @@
 		38EA82361F0A38D900207394 /* OTSGlobalValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSGlobalValue.m; sourceTree = "<group>"; };
 		38EA82371F0A38D900207394 /* OTSValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSValueObject.h; sourceTree = "<group>"; };
 		38EA82381F0A38D900207394 /* OTSValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSValueObject.m; sourceTree = "<group>"; };
-		38EA823B1F0A38D900207394 /* NSString+router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+router.h"; sourceTree = "<group>"; };
-		38EA823C1F0A38D900207394 /* NSString+router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+router.m"; sourceTree = "<group>"; };
-		38EA823D1F0A38D900207394 /* UIViewController+router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+router.h"; sourceTree = "<group>"; };
-		38EA823E1F0A38D900207394 /* UIViewController+router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+router.m"; sourceTree = "<group>"; };
-		38EA82401F0A38D900207394 /* OTSNativeFuncVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSNativeFuncVO.h; sourceTree = "<group>"; };
-		38EA82411F0A38D900207394 /* OTSNativeFuncVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSNativeFuncVO.m; sourceTree = "<group>"; };
-		38EA82431F0A38D900207394 /* OTSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSRouter.h; sourceTree = "<group>"; };
-		38EA82441F0A38D900207394 /* OTSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSRouter.m; sourceTree = "<group>"; };
-		38EA82461F0A38D900207394 /* OTSMappingVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMappingVO.h; sourceTree = "<group>"; };
-		38EA82471F0A38D900207394 /* OTSMappingVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSMappingVO.m; sourceTree = "<group>"; };
 		38EA824A1F0A38D900207394 /* OTSActivityTracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSActivityTracing.h; sourceTree = "<group>"; };
 		38EA824B1F0A38D900207394 /* OTSActivityTracing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSActivityTracing.m; sourceTree = "<group>"; };
 		38EA82501F0A38D900207394 /* OTSMagicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMagicAnimation.h; sourceTree = "<group>"; };
@@ -424,8 +393,6 @@
 		38EA82961F0A38D900207394 /* OTSCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCorner.m; sourceTree = "<group>"; };
 		38EA82991F0A38D900207394 /* OTSDeadtimeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSDeadtimeTimer.h; sourceTree = "<group>"; };
 		38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDeadtimeTimer.m; sourceTree = "<group>"; };
-		38EA829B1F0A38D900207394 /* OTSDeepLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSDeepLink.h; sourceTree = "<group>"; };
-		38EA829C1F0A38D900207394 /* OTSDeepLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDeepLink.m; sourceTree = "<group>"; };
 		38EA829D1F0A38D900207394 /* OTSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFont.h; sourceTree = "<group>"; };
 		38EA829E1F0A38D900207394 /* OTSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFont.m; sourceTree = "<group>"; };
 		38EA829F1F0A38D900207394 /* OTSImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSImagePicker.h; sourceTree = "<group>"; };
@@ -579,7 +546,6 @@
 				38EA820F1F0A38D900207394 /* DataCache */,
 				38EA82281F0A38D900207394 /* DefineHeader */,
 				38EA82301F0A38D900207394 /* Objects */,
-				38EA82391F0A38D900207394 /* Router */,
 				38EA82481F0A38D900207394 /* Tools */,
 				38EA82C11F0A38D900207394 /* Views */,
 				38EA83311F0A38D900207394 /* NGiOSBase.pch */,
@@ -804,28 +770,10 @@
 		38EA82011F0A38D900207394 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82021F0A38D900207394 /* OTSContainerController.h */,
-				38EA82031F0A38D900207394 /* OTSContainerController.m */,
 				38EA82041F0A38D900207394 /* OTSImagePickerController.h */,
 				38EA82051F0A38D900207394 /* OTSImagePickerController.m */,
-				38EA82061F0A38D900207394 /* OTSPresentController.h */,
-				38EA82071F0A38D900207394 /* OTSPresentController.m */,
-				38EA82081F0A38D900207394 /* 大图展示 */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		38EA82081F0A38D900207394 /* 大图展示 */ = {
-			isa = PBXGroup;
-			children = (
-				38EA82091F0A38D900207394 /* BigImageCustomScrollview.h */,
-				38EA820A1F0A38D900207394 /* BigImageCustomScrollview.m */,
-				38EA820B1F0A38D900207394 /* OTSBigImageBrowserPC.h */,
-				38EA820C1F0A38D900207394 /* OTSBigImageBrowserPC.m */,
-				38EA820D1F0A38D900207394 /* OTSBigImageItemCVC.h */,
-				38EA820E1F0A38D900207394 /* OTSBigImageItemCVC.m */,
-			);
-			path = "大图展示";
 			sourceTree = "<group>";
 		};
 		38EA820F1F0A38D900207394 /* DataCache */ = {
@@ -924,55 +872,6 @@
 			path = Objects;
 			sourceTree = "<group>";
 		};
-		38EA82391F0A38D900207394 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				38EA823A1F0A38D900207394 /* Category */,
-				38EA823F1F0A38D900207394 /* Func */,
-				38EA82421F0A38D900207394 /* Router */,
-				38EA82451F0A38D900207394 /* UrlMapping */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		38EA823A1F0A38D900207394 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				38EA823B1F0A38D900207394 /* NSString+router.h */,
-				38EA823C1F0A38D900207394 /* NSString+router.m */,
-				38EA823D1F0A38D900207394 /* UIViewController+router.h */,
-				38EA823E1F0A38D900207394 /* UIViewController+router.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		38EA823F1F0A38D900207394 /* Func */ = {
-			isa = PBXGroup;
-			children = (
-				38EA82401F0A38D900207394 /* OTSNativeFuncVO.h */,
-				38EA82411F0A38D900207394 /* OTSNativeFuncVO.m */,
-			);
-			path = Func;
-			sourceTree = "<group>";
-		};
-		38EA82421F0A38D900207394 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				38EA82431F0A38D900207394 /* OTSRouter.h */,
-				38EA82441F0A38D900207394 /* OTSRouter.m */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		38EA82451F0A38D900207394 /* UrlMapping */ = {
-			isa = PBXGroup;
-			children = (
-				38EA82461F0A38D900207394 /* OTSMappingVO.h */,
-				38EA82471F0A38D900207394 /* OTSMappingVO.m */,
-			);
-			path = UrlMapping;
-			sourceTree = "<group>";
-		};
 		38EA82481F0A38D900207394 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -997,8 +896,6 @@
 				38EA82961F0A38D900207394 /* OTSCorner.m */,
 				38EA82991F0A38D900207394 /* OTSDeadtimeTimer.h */,
 				38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */,
-				38EA829B1F0A38D900207394 /* OTSDeepLink.h */,
-				38EA829C1F0A38D900207394 /* OTSDeepLink.m */,
 				38EA829D1F0A38D900207394 /* OTSFont.h */,
 				38EA829E1F0A38D900207394 /* OTSFont.m */,
 				38EA829F1F0A38D900207394 /* OTSImagePicker.h */,
@@ -1446,12 +1343,7 @@
 				388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */,
 				388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */,
 				388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */,
-				388EF6911F32C22100AE3826 /* OTSContainerController.m in Sources */,
 				388EF6931F32C22100AE3826 /* OTSImagePickerController.m in Sources */,
-				388EF6951F32C22100AE3826 /* OTSPresentController.m in Sources */,
-				388EF6971F32C22100AE3826 /* BigImageCustomScrollview.m in Sources */,
-				388EF6991F32C22100AE3826 /* OTSBigImageBrowserPC.m in Sources */,
-				388EF69B1F32C22100AE3826 /* OTSBigImageItemCVC.m in Sources */,
 				388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */,
 				388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */,
 				388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */,
@@ -1464,11 +1356,6 @@
 				388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */,
 				388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */,
 				388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */,
-				388EF6BE1F32C22100AE3826 /* NSString+router.m in Sources */,
-				388EF6C01F32C22100AE3826 /* UIViewController+router.m in Sources */,
-				388EF6C21F32C22100AE3826 /* OTSNativeFuncVO.m in Sources */,
-				388EF6C41F32C22100AE3826 /* OTSRouter.m in Sources */,
-				388EF6C61F32C22100AE3826 /* OTSMappingVO.m in Sources */,
 				388EF6C81F32C22100AE3826 /* OTSActivityTracing.m in Sources */,
 				388EF6CC1F32C22100AE3826 /* OTSMagicAnimation.m in Sources */,
 				388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */,
@@ -1504,7 +1391,6 @@
 				388EF70E1F32C22100AE3826 /* OTSCoreGraphicHelper.m in Sources */,
 				388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */,
 				388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */,
-				388EF7161F32C22100AE3826 /* OTSDeepLink.m in Sources */,
 				388EF7181F32C22100AE3826 /* OTSFont.m in Sources */,
 				388EF71A1F32C22100AE3826 /* OTSImagePicker.m in Sources */,
 				388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */,
