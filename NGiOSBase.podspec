@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
