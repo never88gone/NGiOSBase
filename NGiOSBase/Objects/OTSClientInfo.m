@@ -35,22 +35,7 @@ DEF_SINGLETON(OTSClientInfo)
         _clientAppVersion = [NSString stringWithFormat:@"%@",[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]];
         _clientVersion = [[UIDevice currentDevice] systemVersion];
         _deviceCode = [NSString stringWithString:[[UIDevice currentDevice] uniqueDeviceIdentifier]];
-
-        if (IS_IPHONE_DEVICE) {
-            _clientSystem = @"iPhone";
-            _traderName = @"iosSystem";
-            NSString *bundleIdentifier = [NSBundle mainBundle].bundleIdentifier;
-            if ([bundleIdentifier rangeOfString:@"sam"].location != NSNotFound) {
-                _traderName = @"samIosSystem";
-            }
-            
-        }else {
-            _clientSystem = @"ipad";
-//            _traderName = @"ipadSystem";
-            _traderName = @"samIosSystem";
-        }
-}
-    
+    }
     return self;
 }
 
@@ -83,16 +68,6 @@ DEF_SINGLETON(OTSClientInfo)
 -(void)setPointWallChannelId:(NSNumber *)pointWallChannelId
 {
     [OTSKeychain setKeychainValue:pointWallChannelId forType:OTS_DEF_KEY_IS_DO_POINTWALL_ACTIVE_CHANNEL_ID];
-}
-
-- (NSNumber *)abtest
-{
-    return [OTSUserDefault getValueForKey:OTS_DEF_KEY_ABTEST];
-}
-
-- (void)setAbtest:(NSNumber *)abtest
-{
-    [OTSUserDefault setValue:abtest forKey:OTS_DEF_KEY_ABTEST];
 }
 
 - (NSString*) phoneType

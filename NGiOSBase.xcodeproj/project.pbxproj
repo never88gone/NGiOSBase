@@ -62,7 +62,6 @@
 		388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FB1F0A38D900207394 /* UIView+Plus.m */; };
 		388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FE1F0A38D900207394 /* UIButton+webp.m */; };
 		388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82001F0A38D900207394 /* UIImageView+webp.m */; };
-		388EF6931F32C22100AE3826 /* OTSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82051F0A38D900207394 /* OTSImagePickerController.m */; };
 		388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82121F0A38D900207394 /* OTSArchiveData.m */; };
 		388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82151F0A38D900207394 /* OTSCoreDataManager.m */; };
 		388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82171F0A38D900207394 /* OTSManagedObject.m */; };
@@ -75,7 +74,6 @@
 		388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82321F0A38D900207394 /* OTSClientInfo.m */; };
 		388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82361F0A38D900207394 /* OTSGlobalValue.m */; };
 		388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82381F0A38D900207394 /* OTSValueObject.m */; };
-		388EF6C81F32C22100AE3826 /* OTSActivityTracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA824B1F0A38D900207394 /* OTSActivityTracing.m */; };
 		388EF6CC1F32C22100AE3826 /* OTSMagicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82511F0A38D900207394 /* OTSMagicAnimation.m */; };
 		388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82531F0A38D900207394 /* OTSVCAnimation.m */; };
 		388EF6D01F32C22100AE3826 /* JapanPostBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82561F0A38D900207394 /* JapanPostBarcode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -147,19 +145,11 @@
 		388EF7621F32C22100AE3826 /* OTSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EA1F0A38D900207394 /* OTSWindow.m */; };
 		388EF7641F32C22100AE3826 /* OTSImageFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */; };
 		388EF7661F32C22100AE3826 /* OTSAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */; };
-		388EF7681F32C22100AE3826 /* OTSBlockBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F11F0A38D900207394 /* OTSBlockBtn.m */; };
-		388EF76A1F32C22100AE3826 /* OTSBlockImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F31F0A38D900207394 /* OTSBlockImageView.m */; };
 		388EF76C1F32C22100AE3826 /* OTSCommentPicScaledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */; };
 		388EF76E1F32C22100AE3826 /* OTSCrossedOutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */; };
-		388EF7761F32C22100AE3826 /* OTSCyclePageImageViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82FF1F0A38D900207394 /* OTSCyclePageImageViewLayout.m */; };
-		388EF77C1F32C22100AE3826 /* OTSDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83051F0A38D900207394 /* OTSDataView.m */; };
-		388EF77E1F32C22100AE3826 /* OTSEnhanceAlertHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83081F0A38D900207394 /* OTSEnhanceAlertHUD.m */; };
-		388EF7831F32C22100AE3826 /* OTSEnhanceAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA830D1F0A38D900207394 /* OTSEnhanceAlterView.m */; };
-		388EF7861F32C22100AE3826 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83111F0A38D900207394 /* UIView+Sizes.m */; };
 		388EF7881F32C22100AE3826 /* OTSFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83131F0A38D900207394 /* OTSFPSLabel.m */; };
 		388EF78C1F32C22100AE3826 /* OTSNonModelLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */; };
 		388EF78E1F32C22100AE3826 /* OTSPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83191F0A38D900207394 /* OTSPageView.m */; };
-		388EF7901F32C22100AE3826 /* OTSPlaceholderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831B1F0A38D900207394 /* OTSPlaceholderImageView.m */; };
 		388EF7921F32C22100AE3826 /* OTSPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */; };
 		388EF7941F32C22100AE3826 /* OTSPriceAndScoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831F1F0A38D900207394 /* OTSPriceAndScoreLabel.m */; };
 		388EF7981F32C22100AE3826 /* OTSProductCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83231F0A38D900207394 /* OTSProductCountDownView.m */; };
@@ -294,8 +284,6 @@
 		38EA81FE1F0A38D900207394 /* UIButton+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+webp.m"; sourceTree = "<group>"; };
 		38EA81FF1F0A38D900207394 /* UIImageView+webp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+webp.h"; sourceTree = "<group>"; };
 		38EA82001F0A38D900207394 /* UIImageView+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+webp.m"; sourceTree = "<group>"; };
-		38EA82041F0A38D900207394 /* OTSImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSImagePickerController.h; sourceTree = "<group>"; };
-		38EA82051F0A38D900207394 /* OTSImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSImagePickerController.m; sourceTree = "<group>"; };
 		38EA82111F0A38D900207394 /* OTSArchiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSArchiveData.h; sourceTree = "<group>"; };
 		38EA82121F0A38D900207394 /* OTSArchiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSArchiveData.m; sourceTree = "<group>"; };
 		38EA82141F0A38D900207394 /* OTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCoreDataManager.h; sourceTree = "<group>"; };
@@ -323,8 +311,6 @@
 		38EA82361F0A38D900207394 /* OTSGlobalValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSGlobalValue.m; sourceTree = "<group>"; };
 		38EA82371F0A38D900207394 /* OTSValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSValueObject.h; sourceTree = "<group>"; };
 		38EA82381F0A38D900207394 /* OTSValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSValueObject.m; sourceTree = "<group>"; };
-		38EA824A1F0A38D900207394 /* OTSActivityTracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSActivityTracing.h; sourceTree = "<group>"; };
-		38EA824B1F0A38D900207394 /* OTSActivityTracing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSActivityTracing.m; sourceTree = "<group>"; };
 		38EA82501F0A38D900207394 /* OTSMagicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMagicAnimation.h; sourceTree = "<group>"; };
 		38EA82511F0A38D900207394 /* OTSMagicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSMagicAnimation.m; sourceTree = "<group>"; };
 		38EA82521F0A38D900207394 /* OTSVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSVCAnimation.h; sourceTree = "<group>"; };
@@ -467,36 +453,16 @@
 		38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSImageFallingView.m; sourceTree = "<group>"; };
 		38EA82EE1F0A38D900207394 /* OTSAutoHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSAutoHeightTextView.h; sourceTree = "<group>"; };
 		38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSAutoHeightTextView.m; sourceTree = "<group>"; };
-		38EA82F01F0A38D900207394 /* OTSBlockBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSBlockBtn.h; sourceTree = "<group>"; };
-		38EA82F11F0A38D900207394 /* OTSBlockBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSBlockBtn.m; sourceTree = "<group>"; };
-		38EA82F21F0A38D900207394 /* OTSBlockImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSBlockImageView.h; sourceTree = "<group>"; };
-		38EA82F31F0A38D900207394 /* OTSBlockImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSBlockImageView.m; sourceTree = "<group>"; };
 		38EA82F41F0A38D900207394 /* OTSCommentPicScaledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCommentPicScaledView.h; sourceTree = "<group>"; };
 		38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCommentPicScaledView.m; sourceTree = "<group>"; };
 		38EA82F61F0A38D900207394 /* OTSCrossedOutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCrossedOutLabel.h; sourceTree = "<group>"; };
 		38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCrossedOutLabel.m; sourceTree = "<group>"; };
-		38EA82FE1F0A38D900207394 /* OTSCyclePageImageViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCyclePageImageViewLayout.h; sourceTree = "<group>"; };
-		38EA82FF1F0A38D900207394 /* OTSCyclePageImageViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCyclePageImageViewLayout.m; sourceTree = "<group>"; };
-		38EA83041F0A38D900207394 /* OTSDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSDataView.h; sourceTree = "<group>"; };
-		38EA83051F0A38D900207394 /* OTSDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDataView.m; sourceTree = "<group>"; };
-		38EA83071F0A38D900207394 /* OTSEnhanceAlertHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSEnhanceAlertHUD.h; sourceTree = "<group>"; };
-		38EA83081F0A38D900207394 /* OTSEnhanceAlertHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSEnhanceAlertHUD.m; sourceTree = "<group>"; };
-		38EA83091F0A38D900207394 /* OTSEnhanceAlertHUDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSEnhanceAlertHUDDelegate.h; sourceTree = "<group>"; };
-		38EA830A1F0A38D900207394 /* OTSEnhanceAlertViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSEnhanceAlertViewDelegate.h; sourceTree = "<group>"; };
-		38EA830B1F0A38D900207394 /* OTSEnhanceAlter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSEnhanceAlter.h; sourceTree = "<group>"; };
-		38EA830C1F0A38D900207394 /* OTSEnhanceAlterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSEnhanceAlterView.h; sourceTree = "<group>"; };
-		38EA830D1F0A38D900207394 /* OTSEnhanceAlterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSEnhanceAlterView.m; sourceTree = "<group>"; };
-		38EA830F1F0A38D900207394 /* SWCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCommonMacro.h; sourceTree = "<group>"; };
-		38EA83101F0A38D900207394 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
-		38EA83111F0A38D900207394 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
 		38EA83121F0A38D900207394 /* OTSFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFPSLabel.h; sourceTree = "<group>"; };
 		38EA83131F0A38D900207394 /* OTSFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFPSLabel.m; sourceTree = "<group>"; };
 		38EA83161F0A38D900207394 /* OTSNonModelLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSNonModelLoadingView.h; sourceTree = "<group>"; };
 		38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSNonModelLoadingView.m; sourceTree = "<group>"; };
 		38EA83181F0A38D900207394 /* OTSPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPageView.h; sourceTree = "<group>"; };
 		38EA83191F0A38D900207394 /* OTSPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPageView.m; sourceTree = "<group>"; };
-		38EA831A1F0A38D900207394 /* OTSPlaceholderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPlaceholderImageView.h; sourceTree = "<group>"; };
-		38EA831B1F0A38D900207394 /* OTSPlaceholderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPlaceholderImageView.m; sourceTree = "<group>"; };
 		38EA831C1F0A38D900207394 /* OTSPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPlaceHolderTextView.h; sourceTree = "<group>"; };
 		38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPlaceHolderTextView.m; sourceTree = "<group>"; };
 		38EA831E1F0A38D900207394 /* OTSPriceAndScoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPriceAndScoreLabel.h; sourceTree = "<group>"; };
@@ -542,7 +508,6 @@
 			children = (
 				38EA81531F0A38D900207394 /* AppDelegate */,
 				38EA815D1F0A38D900207394 /* Category */,
-				38EA82011F0A38D900207394 /* Controllers */,
 				38EA820F1F0A38D900207394 /* DataCache */,
 				38EA82281F0A38D900207394 /* DefineHeader */,
 				38EA82301F0A38D900207394 /* Objects */,
@@ -767,15 +732,6 @@
 			path = Webp;
 			sourceTree = "<group>";
 		};
-		38EA82011F0A38D900207394 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				38EA82041F0A38D900207394 /* OTSImagePickerController.h */,
-				38EA82051F0A38D900207394 /* OTSImagePickerController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		38EA820F1F0A38D900207394 /* DataCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -875,7 +831,6 @@
 		38EA82481F0A38D900207394 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82491F0A38D900207394 /* ActivityTrack */,
 				38EA824F1F0A38D900207394 /* Animation */,
 				38EA82541F0A38D900207394 /* NKDBarcode */,
 				38EA82831F0A38D900207394 /* OTSAudioPlayer.h */,
@@ -930,15 +885,6 @@
 				38EA82C01F0A38D900207394 /* OTSWeakObjectDeathNotifier.m */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		38EA82491F0A38D900207394 /* ActivityTrack */ = {
-			isa = PBXGroup;
-			children = (
-				38EA824A1F0A38D900207394 /* OTSActivityTracing.h */,
-				38EA824B1F0A38D900207394 /* OTSActivityTracing.m */,
-			);
-			path = ActivityTrack;
 			sourceTree = "<group>";
 		};
 		38EA824F1F0A38D900207394 /* Animation */ = {
@@ -1012,27 +958,16 @@
 				38EA82EB1F0A38D900207394 /* ImageFalling */,
 				38EA82EE1F0A38D900207394 /* OTSAutoHeightTextView.h */,
 				38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */,
-				38EA82F01F0A38D900207394 /* OTSBlockBtn.h */,
-				38EA82F11F0A38D900207394 /* OTSBlockBtn.m */,
-				38EA82F21F0A38D900207394 /* OTSBlockImageView.h */,
-				38EA82F31F0A38D900207394 /* OTSBlockImageView.m */,
 				38EA82F41F0A38D900207394 /* OTSCommentPicScaledView.h */,
 				38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */,
 				38EA82F61F0A38D900207394 /* OTSCrossedOutLabel.h */,
 				38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */,
-				38EA82FE1F0A38D900207394 /* OTSCyclePageImageViewLayout.h */,
-				38EA82FF1F0A38D900207394 /* OTSCyclePageImageViewLayout.m */,
-				38EA83041F0A38D900207394 /* OTSDataView.h */,
-				38EA83051F0A38D900207394 /* OTSDataView.m */,
-				38EA83061F0A38D900207394 /* OTSEnhanceAlterView */,
 				38EA83121F0A38D900207394 /* OTSFPSLabel.h */,
 				38EA83131F0A38D900207394 /* OTSFPSLabel.m */,
 				38EA83161F0A38D900207394 /* OTSNonModelLoadingView.h */,
 				38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */,
 				38EA83181F0A38D900207394 /* OTSPageView.h */,
 				38EA83191F0A38D900207394 /* OTSPageView.m */,
-				38EA831A1F0A38D900207394 /* OTSPlaceholderImageView.h */,
-				38EA831B1F0A38D900207394 /* OTSPlaceholderImageView.m */,
 				38EA831C1F0A38D900207394 /* OTSPlaceHolderTextView.h */,
 				38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */,
 				38EA831E1F0A38D900207394 /* OTSPriceAndScoreLabel.h */,
@@ -1106,31 +1041,6 @@
 				38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */,
 			);
 			path = ImageFalling;
-			sourceTree = "<group>";
-		};
-		38EA83061F0A38D900207394 /* OTSEnhanceAlterView */ = {
-			isa = PBXGroup;
-			children = (
-				38EA83071F0A38D900207394 /* OTSEnhanceAlertHUD.h */,
-				38EA83081F0A38D900207394 /* OTSEnhanceAlertHUD.m */,
-				38EA83091F0A38D900207394 /* OTSEnhanceAlertHUDDelegate.h */,
-				38EA830A1F0A38D900207394 /* OTSEnhanceAlertViewDelegate.h */,
-				38EA830B1F0A38D900207394 /* OTSEnhanceAlter.h */,
-				38EA830C1F0A38D900207394 /* OTSEnhanceAlterView.h */,
-				38EA830D1F0A38D900207394 /* OTSEnhanceAlterView.m */,
-				38EA830E1F0A38D900207394 /* ThirdParty */,
-			);
-			path = OTSEnhanceAlterView;
-			sourceTree = "<group>";
-		};
-		38EA830E1F0A38D900207394 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				38EA830F1F0A38D900207394 /* SWCommonMacro.h */,
-				38EA83101F0A38D900207394 /* UIView+Sizes.h */,
-				38EA83111F0A38D900207394 /* UIView+Sizes.m */,
-			);
-			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 		60910BD5793FC5C22BA7850F /* Pods */ = {
@@ -1343,7 +1253,6 @@
 				388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */,
 				388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */,
 				388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */,
-				388EF6931F32C22100AE3826 /* OTSImagePickerController.m in Sources */,
 				388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */,
 				388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */,
 				388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */,
@@ -1356,7 +1265,6 @@
 				388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */,
 				388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */,
 				388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */,
-				388EF6C81F32C22100AE3826 /* OTSActivityTracing.m in Sources */,
 				388EF6CC1F32C22100AE3826 /* OTSMagicAnimation.m in Sources */,
 				388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */,
 				388EF6D01F32C22100AE3826 /* JapanPostBarcode.m in Sources */,
@@ -1428,19 +1336,11 @@
 				388EF7621F32C22100AE3826 /* OTSWindow.m in Sources */,
 				388EF7641F32C22100AE3826 /* OTSImageFallingView.m in Sources */,
 				388EF7661F32C22100AE3826 /* OTSAutoHeightTextView.m in Sources */,
-				388EF7681F32C22100AE3826 /* OTSBlockBtn.m in Sources */,
-				388EF76A1F32C22100AE3826 /* OTSBlockImageView.m in Sources */,
 				388EF76C1F32C22100AE3826 /* OTSCommentPicScaledView.m in Sources */,
 				388EF76E1F32C22100AE3826 /* OTSCrossedOutLabel.m in Sources */,
-				388EF7761F32C22100AE3826 /* OTSCyclePageImageViewLayout.m in Sources */,
-				388EF77C1F32C22100AE3826 /* OTSDataView.m in Sources */,
-				388EF77E1F32C22100AE3826 /* OTSEnhanceAlertHUD.m in Sources */,
-				388EF7831F32C22100AE3826 /* OTSEnhanceAlterView.m in Sources */,
-				388EF7861F32C22100AE3826 /* UIView+Sizes.m in Sources */,
 				388EF7881F32C22100AE3826 /* OTSFPSLabel.m in Sources */,
 				388EF78C1F32C22100AE3826 /* OTSNonModelLoadingView.m in Sources */,
 				388EF78E1F32C22100AE3826 /* OTSPageView.m in Sources */,
-				388EF7901F32C22100AE3826 /* OTSPlaceholderImageView.m in Sources */,
 				388EF7921F32C22100AE3826 /* OTSPlaceHolderTextView.m in Sources */,
 				388EF7941F32C22100AE3826 /* OTSPriceAndScoreLabel.m in Sources */,
 				388EF7981F32C22100AE3826 /* OTSProductCountDownView.m in Sources */,
