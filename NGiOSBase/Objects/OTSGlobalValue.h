@@ -24,8 +24,6 @@ AS_SINGLETON(OTSGlobalValue)
 @property (nonatomic, copy) NSDate         *serverTime;//根据差值算出的服务器时间
 @property (nonatomic, copy) NSString       *token;//token
 @property (nonatomic, copy) NSNumber       *userId;//用户id
-@property (nonatomic, copy) NSNumber       *locatedCityId;  //定位出的城市id
-@property (nonatomic, copy) NSString       *sessionId;//sessionid，相当于cookie的id
 
 @property (nonatomic, copy) NSString       *deviceToken;//推送的Devicetoken
 

@@ -70,7 +70,6 @@
 		388EF6A71F32C22100AE3826 /* OTSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82201F0A38D900207394 /* OTSKeychain.m */; };
 		388EF6A91F32C22100AE3826 /* OTSKeychainDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82221F0A38D900207394 /* OTSKeychainDefine.m */; };
 		388EF6AB1F32C22100AE3826 /* OTSUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82251F0A38D900207394 /* OTSUserDefault.m */; };
-		388EF6AD1F32C22100AE3826 /* OTSUserDefaultDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82271F0A38D900207394 /* OTSUserDefaultDefine.m */; };
 		388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82321F0A38D900207394 /* OTSClientInfo.m */; };
 		388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82361F0A38D900207394 /* OTSGlobalValue.m */; };
 		388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82381F0A38D900207394 /* OTSValueObject.m */; };
@@ -300,8 +299,6 @@
 		38EA82221F0A38D900207394 /* OTSKeychainDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSKeychainDefine.m; sourceTree = "<group>"; };
 		38EA82241F0A38D900207394 /* OTSUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSUserDefault.h; sourceTree = "<group>"; };
 		38EA82251F0A38D900207394 /* OTSUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSUserDefault.m; sourceTree = "<group>"; };
-		38EA82261F0A38D900207394 /* OTSUserDefaultDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSUserDefaultDefine.h; sourceTree = "<group>"; };
-		38EA82271F0A38D900207394 /* OTSUserDefaultDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSUserDefaultDefine.m; sourceTree = "<group>"; };
 		38EA822A1F0A38D900207394 /* OTSFuncDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFuncDefine.h; sourceTree = "<group>"; };
 		38EA822C1F0A38D900207394 /* OTSMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMacroDefine.h; sourceTree = "<group>"; };
 		38EA822E1F0A38D900207394 /* OTSSizeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSizeDefine.h; sourceTree = "<group>"; };
@@ -799,8 +796,6 @@
 			children = (
 				38EA82241F0A38D900207394 /* OTSUserDefault.h */,
 				38EA82251F0A38D900207394 /* OTSUserDefault.m */,
-				38EA82261F0A38D900207394 /* OTSUserDefaultDefine.h */,
-				38EA82271F0A38D900207394 /* OTSUserDefaultDefine.m */,
 			);
 			path = UserDefault;
 			sourceTree = "<group>";
@@ -1261,7 +1256,6 @@
 				388EF6A71F32C22100AE3826 /* OTSKeychain.m in Sources */,
 				388EF6A91F32C22100AE3826 /* OTSKeychainDefine.m in Sources */,
 				388EF6AB1F32C22100AE3826 /* OTSUserDefault.m in Sources */,
-				388EF6AD1F32C22100AE3826 /* OTSUserDefaultDefine.m in Sources */,
 				388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */,
 				388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */,
 				388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */,

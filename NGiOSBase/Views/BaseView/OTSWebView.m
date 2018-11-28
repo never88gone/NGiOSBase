@@ -67,10 +67,6 @@
 
 
     /**
-     *  sessionid
-     */
-    [OTSWebView setCookieName:@"sessionid" value:[OTSGlobalValue sharedInstance].sessionId];
-    /**
      *  clientinfo
      */
     [OTSWebView setCookieName:@"clientinfo" value:[OTSJsonKit stringFromDict:[[OTSClientInfo sharedInstance] convertDictionary]].urlEncodingAllCharacter];

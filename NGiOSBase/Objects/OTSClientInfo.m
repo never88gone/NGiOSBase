@@ -64,12 +64,6 @@ DEF_SINGLETON(OTSClientInfo)
     _latitude = latitude;
 }
 
-
--(void)setPointWallChannelId:(NSNumber *)pointWallChannelId
-{
-    [OTSKeychain setKeychainValue:pointWallChannelId forType:OTS_DEF_KEY_IS_DO_POINTWALL_ACTIVE_CHANNEL_ID];
-}
-
 - (NSString*) phoneType
 {
     struct utsname systemInfo;
