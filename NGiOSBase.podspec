@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "git@git.jd.com:NG/NGiOSBase.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@www.never88gone.cn:NGiOS/NGiOSBase.git", :tag => "#{s.version}" }
 
   s.source_files  = "NGiOSBase/**/*.{h,m}"
 
