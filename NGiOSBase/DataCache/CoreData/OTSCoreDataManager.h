@@ -1,6 +1,6 @@
 //
 //  OTSCoreDataManager.h
-//  OneStoreFramework
+//  NGiOSBase
 //
 //  Created by never88gone on 18-01-01.
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
@@ -16,7 +16,7 @@
  *  指定coredata名称
  *
  *  @param path coreDataModel路径，此path为所创建的xcdatamodeld的bundle位置
- *  ex: path=@"OneStoreFrameworkRes.bundle/Model.momd" 注意model类型后缀一定是momd，建议各modules自己建bundle来存coredata
+ *  ex: path=@"NGiOSBaseRes.bundle/Model.momd" 注意model类型后缀一定是momd，建议各modules自己建bundle来存coredata
  *  @return instance of self
  */
 +(nonnull id)managerWithCoreDataPath:(NSString* __nullable)path;
