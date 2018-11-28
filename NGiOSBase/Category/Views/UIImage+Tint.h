@@ -1,8 +1,8 @@
 //
 //  UIImage+Tint.h
 //
-//  Created by Matt Gemmell on 04/07/2010.
-//  Copyright 2010 Instinctive Code.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

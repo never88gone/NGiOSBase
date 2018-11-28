@@ -2,8 +2,8 @@
 //  OTSMD5Sha.m
 //  OneStoreMain
 //
-//  Created by yuan jun on 15/1/29.
-//  Copyright (c) 2015年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSMD5Sha.h"

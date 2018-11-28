@@ -1,8 +1,8 @@
 //
 //  UIScrollView+APParallaxHeader.h
 //
-//  Created by Mathias Amnell on 2013-04-12.
-//  Copyright (c) 2013 Apping AB. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

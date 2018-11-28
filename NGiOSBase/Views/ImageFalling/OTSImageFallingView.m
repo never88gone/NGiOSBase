@@ -2,8 +2,8 @@
 //  OTSImageFallingView.m
 //  OneStoreBase
 //
-//  Created by HUI on 16/7/8.
-//  Copyright © 2016年 OneStoreBase. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSImageFallingView.h"

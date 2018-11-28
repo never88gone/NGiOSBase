@@ -2,8 +2,8 @@
 //  OTSCommentPicScaledView.h
 //  OneStoreFramework
 //
-//  Created by Eason Qian on 15/7/30.
-//  Copyright (c) 2015年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSView.h"

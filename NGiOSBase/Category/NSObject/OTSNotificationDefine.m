@@ -2,8 +2,8 @@
 //  OTSNotificationDefine.m
 //  OneStoreBase
 //
-//  Created by huangjiming on 2/19/16.
-//  Copyright © 2016 OneStoreBase. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSNotificationDefine.h"

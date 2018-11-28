@@ -2,8 +2,8 @@
 //  UIView+IB.m
 //  OneStoreFramework
 //
-//  Created by Aimy on 5/25/15.
-//  Copyright (c) 2015 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "UIView+IB.h"

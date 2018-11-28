@@ -2,8 +2,8 @@
 //  NSDate+OTS.h
 //  OneStore
 //
-//  Created by huang jiming on 13-6-18.
-//  Copyright (c) 2013年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

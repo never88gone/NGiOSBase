@@ -2,8 +2,8 @@
 //  UIDevice(Identifier).m
 //  UIDeviceAddition
 //
-//  Created by Georg Kitz on 20.08.11.
-//  Copyright 2011 Aurora Apps. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "UIDevice+IdentifierAddition.h"

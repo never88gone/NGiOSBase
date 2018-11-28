@@ -2,8 +2,8 @@
 //  NSNumber+safe.m
 //  OneStore
 //
-//  Created by huang jiming on 14-1-8.
-//  Copyright (c) 2014年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "NSNumber+safe.h"

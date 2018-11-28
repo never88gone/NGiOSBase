@@ -2,8 +2,8 @@
 //  UIViewController+base.m
 //  OneStoreBase
 //
-//  Created by huangjiming on 11/9/15.
-//  Copyright © 2015 OneStoreBase. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "UIViewController+base.h"

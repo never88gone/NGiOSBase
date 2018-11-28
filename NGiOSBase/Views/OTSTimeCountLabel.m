@@ -2,8 +2,8 @@
 //  OTSTimeCountLabel.m
 //  OneStoreFramework
 //
-//  Created by 薛翔 on 14-9-16.
-//  Copyright (c) 2014年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSTimeCountLabel.h"

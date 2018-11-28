@@ -2,8 +2,8 @@
 //  OTSPageView.m
 //  OneStore
 //
-//  Created by huang jiming on 13-1-4.
-//  Copyright (c) 2013年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 #import "OTSPageView.h"
 

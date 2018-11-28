@@ -2,8 +2,8 @@
 //  UIImage+bundleRes.m
 //  OneStoreFramework
 //
-//  Created by Aimy on 14-7-24.
-//  Copyright (c) 2014年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "UIImage+bundleRes.h"

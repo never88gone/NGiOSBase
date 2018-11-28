@@ -2,8 +2,8 @@
 //  UIImage+Barcode.h
 //  MySam
 //
-//  Created by hanxiaozhu on 8/12/16.
-//  Copyright © 2016 MySam. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

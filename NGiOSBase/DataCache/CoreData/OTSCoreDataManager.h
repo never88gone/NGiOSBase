@@ -2,8 +2,8 @@
 //  OTSCoreDataManager.h
 //  OneStoreFramework
 //
-//  Created by yuan jun on 14-7-28.
-//  Copyright (c) 2014年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

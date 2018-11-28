@@ -2,8 +2,8 @@
 //  OTSMask.m
 //  OneStoreFramework
 //
-//  Created by Aimy on 9/25/14.
-//  Copyright (c) 2014 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSMask.h"

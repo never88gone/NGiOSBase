@@ -2,8 +2,8 @@
 //  UILabel+Attribute.m
 //  MyyhdProject
 //
-//  Created by Eason Qian on 14-9-23.
-//
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "UILabel+Attribute.h"

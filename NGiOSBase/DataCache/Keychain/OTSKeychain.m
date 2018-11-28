@@ -2,8 +2,8 @@
 //  OTSKeychain.m
 //  OneStoreFramework
 //
-//  Created by Aimy on 14-6-29.
-//  Copyright (c) 2014年 OneStore. All rights reserved.
+//  Created by never88gone on 18-01-01.
+//  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
 #import "OTSKeychain.h"
@@ -14,7 +14,7 @@
 
 #import "OTSLog.h"
 
-#define OTS_KEYCHAIN_IDENTITY @"OneTheStore"
+#define OTS_KEYCHAIN_IDENTITY @"NGiOSBase"
 
 #define OTS_KEYCHAIN_GROUP @""
 
