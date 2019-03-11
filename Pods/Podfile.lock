@@ -1,25 +1,4 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -48,57 +27,6 @@ PODS:
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
   - MBProgressHUD (1.0.0)
-  - Nimbus (1.3.0):
-    - Nimbus/AttributedLabel (= 1.3.0)
-    - Nimbus/Badge (= 1.3.0)
-    - Nimbus/Collections (= 1.3.0)
-    - Nimbus/Core (= 1.3.0)
-    - Nimbus/CSS (= 1.3.0)
-    - Nimbus/Interapp (= 1.3.0)
-    - Nimbus/Launcher (= 1.3.0)
-    - Nimbus/Models (= 1.3.0)
-    - Nimbus/NetworkControllers (= 1.3.0)
-    - Nimbus/NetworkImage (= 1.3.0)
-    - Nimbus/Overview (= 1.3.0)
-    - Nimbus/PagingScrollView (= 1.3.0)
-    - Nimbus/Photos (= 1.3.0)
-    - Nimbus/Textfield (= 1.3.0)
-    - Nimbus/WebController (= 1.3.0)
-  - Nimbus/AttributedLabel (1.3.0):
-    - Nimbus/Core
-  - Nimbus/Badge (1.3.0):
-    - Nimbus/Core
-  - Nimbus/Collections (1.3.0):
-    - Nimbus/Core
-  - Nimbus/Core (1.3.0)
-  - Nimbus/CSS (1.3.0):
-    - AFNetworking (~> 2.6)
-    - Nimbus/Core
-    - Nimbus/Textfield
-  - Nimbus/Interapp (1.3.0):
-    - Nimbus/Core
-  - Nimbus/Launcher (1.3.0):
-    - Nimbus/Core
-    - Nimbus/PagingScrollView
-  - Nimbus/Models (1.3.0):
-    - Nimbus/Core
-  - Nimbus/NetworkControllers (1.3.0):
-    - Nimbus/Core
-  - Nimbus/NetworkImage (1.3.0):
-    - AFNetworking (~> 2.6)
-    - Nimbus/Core
-  - Nimbus/Overview (1.3.0):
-    - Nimbus/Core
-    - Nimbus/Models
-  - Nimbus/PagingScrollView (1.3.0):
-    - Nimbus/Core
-  - Nimbus/Photos (1.3.0):
-    - Nimbus/Core
-    - Nimbus/PagingScrollView
-  - Nimbus/Textfield (1.3.0):
-    - Nimbus/Core
-  - Nimbus/WebController (1.3.0):
-    - Nimbus/Core
   - PureLayout (3.0.2)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
@@ -113,14 +41,12 @@ DEPENDENCIES:
   - JSONModel (= 1.7.0)
   - MagicalRecord (= 2.3.2)
   - MBProgressHUD (= 1.0.0)
-  - Nimbus (= 1.3.0)
   - PureLayout (= 3.0.2)
   - SDWebImage (= 3.7.6)
   - "UIView+FDCollapsibleConstraints (= 1.1)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
     - BlocksKit
     - CocoaLumberjack
     - CSStickyHeaderFlowLayout
@@ -128,13 +54,11 @@ SPEC REPOS:
     - JSONModel
     - MagicalRecord
     - MBProgressHUD
-    - Nimbus
     - PureLayout
     - SDWebImage
     - "UIView+FDCollapsibleConstraints"
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   CSStickyHeaderFlowLayout: e9bcb1762413f49d7d09e5bd0ae5efd1100116b7
@@ -142,11 +66,10 @@ SPEC CHECKSUMS:
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  Nimbus: e7f33bc6d6cb4fe5ea0aee0c7e0883696123422c
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   "UIView+FDCollapsibleConstraints": 9357eaf03b4e088263ab74a3b86a382a64ce38dd
 
-PODFILE CHECKSUM: 36798df7e5609e90e04726e8bd2d9468135d15a3
+PODFILE CHECKSUM: afe7be33d003df928cf0fb29107069a5455fdd27
 
 COCOAPODS: 1.6.1
