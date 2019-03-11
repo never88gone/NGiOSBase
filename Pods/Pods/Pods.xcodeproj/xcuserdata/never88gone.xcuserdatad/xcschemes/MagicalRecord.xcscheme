@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '417EA9844EC286C5B1B8FCB029C00130'
-               BlueprintName = 'MagicalRecord'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMagicalRecord.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FA26B3804F75C8222E2D681322808BB8"
+               BuildableName = "libMagicalRecord.a"
+               BlueprintName = "MagicalRecord"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '46834970DCAC8CEDCF9A809893D26935'
-               BlueprintName = 'Nimbus'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libNimbus.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "642991A8866795AF6D4976AAEB171D66"
+               BuildableName = "libNimbus.a"
+               BlueprintName = "Nimbus"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -100,10 +100,10 @@ PODS:
   - Nimbus/WebController (1.3.0):
     - Nimbus/Core
   - PureLayout (3.0.2)
-  - SDWebImage (3.7.2):
-    - SDWebImage/Core (= 3.7.2)
-  - SDWebImage/Core (3.7.2)
-  - UIView+FDCollapsibleConstraints (1.1)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - "UIView+FDCollapsibleConstraints (1.1)"
 
 DEPENDENCIES:
   - BlocksKit (= 2.2.5)
@@ -115,8 +115,23 @@ DEPENDENCIES:
   - MBProgressHUD (= 1.0.0)
   - Nimbus (= 1.3.0)
   - PureLayout (= 3.0.2)
-  - SDWebImage (= 3.7.2)
-  - UIView+FDCollapsibleConstraints (= 1.1)
+  - SDWebImage (= 3.7.6)
+  - "UIView+FDCollapsibleConstraints (= 1.1)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BlocksKit
+    - CocoaLumberjack
+    - CSStickyHeaderFlowLayout
+    - FLAnimatedImage
+    - JSONModel
+    - MagicalRecord
+    - MBProgressHUD
+    - Nimbus
+    - PureLayout
+    - SDWebImage
+    - "UIView+FDCollapsibleConstraints"
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -129,9 +144,9 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Nimbus: e7f33bc6d6cb4fe5ea0aee0c7e0883696123422c
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
-  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  "UIView+FDCollapsibleConstraints": 9357eaf03b4e088263ab74a3b86a382a64ce38dd
 
-PODFILE CHECKSUM: 02e1a339e8c68b0b05ac6092e84707fb5b35b703
+PODFILE CHECKSUM: 36798df7e5609e90e04726e8bd2d9468135d15a3
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1

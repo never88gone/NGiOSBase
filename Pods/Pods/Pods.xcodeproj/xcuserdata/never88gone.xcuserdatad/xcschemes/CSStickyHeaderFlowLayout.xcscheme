@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FCC40B3875285E307FC7C5E2ED0AB132'
-               BlueprintName = 'CSStickyHeaderFlowLayout'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libCSStickyHeaderFlowLayout.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9CB827D915223469F1017F5382B4AD75"
+               BuildableName = "libCSStickyHeaderFlowLayout.a"
+               BlueprintName = "CSStickyHeaderFlowLayout"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

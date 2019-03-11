@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -30,18 +30,6 @@ Pod::Spec.new do |s|
   s.library = 'sqlite3'
   s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.xcconfig = {"OHTER_LINKER_FLAGS" => "-OjbC"}
-  s.dependency "BlocksKit","2.2.5"
-  s.dependency "CSStickyHeaderFlowLayout","0.2.11"
-  s.dependency "CocoaLumberjack","3.1.0"
-  s.dependency "FLAnimatedImage","1.0.12"
-  s.dependency "JSONModel","1.7.0"
-  s.dependency "MBProgressHUD","1.0.0"
-  s.dependency "MagicalRecord","2.3.2"
-  s.dependency "Nimbus","1.3.0"
-  s.dependency "PureLayout","3.0.2"
-  s.dependency "SDWebImage","3.7.2"
-  s.dependency "UIView+FDCollapsibleConstraints","1.1"
-
 
   s.requires_arc = true
   non_arc_files = 'NGiOSBase/DataCache/Keychain/KeychainItemWrapper/KeychainItemWrapper.{h,m}'

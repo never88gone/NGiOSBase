@@ -8,7 +8,6 @@
 
 #import "OTSCommentPicScaledView.h"
 #import "OTSScrollView.h"
-#import "UIImageView+webp.h"
 
 @interface OTSCommentPicScaledView()<UIGestureRecognizerDelegate>
 

@@ -60,8 +60,6 @@
 		388EF6871F32C22000AE3826 /* UIView+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F71F0A38D900207394 /* UIView+loading.m */; };
 		388EF6891F32C22000AE3826 /* UIView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F91F0A38D900207394 /* UIView+Maker.m */; };
 		388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FB1F0A38D900207394 /* UIView+Plus.m */; };
-		388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FE1F0A38D900207394 /* UIButton+webp.m */; };
-		388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82001F0A38D900207394 /* UIImageView+webp.m */; };
 		388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82121F0A38D900207394 /* OTSArchiveData.m */; };
 		388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82151F0A38D900207394 /* OTSCoreDataManager.m */; };
 		388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82171F0A38D900207394 /* OTSManagedObject.m */; };
@@ -279,10 +277,6 @@
 		38EA81F91F0A38D900207394 /* UIView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Maker.m"; sourceTree = "<group>"; };
 		38EA81FA1F0A38D900207394 /* UIView+Plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Plus.h"; sourceTree = "<group>"; };
 		38EA81FB1F0A38D900207394 /* UIView+Plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Plus.m"; sourceTree = "<group>"; };
-		38EA81FD1F0A38D900207394 /* UIButton+webp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+webp.h"; sourceTree = "<group>"; };
-		38EA81FE1F0A38D900207394 /* UIButton+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+webp.m"; sourceTree = "<group>"; };
-		38EA81FF1F0A38D900207394 /* UIImageView+webp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+webp.h"; sourceTree = "<group>"; };
-		38EA82001F0A38D900207394 /* UIImageView+webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+webp.m"; sourceTree = "<group>"; };
 		38EA82111F0A38D900207394 /* OTSArchiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSArchiveData.h; sourceTree = "<group>"; };
 		38EA82121F0A38D900207394 /* OTSArchiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSArchiveData.m; sourceTree = "<group>"; };
 		38EA82141F0A38D900207394 /* OTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCoreDataManager.h; sourceTree = "<group>"; };
@@ -536,7 +530,6 @@
 				38EA81B61F0A38D900207394 /* UINavigationController */,
 				38EA81BC1F0A38D900207394 /* UIViewController */,
 				38EA81C71F0A38D900207394 /* Views */,
-				38EA81FC1F0A38D900207394 /* Webp */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -716,17 +709,6 @@
 				38EA81FB1F0A38D900207394 /* UIView+Plus.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		38EA81FC1F0A38D900207394 /* Webp */ = {
-			isa = PBXGroup;
-			children = (
-				38EA81FD1F0A38D900207394 /* UIButton+webp.h */,
-				38EA81FE1F0A38D900207394 /* UIButton+webp.m */,
-				38EA81FF1F0A38D900207394 /* UIImageView+webp.h */,
-				38EA82001F0A38D900207394 /* UIImageView+webp.m */,
-			);
-			path = Webp;
 			sourceTree = "<group>";
 		};
 		38EA820F1F0A38D900207394 /* DataCache */ = {
@@ -1162,13 +1144,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NGiOSBase-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D91F499EAC1F93A0357AE73 /* [CP] Copy Pods Resources */ = {
@@ -1177,13 +1162,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Nimbus/WebController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WebController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1246,8 +1234,6 @@
 				388EF6871F32C22000AE3826 /* UIView+loading.m in Sources */,
 				388EF6891F32C22000AE3826 /* UIView+Maker.m in Sources */,
 				388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */,
-				388EF68D1F32C22100AE3826 /* UIButton+webp.m in Sources */,
-				388EF68F1F32C22100AE3826 /* UIImageView+webp.m in Sources */,
 				388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */,
 				388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */,
 				388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */,
