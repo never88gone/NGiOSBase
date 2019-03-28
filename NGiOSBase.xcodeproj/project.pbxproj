@@ -106,7 +106,6 @@
 		388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82961F0A38D900207394 /* OTSCorner.m */; };
 		388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */; };
 		388EF7181F32C22100AE3826 /* OTSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829E1F0A38D900207394 /* OTSFont.m */; };
-		388EF71A1F32C22100AE3826 /* OTSImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A01F0A38D900207394 /* OTSImagePicker.m */; };
 		388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A21F0A38D900207394 /* OTSIPAddress.m */; };
 		388EF71E1F32C22100AE3826 /* OTSJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A41F0A38D900207394 /* OTSJsonKit.m */; };
 		388EF7201F32C22100AE3826 /* OTSLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A61F0A38D900207394 /* OTSLocalNotification.m */; };
@@ -372,8 +371,6 @@
 		38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDeadtimeTimer.m; sourceTree = "<group>"; };
 		38EA829D1F0A38D900207394 /* OTSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFont.h; sourceTree = "<group>"; };
 		38EA829E1F0A38D900207394 /* OTSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFont.m; sourceTree = "<group>"; };
-		38EA829F1F0A38D900207394 /* OTSImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSImagePicker.h; sourceTree = "<group>"; };
-		38EA82A01F0A38D900207394 /* OTSImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSImagePicker.m; sourceTree = "<group>"; };
 		38EA82A11F0A38D900207394 /* OTSIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSIPAddress.h; sourceTree = "<group>"; };
 		38EA82A21F0A38D900207394 /* OTSIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSIPAddress.m; sourceTree = "<group>"; };
 		38EA82A31F0A38D900207394 /* OTSJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSJsonKit.h; sourceTree = "<group>"; };
@@ -830,8 +827,6 @@
 				38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */,
 				38EA829D1F0A38D900207394 /* OTSFont.h */,
 				38EA829E1F0A38D900207394 /* OTSFont.m */,
-				38EA829F1F0A38D900207394 /* OTSImagePicker.h */,
-				38EA82A01F0A38D900207394 /* OTSImagePicker.m */,
 				38EA82A11F0A38D900207394 /* OTSIPAddress.h */,
 				38EA82A21F0A38D900207394 /* OTSIPAddress.m */,
 				38EA82A31F0A38D900207394 /* OTSJsonKit.h */,
@@ -1113,6 +1108,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1261,7 +1257,6 @@
 				388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */,
 				388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */,
 				388EF7181F32C22100AE3826 /* OTSFont.m in Sources */,
-				388EF71A1F32C22100AE3826 /* OTSImagePicker.m in Sources */,
 				388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */,
 				388EF71E1F32C22100AE3826 /* OTSJsonKit.m in Sources */,
 				388EF7201F32C22100AE3826 /* OTSLocalNotification.m in Sources */,
