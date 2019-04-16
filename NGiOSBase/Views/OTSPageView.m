@@ -6,7 +6,7 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 #import "OTSPageView.h"
-
+#import <PureLayout/PureLayout.h>
 
 //Tool
 #import "UIView+Extension.h"

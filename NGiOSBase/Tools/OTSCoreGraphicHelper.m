@@ -7,6 +7,8 @@
 //
 
 #import "OTSCoreGraphicHelper.h"
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 //背景色
 const NSString *kOTSBackgroundColorAttributeName = @"OTSBackgroundColorAttributeName";

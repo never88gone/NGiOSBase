@@ -9,7 +9,8 @@
 #import "OTSImageFallingView.h"
 #import "OTSSizeDefine.h"
 #import "OTSSize.h"
-
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 #define OTSImageFallingElementViewWidth [OTSSize getLengthWithSizeType:OTSSizeType3_5 andLength:30]
 #define OTSImageFallingBigViewWidth [OTSSize getLengthWithSizeType:OTSSizeType4_7 andLength:320]
 #define OTSImageFallingBigViewHeight [OTSSize getLengthWithSizeType:OTSSizeType4_7 andLength:480]

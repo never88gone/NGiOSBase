@@ -8,7 +8,8 @@
 
 #import "OTSCommentPicScaledView.h"
 #import "OTSScrollView.h"
-
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface OTSCommentPicScaledView()<UIGestureRecognizerDelegate>
 
 @property(nonatomic, strong) UIImageView *picImageView;

@@ -9,6 +9,7 @@
 #import "OTSFPSLabel.h"
 #import <CoreFoundation/CoreFoundation.h>
 #import "FLAnimatedImage.h"
+#import <PureLayout/PureLayout.h>
 
 #define kSize CGSizeMake(55, 20)
 

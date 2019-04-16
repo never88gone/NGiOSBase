@@ -8,6 +8,7 @@
 
 #import "NSObject+runtime.h"
 #import "OTSLog.h"
+#import <JSONModel/JSONModel.h>
 
 @implementation NSObject (runtime)
 

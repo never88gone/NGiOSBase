@@ -6,7 +6,7 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
-#import "CocoaLumberjack.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "OTSMacroDefine.h"
 
 //新增log level用作log日志

@@ -163,6 +163,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38103C7F2265B878005A4279 /* NGiOSBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGiOSBase.h; sourceTree = "<group>"; };
 		388EF5ED1F32C13B00AE3826 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		388EF5F01F32C13B00AE3826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388EF7A61F32C54700AE3826 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -503,6 +504,7 @@
 				38EA82C11F0A38D900207394 /* Views */,
 				38EA83311F0A38D900207394 /* NGiOSBase.pch */,
 				388EF5F01F32C13B00AE3826 /* Info.plist */,
+				38103C7F2265B878005A4279 /* NGiOSBase.h */,
 			);
 			path = NGiOSBase;
 			sourceTree = "<group>";

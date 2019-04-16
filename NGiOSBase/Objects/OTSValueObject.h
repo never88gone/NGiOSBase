@@ -6,7 +6,7 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
-#import "JSONModel.h"
+#import <JSONModel/JSONModel.h>
 
 @interface OTSValueObject : JSONModel
 /**

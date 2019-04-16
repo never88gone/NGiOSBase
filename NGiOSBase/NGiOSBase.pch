@@ -15,11 +15,4 @@
 #import <CoreData/CoreData.h>
 #import "objc/runtime.h"
 
-//pod
-#import "SDWebImageManager.h"
-#import "UIImageView+WebCache.h"
-#import "JSONModel.h"
-#import "UIImagePickerController+BlocksKit.h"
-#import "ALView+PureLayout.h"
-
 #endif

@@ -53,40 +53,6 @@
     [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
 }
 
-+ (void)setCookieName:(NSString *)aName value:(NSString *)aValue
-{
-    [self setCookie:@".yhd.com" name:aName value:aValue];
-}
-
-+ (void)setupDefaultCookies
-{
-    /**
-     *  token
-     */
-    [OTSWebView setCookieName:@"usertoken" value:[OTSGlobalValue sharedInstance].token];
-
-
-    /**
-     *  clientinfo
-     */
-    [OTSWebView setCookieName:@"clientinfo" value:[OTSJsonKit stringFromDict:[[OTSClientInfo sharedInstance] convertDictionary]].urlEncodingAllCharacter];
-    /**
-     *  frameworkver
-     */
-    [OTSWebView setCookieName:@"frameworkver" value:@"1.0"];
-    /**
-     *  platform
-     */
-    [OTSWebView setCookieName:@"platform" value:@"ios"];
-    /**
-     *  ut
-     */
-    [OTSWebView setCookieName:@"ut" value:[OTSGlobalValue sharedInstance].token];
-    /**
-     *  guid
-     */
-    [OTSWebView setCookieName:@"guid" value:[OTSClientInfo sharedInstance].deviceCode];
-}
 
 + (void)clearCookies
 {

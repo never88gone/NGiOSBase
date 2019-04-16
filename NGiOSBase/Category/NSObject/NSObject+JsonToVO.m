@@ -16,6 +16,7 @@
 #import "NSMutableDictionary+safe.h"
 #import "NSMutableArray+safe.h"
 #import "NSArray+safe.h"
+#import <JSONModel/JSONModel.h>
 
 @implementation NSObject (JsonToVO)
 
