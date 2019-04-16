@@ -13,14 +13,14 @@
 /**
  *	功能:获取距离现在的天数，小于一天为0
  *
- *	@return
+ *	@return 获取距离现在的天数
  */
 - (NSInteger )distanceNowDays;
 
 /**
  *	功能:日期距离当前时间的描述，改描述为:_天_时_分_秒
  *
- *	@return
+ *	@return 日期距离当前时间的描述
  */
 - (NSString *)distanceNowDescribe;
 
@@ -65,13 +65,13 @@
 /**
  *  功能:转换成时间字符串，获取时分部分
  *
- *	@return
+ *	@return 转换成时间字符串
  */
 - (NSString *)hourMinuteString;
 /**
  *  功能:转换成时间字符串，获取时部分
  *
- *	@return
+ *	@return 转换成时间字符串，获取时部分
  */
 - (NSString *)hourString;
 /**

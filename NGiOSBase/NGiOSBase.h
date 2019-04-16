@@ -72,8 +72,8 @@
 #import <NGiOSBase/OTSManagedObject.h>
 #import <NGiOSBase/OTSMask.h>
 #import <NGiOSBase/OTSMD5Sha.h>
-#import <NGiOSBaseOTSNonModelLoadingView.h>
-#import <NGiOSBaseOTSNotificationDefine.h>
+#import <NGiOSBase/OTSNonModelLoadingView.h>
+#import <NGiOSBase/OTSNotificationDefine.h>
 #import <NGiOSBase/OTSPageControl.h>
 #import <NGiOSBase/OTSPageView.h>
 #import <NGiOSBase/OTSPickerView.h>

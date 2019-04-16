@@ -39,10 +39,10 @@
 /**
  *	功能:创建一个本地通知
  *
- *	@param	notificationName:通知名称,唯一的。同一名称整个app只能有一个
- *	@param	notificationTitle:通知弹出出现的title
- *	@param	fireDate:通知到达时间
- *  @param  userInfo:存储信息
+ *	@param	notificationName : 通知名称,唯一的。同一名称整个app只能有一个
+ *	@param	notificationTitle : 通知弹出出现的title
+ *	@param	fireDate : 通知到达时间
+ *  @param  userInfo : 存储信息
  */
 + (void)createLocalNotificationWithName:(const NSString*)notificationName
                               withTitle:(NSString*)notificationTitle
@@ -53,9 +53,9 @@
 /**
  *	功能:创建一个本地通知
  *
- *	@param	notificationName:通知名称,唯一的。同一名称整个app只能有一个
- *	@param	notificationTitle:通知弹出出现的title
- *	@param	fireDate:通知到达时间
+ *	@param	notificationName : 通知名称,唯一的。同一名称整个app只能有一个
+ *	@param	notificationTitle : 通知弹出出现的title
+ *	@param	fireDate : 通知到达时间
  */
 + (void)createLocalNotificationWithName:(const NSString*)notificationName
                               withTitle:(NSString*)notificationTitle
@@ -64,7 +64,7 @@
 /**
  *	功能:根据通知名称查找本地通知,本地没有此通知则返回nil.
  *
- *	@param:notificationName:通知名称
+ *	@param notificationName : 通知名称
  *
  *	@return:有此名称的本地通知就返回UILocalNotification的对象, 没有此通知则返回nil
  */
@@ -78,7 +78,7 @@
 /**
  *	功能:根据通知触发时间查找本地通知,本地没有此通知则返回nil.
  *
- *	@param:notificationName:通知名称
+ *	@param date : 时间
  *
  *	@return:有此触发时间的本地通知就返回UILocalNotification的对象, 没有此通知则返回nil
  */
@@ -87,7 +87,7 @@
 /**
  *	功能:是否存在此名称的本地通知
  *
- *	@param	notificationName:通知名称
+ *	@param	notificationName : 通知名称
  *
  *	@return:有此名称的本地通知则返回YES，反则返回NO
  */
@@ -96,7 +96,7 @@
 /**
  * 功能:取消此名称的本地通知
  *
- *	@param	notificationName:通知名称
+ *	@param	notificationName : 通知名称
  */
 + (void)cancelLocalNotificationWithName:(const NSString*)notificationName;
 
