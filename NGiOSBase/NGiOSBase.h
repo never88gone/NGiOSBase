@@ -118,7 +118,7 @@
 #import <NGiOSBase/UIImage+tool.h>
 #import <NGiOSBase/UILabel+Attribute.h>
 #import <NGiOSBase/UILabel+DynamicSize.h>
-#import <NGiOSBase/UINavigationController/UINavigationController+ots.h>
+#import <NGiOSBase/UINavigationController+ots.h>
 #import <NGiOSBase/UINib+create.h>
 #import <NGiOSBase/UIScrollView+APParallaxHeader.h>
 #import <NGiOSBase/UIScrollView+DeliverTouch.h>
