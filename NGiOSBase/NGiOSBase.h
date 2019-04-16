@@ -39,7 +39,7 @@
 #import <NGiOSBase/OTSArchiveData.h>
 #import <NGiOSBase/OTSAudioPlayer.h>
 #import <NGiOSBase/OTSAutoHeightTextView.h>
-#import <NGiOSBase/Tools/OTSBorder.h>
+#import <NGiOSBase/OTSBorder.h>
 #import <NGiOSBase/OTSCalendarNotification.h>
 #import <NGiOSBase/OTSClientInfo.h>
 #import <NGiOSBase/OTSCollectionReusableView.h>
