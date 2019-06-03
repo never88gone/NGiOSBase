@@ -47,7 +47,7 @@
 
 + (BOOL)getBoolValueForKey:(NSString *)aKey {
     if ( ! aKey || ! [aKey isKindOfClass:[NSString class]]) {
-        return nil;
+        return false;
     }
     return [[NSUserDefaults standardUserDefaults] boolForKey:aKey];
 }
