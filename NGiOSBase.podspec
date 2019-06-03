@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.2.4"
+  s.version      = "0.2.5"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "git@github.com:never88gone/NGiOSBase.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/never88gone/NGiOSBase", :tag => "#{s.version}" }
 
   s.source_files  = "NGiOSBase/**/*.{h,m}"
 
