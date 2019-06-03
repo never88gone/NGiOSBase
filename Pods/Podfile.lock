@@ -14,12 +14,9 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - CocoaLumberjack (3.1.0):
-    - CocoaLumberjack/Default (= 3.1.0)
-    - CocoaLumberjack/Extensions (= 3.1.0)
-  - CocoaLumberjack/Default (3.1.0)
-  - CocoaLumberjack/Extensions (3.1.0):
-    - CocoaLumberjack/Default
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
   - CSStickyHeaderFlowLayout (0.2.11)
   - FLAnimatedImage (1.0.12)
   - JSONModel (1.7.0)
@@ -35,7 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - BlocksKit (= 2.2.5)
-  - CocoaLumberjack (= 3.1.0)
+  - CocoaLumberjack (= 3.5.2)
   - CSStickyHeaderFlowLayout (= 0.2.11)
   - FLAnimatedImage (= 1.0.12)
   - JSONModel (= 1.7.0)
@@ -60,7 +57,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
   CSStickyHeaderFlowLayout: e9bcb1762413f49d7d09e5bd0ae5efd1100116b7
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
@@ -70,6 +67,6 @@ SPEC CHECKSUMS:
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   "UIView+FDCollapsibleConstraints": 9357eaf03b4e088263ab74a3b86a382a64ce38dd
 
-PODFILE CHECKSUM: ed95dad3fb42efa3916fd683f66c7b98e79d3b7a
+PODFILE CHECKSUM: 488851b676c8e443367c4b945fcf8e1a454edd35
 
 COCOAPODS: 1.6.1

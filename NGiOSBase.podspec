@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.2.6"
+  s.version      = "0.2.7"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {"OHTER_LINKER_FLAGS" => "-OjbC"}
   s.dependency "BlocksKit","2.2.5"
   s.dependency "CSStickyHeaderFlowLayout","0.2.11"
-  s.dependency "CocoaLumberjack","3.1.0"
+  s.dependency "CocoaLumberjack","3.5.2"
   s.dependency "FLAnimatedImage","1.0.12"
   s.dependency "JSONModel","1.7.0"
   s.dependency "MBProgressHUD","1.0.0"
