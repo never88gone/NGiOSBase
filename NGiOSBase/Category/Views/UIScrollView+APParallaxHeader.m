@@ -7,7 +7,7 @@
 
 #import "UIScrollView+APParallaxHeader.h"
 #import "PureLayout.h"
-#import "OTSConstraintHelper.h"
+#import "NGConstraintHelper.h"
 #import "PureLayout.h"
 
 
@@ -55,7 +55,7 @@ static char UIScrollViewParallaxView;
         [self addSubview:view];
         
         if (self.translatesAutoresizingMaskIntoConstraints == NO) {
-            [OTSConstraintHelper setView:view fullAsSuperview:self];
+            [NGConstraintHelper setView:view fullAsSuperview:self];
         }
         view.originalTopInset = self.contentInset.top;
         

@@ -9,7 +9,7 @@
 #import "NSObject+safe.h"
 
 #import "NSObject+swizzle.h"
-#import "OTSLog.h"
+#import "NGLog.h"
 
 @implementation NSObject (safe)
 
@@ -41,49 +41,49 @@
 - (void)safeSetFrame:(CGRect)frame
 {
     if (isnan(frame.origin.x)) {
-        OTSLogE(@"%@,isnan of x",self);
+        NGLogE(@"%@,isnan of x",self);
         [self safeSetFrame:CGRectZero];
         return;
     }
     
     if (isnan(frame.origin.y)) {
-        OTSLogE(@"%@,isnan of y",self);
+        NGLogE(@"%@,isnan of y",self);
         [self safeSetFrame:CGRectZero];
         return;
     }
     
     if (isnan(frame.size.width)) {
-        OTSLogE(@"%@,isnan of w",self);
+        NGLogE(@"%@,isnan of w",self);
         [self safeSetFrame:CGRectZero];
         return;
     }
     
     if (isnan(frame.size.height)) {
-        OTSLogE(@"%@,isnan of h",self);
+        NGLogE(@"%@,isnan of h",self);
         [self safeSetFrame:CGRectZero];
         return;
     }
     
 //    if (isinf(frame.origin.x)) {
-//        OTSLogE(@"%@,isinf of x",self);
+//        NGLogE(@"%@,isinf of x",self);
 //        [self safeSetFrame:CGRectZero];
 //        return;
 //    }
 //    
 //    if (isinf(frame.origin.y)) {
-//        OTSLogE(@"%@,isinf of y",self);
+//        NGLogE(@"%@,isinf of y",self);
 //        [self safeSetFrame:CGRectZero];
 //        return;
 //    }
 //    
 //    if (isinf(frame.size.width)) {
-//        OTSLogE(@"%@,isinf of w",self);
+//        NGLogE(@"%@,isinf of w",self);
 //        [self safeSetFrame:CGRectZero];
 //        return;
 //    }
 //    
 //    if (isinf(frame.size.height)) {
-//        OTSLogE(@"%@,isinf of h",self);
+//        NGLogE(@"%@,isinf of h",self);
 //        [self safeSetFrame:CGRectZero];
 //        return;
 //    }

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "OTSViewMaker.h"
-#import "OTSUILabelMaker.h"
-#import "OTSUIButtonMaker.h"
+#import "NGViewMaker.h"
+#import "NGUILabelMaker.h"
+#import "NGUIButtonMaker.h"
 @interface UIView(Maker)
 
 /**
@@ -19,11 +19,11 @@
  *  self.frame = CGRctZero
  *  self.translatesAutoresizingMaskIntoConstraints = NO
  *
- *  @param block:可以设置OTSViewMaker对象来简化赋值
+ *  @param block:可以设置NGViewMaker对象来简化赋值
  *
  *  @return
  */
-+ (instancetype)makeAutoLayoutView:(void(^)(OTSViewMaker *maker))block;
++ (instancetype)makeAutoLayoutView:(void(^)(NGViewMaker *maker))block;
 
 /**
  *  生成自动布局的Label视图.可简化UILabel的赋值
@@ -34,12 +34,12 @@
  *  self.fontSize = [UIFont systemFontSize];
  *  self.numberOfLines = 1;
  *
- *  @param block:可以设置OTSUILabelMaker对象来简化赋值UILabel对象
+ *  @param block:可以设置NGUILabelMaker对象来简化赋值UILabel对象
  *
  *  @return
  */
 
-+ (instancetype)makeAutoLayoutLabel:(void(^)(OTSUILabelMaker* labelMaker))block;
++ (instancetype)makeAutoLayoutLabel:(void(^)(NGUILabelMaker* labelMaker))block;
 
 /**
  *  生成自动布局的UIButton视图.可简化UIButton的赋值
@@ -48,10 +48,10 @@
  *  self.titleColor = [UIColor whiteColor];
  *  self.frame = CGRctZero
  *  self.translatesAutoresizingMaskIntoConstraints = NO
- *  @param block:可以设置OTSUIButtonMaker对象来简化赋值UIButton对象
+ *  @param block:可以设置NGUIButtonMaker对象来简化赋值UIButton对象
  *
  *  @return
  */
 
-+ (instancetype)makeAutoLayoutButton:(void(^)(OTSUIButtonMaker* buttonMaker))block;
++ (instancetype)makeAutoLayoutButton:(void(^)(NGUIButtonMaker* buttonMaker))block;
 @end

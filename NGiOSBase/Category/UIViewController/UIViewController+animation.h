@@ -6,9 +6,9 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
-#import "OTSVCAnimation.h"
+#import "NGVCAnimation.h"
 
-@interface UIViewController (OTSAnimation)
+@interface UIViewController (NGAnimation)
 
 //navigation
 - (id<UIViewControllerAnimatedTransitioning>)pushAnimations;

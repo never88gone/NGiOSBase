@@ -11,8 +11,8 @@
 #import "NSObject+swizzle.h"
 #import <objc/runtime.h>
 
-static const char * kOTSUIButtonLayoutStyleKey;
-static const char * kOTSUIButtonLayoutSpacingKey;
+static const char * kNGUIButtonLayoutStyleKey;
+static const char * kNGUIButtonLayoutSpacingKey;
 static const char * kNeedLayoutForChangeStyle;
 @interface UIButton()
 
@@ -26,7 +26,7 @@ static const char * kNeedLayoutForChangeStyle;
     [self exchangeMethod:@selector(expadnLayoutSubViews) withMethod:@selector(layoutSubviews)];
 }
 
-- (void)setLayout:(OTSUIButtonLayoutStyle )aLayoutStyle
+- (void)setLayout:(NGUIButtonLayoutStyle )aLayoutStyle
 		  spacing:(CGFloat)aSpacing
 {
     
@@ -59,12 +59,12 @@ static const char * kNeedLayoutForChangeStyle;
      *  2. titleEdgeInsets,imageEdgeInsets的只修改坐标,
      *     如果只修改UIEdgeInsets的一边,那么坐标和frame都会变化,所以要左、右或者上、下对称修改
      */
-    if (self.layoutStyle == OTSImageLeftTitleRightStyle) {
+    if (self.layoutStyle == NGImageLeftTitleRightStyle) {
         imageEdgeInsets     = UIEdgeInsetsMake(0, -insetSpacing, 0, insetSpacing );
         titleEdgeInsets     = UIEdgeInsetsMake(0, insetSpacing, 0, -insetSpacing);
         contentEdgeInsets   = UIEdgeInsetsMake(0, insetSpacing, 0, insetSpacing);
     }
-    else if (self.layoutStyle == OTSTitleLeftImageRightStyle) {
+    else if (self.layoutStyle == NGTitleLeftImageRightStyle) {
         CGFloat imageMoveRight = width - self.imageView.frame.origin.x * 2 - self.imageView.frame.size.width + insetSpacing;
         
         CGFloat titleMoveLeft = self.titleLabel.frame.origin.x - ( width - (self.titleLabel.frame.origin .x + titleSize.width)) + insetSpacing;
@@ -104,7 +104,7 @@ static const char * kNeedLayoutForChangeStyle;
             //居中操作
             moveLeft += (currentWidth / 2.0f - titleSize.width / 2.0f);
             moveLeft -= (width - (self.titleLabel.frame.size.width  + self.titleLabel.frame.origin.x));
-            if (self.layoutStyle == OTSImageTopTitleBottomStyle){
+            if (self.layoutStyle == NGImageTopTitleBottomStyle){
                 /**
                  *  image往上移动
                  */
@@ -117,7 +117,7 @@ static const char * kNeedLayoutForChangeStyle;
                 
                 moveBottom = (height - (self.titleLabel.frame.origin.y + self.titleLabel.frame.size.height)) + moveHeight;
                 titleEdgeInsets = UIEdgeInsetsMake(moveBottom, -moveLeft, -moveBottom, moveLeft);
-            }else if (self.layoutStyle == OTSTitleTopImageBottomStyle){
+            }else if (self.layoutStyle == NGTitleTopImageBottomStyle){
                 /**
                  *  title往上移动
                  */
@@ -147,7 +147,7 @@ static const char * kNeedLayoutForChangeStyle;
     
 }
 #pragma mark- setter & getter
-- (void)setLayoutStyle:(OTSUIButtonLayoutStyle)layoutStyle
+- (void)setLayoutStyle:(NGUIButtonLayoutStyle)layoutStyle
 {
     /**
      *  恢复默认状态
@@ -156,25 +156,25 @@ static const char * kNeedLayoutForChangeStyle;
     self.titleEdgeInsets = UIEdgeInsetsZero;
     self.imageEdgeInsets = UIEdgeInsetsZero;
     
-    objc_setAssociatedObject(self, &kOTSUIButtonLayoutStyleKey, @(layoutStyle), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &kNGUIButtonLayoutStyleKey, @(layoutStyle), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.needLayoutForChangeStyle = YES;
 }
 
-- (OTSUIButtonLayoutStyle)layoutStyle
+- (NGUIButtonLayoutStyle)layoutStyle
 {
-    NSNumber *layoutStyleNum = objc_getAssociatedObject(self, &kOTSUIButtonLayoutStyleKey);
+    NSNumber *layoutStyleNum = objc_getAssociatedObject(self, &kNGUIButtonLayoutStyleKey);
     return layoutStyleNum.integerValue;
 }
 
 - (void)setLayoutSpacing:(CGFloat)layoutSpacing
 {
-    objc_setAssociatedObject(self, &kOTSUIButtonLayoutSpacingKey, @(layoutSpacing), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &kNGUIButtonLayoutSpacingKey, @(layoutSpacing), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.needLayoutForChangeStyle = YES;
 }
 
 - (CGFloat )layoutSpacing
 {
-    NSNumber *spacingNum = objc_getAssociatedObject(self, &kOTSUIButtonLayoutSpacingKey);
+    NSNumber *spacingNum = objc_getAssociatedObject(self, &kNGUIButtonLayoutSpacingKey);
     return spacingNum.floatValue;
 }
 
@@ -195,7 +195,7 @@ static const char * kNeedLayoutForChangeStyle;
 - (void)expadnLayoutSubViews
 {
     [self expadnLayoutSubViews];
-    if (self.layoutStyle != OTSDefalutStyle) {
+    if (self.layoutStyle != NGDefalutStyle) {
         [self layoutButtoFrame];
     }
 }

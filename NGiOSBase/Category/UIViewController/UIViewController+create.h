@@ -16,7 +16,7 @@
  *
  *  @param aBundleName res bundle name，NibName = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromXib;
 /**
@@ -24,7 +24,7 @@
  *
  *  @param aBundleName res bundle name，NibName = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromXibWithBundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
 /**
@@ -33,7 +33,7 @@
  *  @param aNibName
  *  @param aBundleName
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromXibWithNibName:(NSString *)aNibName;
 /**
@@ -42,7 +42,7 @@
  *  @param aNibName
  *  @param aBundleName
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromXibWithNibName:(NSString *)aNibName bundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
 /**
@@ -50,7 +50,7 @@
  *
  *  @param aStoryboardName self.class，storyboardID = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromStoryboard;
 /**
@@ -58,13 +58,13 @@
  *
  *  @param storyboardID = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromStoryboardWithStoryboardName:(NSString *)aStoryboardName;
 /**
  *  @param
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromStoryboardWithStoryboardID:(NSString *)aStoryboardID storyboardName:(NSString *)aStoryboardName;
 /**
@@ -72,13 +72,13 @@
  *
  *  @param storyboardID = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromStoryboardWithStoryboardName:(NSString *)aStoryboardName bundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
 /**
  *  @param aBundleName res bundle name，storyboardID = self.class
  *
- *  @return OTSVC
+ *  @return NGVC
  */
 + (instancetype)createFromStoryboardWithStoryboardID:(NSString *)aStoryboardID storyboardName:(NSString *)aStoryboardName bundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
 @end

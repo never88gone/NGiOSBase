@@ -8,7 +8,7 @@
 
 #import "NSObject+swizzle.h"
 #import <objc/runtime.h>
-#import "OTSLog.h"
+#import "NGLog.h"
 
 @implementation NSObject (swizzle)
 
@@ -16,13 +16,13 @@
 {
     Method origMethod =class_getInstanceMethod(self, origSel);
     if (!origMethod) {
-        OTSLogE(@"original method %@ not found for class %@", NSStringFromSelector(origSel), [self class]);
+        NGLogE(@"original method %@ not found for class %@", NSStringFromSelector(origSel), [self class]);
         return NO;
     }
     
     Method altMethod =class_getInstanceMethod(self, altSel);
     if (!altMethod) {
-        OTSLogE(@"original method %@ not found for class %@", NSStringFromSelector(altSel), [self class]);
+        NGLogE(@"original method %@ not found for class %@", NSStringFromSelector(altSel), [self class]);
         return NO;
     }
     
@@ -40,13 +40,13 @@
 {
     Method origMethod =class_getInstanceMethod(self, origSel);
     if (!origMethod) {
-        OTSLogE(@"original method %@ not found for class %@", NSStringFromSelector(origSel), [self class]);
+        NGLogE(@"original method %@ not found for class %@", NSStringFromSelector(origSel), [self class]);
         return NO;
     }
     
     Method altMethod =class_getInstanceMethod(self, altSel);
     if (!altMethod) {
-        OTSLogE(@"original method %@ not found for class %@", NSStringFromSelector(altSel), [self class]);
+        NGLogE(@"original method %@ not found for class %@", NSStringFromSelector(altSel), [self class]);
         return NO;
     }
     

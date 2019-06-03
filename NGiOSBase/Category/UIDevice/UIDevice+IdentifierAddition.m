@@ -11,13 +11,13 @@
 #import "NSString+MD5.h"
 #import "NSString+safe.h"
 //cache
-#import "OTSKeychain.h"
+#import "NGKeychain.h"
 
 #include <sys/socket.h> // Per msqr
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
-NSString *const OTS_KEYCHAIN_DEVICECODE = @"OTS_KEYCHAIN_DEVICECODE";//trader里头的DeviceCodeNotEncrypt
+NSString *const NG_KEYCHAIN_DEVICECODE = @"NG_KEYCHAIN_DEVICECODE";//trader里头的DeviceCodeNotEncrypt
 
 @implementation UIDevice (IdentifierAddition)
 
@@ -76,14 +76,14 @@ NSString *const OTS_KEYCHAIN_DEVICECODE = @"OTS_KEYCHAIN_DEVICECODE";//trader里
 - (NSString *) uniqueDeviceIdentifier
 {
     NSString *code=nil;
-    NSString *keyChain_deviceCode = [OTSKeychain getKeychainValueForType:OTS_KEYCHAIN_DEVICECODE];
+    NSString *keyChain_deviceCode = [NGKeychain getKeychainValueForType:NG_KEYCHAIN_DEVICECODE];
     if (keyChain_deviceCode == nil || keyChain_deviceCode.length<10) {  // 若keychain里面没有或者长度因为什么原因很短的话，重新获取一次再储存
         if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
             code = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
         } else {
             code = [NSString safeStringWithString:[[UIDevice currentDevice] macaddress]];
         }
-        [OTSKeychain  setKeychainValue:code forType:OTS_KEYCHAIN_DEVICECODE];
+        [NGKeychain  setKeychainValue:code forType:NG_KEYCHAIN_DEVICECODE];
     } else {
         code = keyChain_deviceCode;
     }

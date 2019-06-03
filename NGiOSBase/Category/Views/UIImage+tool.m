@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+tool.h"
-#import "OTSFileManager.h"
+#import "NGFileManager.h"
 @implementation UIImage (tool)
 
 + (UIImage *)imageWithColor:(UIColor *)aColor
@@ -178,7 +178,7 @@
 
 	NSData* imageData=UIImageJPEGRepresentation(self, aQuality);
 
-	NSString* fullPathToFile = [[OTSFileManager appDocPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",imageName]];
+	NSString* fullPathToFile = [[NGFileManager appDocPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",imageName]];
 	if ([[NSFileManager defaultManager] fileExistsAtPath:fullPathToFile]) {
 		[[NSFileManager defaultManager] removeItemAtPath:fullPathToFile error:nil];
 	}

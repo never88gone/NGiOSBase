@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OTSDataNaviBtn : UIButton
+@interface NGDataNaviBtn : UIButton
 
 @property(nonatomic, copy) NSString *href;
 @property(nonatomic, strong) NSArray *items;
 
 @end
 
-@interface OTSUpdownLayoutNaviBtn : OTSDataNaviBtn
+@interface NGUpdownLayoutNaviBtn : NGDataNaviBtn
 
 @end
 

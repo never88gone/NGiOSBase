@@ -10,7 +10,7 @@
 //category
 #import "NSObject+PerformBlock.h"
 //define
-#import "OTSNotificationDefine.h"
+#import "NGNotificationDefine.h"
 
 @implementation NSObject (BeeNotification)
 

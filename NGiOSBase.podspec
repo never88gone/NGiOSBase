@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -48,13 +48,6 @@ Pod::Spec.new do |s|
   s.subspec 'no-arc' do |sp|
     sp.source_files = non_arc_files
     sp.requires_arc = false
-  end
-
-  non_arc_files_nkdbarcode = 'NGiOSBase/Tools/NKDBarcode/*.{h,m}'
-  s.exclude_files = non_arc_files_nkdbarcode
-  s.subspec 'NKDBarcode' do |nkdbarcode|
-    nkdbarcode.source_files = non_arc_files_nkdbarcode
-    nkdbarcode.requires_arc = false
   end
 
 end

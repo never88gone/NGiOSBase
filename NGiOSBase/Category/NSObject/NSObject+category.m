@@ -8,7 +8,7 @@
 
 #import "NSObject+category.h"
 
-#import "OTSLog.h"
+#import "NGLog.h"
 
 @implementation NSObject (category)
 
@@ -48,12 +48,12 @@ static char associatedObjectNamesKey;
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
-    OTSLogW(@"setValue %@ forUndefinedKey %@",value,key);
+    NGLogW(@"setValue %@ forUndefinedKey %@",value,key);
 }
 
 - (void)setNilValueForKey:(NSString *)key
 {
-    OTSLogW(@"setNilValue forKey %@",key);
+    NGLogW(@"setNilValue forKey %@",key);
 }
 
 @end

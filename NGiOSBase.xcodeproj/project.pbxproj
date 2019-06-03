@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		388EF6021F32C22000AE3826 /* OTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81551F0A38D900207394 /* OTSAppDelegate.m */; };
+		388EF6021F32C22000AE3826 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81551F0A38D900207394 /* NGAppDelegate.m */; };
 		388EF60C1F32C22000AE3826 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816A1F0A38D900207394 /* NSDate+Format.m */; };
-		388EF60E1F32C22000AE3826 /* NSDate+OTS.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816C1F0A38D900207394 /* NSDate+OTS.m */; };
+		388EF60E1F32C22000AE3826 /* NSDate+NG.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816C1F0A38D900207394 /* NSDate+NG.m */; };
 		388EF6121F32C22000AE3826 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81721F0A38D900207394 /* NSObject+BeeNotification.m */; };
 		388EF6141F32C22000AE3826 /* NSObject+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81741F0A38D900207394 /* NSObject+category.m */; };
 		388EF6161F32C22000AE3826 /* NSObject+coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81761F0A38D900207394 /* NSObject+coder.m */; };
@@ -18,7 +18,7 @@
 		388EF61C1F32C22000AE3826 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817C1F0A38D900207394 /* NSObject+runtime.m */; };
 		388EF61E1F32C22000AE3826 /* NSObject+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817E1F0A38D900207394 /* NSObject+safe.m */; };
 		388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81801F0A38D900207394 /* NSObject+swizzle.m */; };
-		388EF6221F32C22000AE3826 /* OTSNotificationDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81821F0A38D900207394 /* OTSNotificationDefine.m */; };
+		388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81821F0A38D900207394 /* NGNotificationDefine.m */; };
 		388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81861F0A38D900207394 /* NSString+MD5.m */; };
 		388EF6261F32C22000AE3826 /* NSDictionary+router.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81881F0A38D900207394 /* NSDictionary+router.m */; };
 		388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA818A1F0A38D900207394 /* NSString+ConvertType.m */; };
@@ -34,7 +34,7 @@
 		388EF6411F32C22000AE3826 /* NSString+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81AA1F0A38D900207394 /* NSString+safe.m */; };
 		388EF6431F32C22000AE3826 /* UICollectionView+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81AC1F0A38D900207394 /* UICollectionView+safe.m */; };
 		388EF6471F32C22000AE3826 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81B21F0A38D900207394 /* UIDevice+IdentifierAddition.m */; };
-		388EF64B1F32C22000AE3826 /* UINavigationController+ots.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81B81F0A38D900207394 /* UINavigationController+ots.m */; };
+		388EF64B1F32C22000AE3826 /* UINavigationController+NG.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81B81F0A38D900207394 /* UINavigationController+NG.m */; };
 		388EF64F1F32C22000AE3826 /* UIViewController+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81BE1F0A38D900207394 /* UIViewController+animation.m */; };
 		388EF6511F32C22000AE3826 /* UIViewController+base.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81C01F0A38D900207394 /* UIViewController+base.m */; };
 		388EF6531F32C22000AE3826 /* UIViewController+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81C21F0A38D900207394 /* UIViewController+create.m */; };
@@ -60,74 +60,74 @@
 		388EF6871F32C22000AE3826 /* UIView+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F71F0A38D900207394 /* UIView+loading.m */; };
 		388EF6891F32C22000AE3826 /* UIView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F91F0A38D900207394 /* UIView+Maker.m */; };
 		388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81FB1F0A38D900207394 /* UIView+Plus.m */; };
-		388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82121F0A38D900207394 /* OTSArchiveData.m */; };
-		388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82151F0A38D900207394 /* OTSCoreDataManager.m */; };
-		388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82171F0A38D900207394 /* OTSManagedObject.m */; };
-		388EF6A31F32C22100AE3826 /* OTSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA821A1F0A38D900207394 /* OTSFileManager.m */; };
+		388EF69D1F32C22100AE3826 /* NGArchiveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82121F0A38D900207394 /* NGArchiveData.m */; };
+		388EF69F1F32C22100AE3826 /* NGCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82151F0A38D900207394 /* NGCoreDataManager.m */; };
+		388EF6A11F32C22100AE3826 /* NGManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82171F0A38D900207394 /* NGManagedObject.m */; };
+		388EF6A31F32C22100AE3826 /* NGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA821A1F0A38D900207394 /* NGFileManager.m */; };
 		388EF6A51F32C22100AE3826 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA821E1F0A38D900207394 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		388EF6A71F32C22100AE3826 /* OTSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82201F0A38D900207394 /* OTSKeychain.m */; };
-		388EF6AB1F32C22100AE3826 /* OTSUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82251F0A38D900207394 /* OTSUserDefault.m */; };
-		388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82321F0A38D900207394 /* OTSClientInfo.m */; };
-		388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82361F0A38D900207394 /* OTSGlobalValue.m */; };
-		388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82381F0A38D900207394 /* OTSValueObject.m */; };
-		388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82531F0A38D900207394 /* OTSVCAnimation.m */; };
-		388EF6FE1F32C22100AE3826 /* OTSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82841F0A38D900207394 /* OTSAudioPlayer.m */; };
-		388EF7021F32C22100AE3826 /* OTSBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82881F0A38D900207394 /* OTSBorder.m */; };
-		388EF7041F32C22100AE3826 /* OTSCalendarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828A1F0A38D900207394 /* OTSCalendarNotification.m */; };
-		388EF7061F32C22100AE3826 /* OTSCollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828C1F0A38D900207394 /* OTSCollectionViewLeftAlignedLayout.m */; };
-		388EF7081F32C22100AE3826 /* OTSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828E1F0A38D900207394 /* OTSColor.m */; };
-		388EF70A1F32C22100AE3826 /* OTSConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82901F0A38D900207394 /* OTSConstraintHelper.m */; };
-		388EF70E1F32C22100AE3826 /* OTSCoreGraphicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82941F0A38D900207394 /* OTSCoreGraphicHelper.m */; };
-		388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82961F0A38D900207394 /* OTSCorner.m */; };
-		388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */; };
-		388EF7181F32C22100AE3826 /* OTSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829E1F0A38D900207394 /* OTSFont.m */; };
-		388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A21F0A38D900207394 /* OTSIPAddress.m */; };
-		388EF71E1F32C22100AE3826 /* OTSJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A41F0A38D900207394 /* OTSJsonKit.m */; };
-		388EF7201F32C22100AE3826 /* OTSLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A61F0A38D900207394 /* OTSLocalNotification.m */; };
-		388EF7221F32C22100AE3826 /* OTSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A81F0A38D900207394 /* OTSLocation.m */; };
-		388EF7241F32C22100AE3826 /* OTSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AA1F0A38D900207394 /* OTSLog.m */; };
-		388EF7261F32C22100AE3826 /* OTSMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AC1F0A38D900207394 /* OTSMask.m */; };
-		388EF7281F32C22100AE3826 /* OTSMD5Sha.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AE1F0A38D900207394 /* OTSMD5Sha.m */; };
-		388EF72A1F32C22100AE3826 /* OTSPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B01F0A38D900207394 /* OTSPinYin.m */; };
-		388EF72C1F32C22100AE3826 /* OTSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B21F0A38D900207394 /* OTSPredicate.m */; };
-		388EF7301F32C22100AE3826 /* OTSSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B61F0A38D900207394 /* OTSSize.m */; };
-		388EF7321F32C22100AE3826 /* OTSUIButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B81F0A38D900207394 /* OTSUIButtonMaker.m */; };
-		388EF7341F32C22100AE3826 /* OTSUILabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82BA1F0A38D900207394 /* OTSUILabelMaker.m */; };
-		388EF7381F32C22100AE3826 /* OTSViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82BE1F0A38D900207394 /* OTSViewMaker.m */; };
-		388EF73A1F32C22100AE3826 /* OTSWeakObjectDeathNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C01F0A38D900207394 /* OTSWeakObjectDeathNotifier.m */; };
-		388EF73C1F32C22100AE3826 /* OTSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C41F0A38D900207394 /* OTSActionSheet.m */; };
-		388EF73E1F32C22100AE3826 /* OTSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C61F0A38D900207394 /* OTSAlertView.m */; };
-		388EF7401F32C22100AE3826 /* OTSCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C81F0A38D900207394 /* OTSCollectionReusableView.m */; };
-		388EF7421F32C22100AE3826 /* OTSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82CA1F0A38D900207394 /* OTSCollectionView.m */; };
-		388EF7441F32C22100AE3826 /* OTSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82CC1F0A38D900207394 /* OTSCollectionViewCell.m */; };
-		388EF7481F32C22100AE3826 /* OTSPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D01F0A38D900207394 /* OTSPageControl.m */; };
-		388EF74A1F32C22100AE3826 /* OTSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D21F0A38D900207394 /* OTSPickerView.m */; };
-		388EF74C1F32C22100AE3826 /* OTSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D41F0A38D900207394 /* OTSScrollView.m */; };
-		388EF74E1F32C22100AE3826 /* OTSSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D61F0A38D900207394 /* OTSSwitch.m */; };
-		388EF7501F32C22100AE3826 /* OTSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D81F0A38D900207394 /* OTSTabBar.m */; };
-		388EF7521F32C22100AE3826 /* OTSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DA1F0A38D900207394 /* OTSTabBarItem.m */; };
-		388EF7541F32C22100AE3826 /* OTSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DC1F0A38D900207394 /* OTSTableView.m */; };
-		388EF7561F32C22100AE3826 /* OTSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DE1F0A38D900207394 /* OTSTableViewCell.m */; };
-		388EF7581F32C22100AE3826 /* OTSTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E01F0A38D900207394 /* OTSTableViewHeaderFooterView.m */; };
-		388EF75A1F32C22100AE3826 /* OTSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E21F0A38D900207394 /* OTSTabView.m */; };
-		388EF75C1F32C22100AE3826 /* OTSTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E41F0A38D900207394 /* OTSTopWindow.m */; };
-		388EF75E1F32C22100AE3826 /* OTSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E61F0A38D900207394 /* OTSView.m */; };
-		388EF7601F32C22100AE3826 /* OTSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E81F0A38D900207394 /* OTSWebView.m */; };
-		388EF7621F32C22100AE3826 /* OTSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EA1F0A38D900207394 /* OTSWindow.m */; };
-		388EF7641F32C22100AE3826 /* OTSImageFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */; };
-		388EF7661F32C22100AE3826 /* OTSAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */; };
-		388EF76C1F32C22100AE3826 /* OTSCommentPicScaledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */; };
-		388EF76E1F32C22100AE3826 /* OTSCrossedOutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */; };
-		388EF7881F32C22100AE3826 /* OTSFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83131F0A38D900207394 /* OTSFPSLabel.m */; };
-		388EF78C1F32C22100AE3826 /* OTSNonModelLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */; };
-		388EF78E1F32C22100AE3826 /* OTSPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83191F0A38D900207394 /* OTSPageView.m */; };
-		388EF7921F32C22100AE3826 /* OTSPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */; };
-		388EF7941F32C22100AE3826 /* OTSPriceAndScoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831F1F0A38D900207394 /* OTSPriceAndScoreLabel.m */; };
-		388EF79B1F32C22100AE3826 /* OTSRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83261F0A38D900207394 /* OTSRadioButton.m */; };
-		388EF79F1F32C22100AE3826 /* OTSSegmentBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832A1F0A38D900207394 /* OTSSegmentBtnView.m */; };
-		388EF7A11F32C22100AE3826 /* OTSSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832C1F0A38D900207394 /* OTSSegmentView.m */; };
-		388EF7A31F32C22100AE3826 /* OTSTimeCountButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832E1F0A38D900207394 /* OTSTimeCountButton.m */; };
-		388EF7A51F32C22100AE3826 /* OTSTimeCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83301F0A38D900207394 /* OTSTimeCountLabel.m */; };
+		388EF6A71F32C22100AE3826 /* NGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82201F0A38D900207394 /* NGKeychain.m */; };
+		388EF6AB1F32C22100AE3826 /* NGUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82251F0A38D900207394 /* NGUserDefault.m */; };
+		388EF6B61F32C22100AE3826 /* NGClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82321F0A38D900207394 /* NGClientInfo.m */; };
+		388EF6BA1F32C22100AE3826 /* NGGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82361F0A38D900207394 /* NGGlobalValue.m */; };
+		388EF6BC1F32C22100AE3826 /* NGValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82381F0A38D900207394 /* NGValueObject.m */; };
+		388EF6CE1F32C22100AE3826 /* NGVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82531F0A38D900207394 /* NGVCAnimation.m */; };
+		388EF6FE1F32C22100AE3826 /* NGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82841F0A38D900207394 /* NGAudioPlayer.m */; };
+		388EF7021F32C22100AE3826 /* NGBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82881F0A38D900207394 /* NGBorder.m */; };
+		388EF7041F32C22100AE3826 /* NGCalendarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828A1F0A38D900207394 /* NGCalendarNotification.m */; };
+		388EF7061F32C22100AE3826 /* NGCollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */; };
+		388EF7081F32C22100AE3826 /* NGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828E1F0A38D900207394 /* NGColor.m */; };
+		388EF70A1F32C22100AE3826 /* NGConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82901F0A38D900207394 /* NGConstraintHelper.m */; };
+		388EF70E1F32C22100AE3826 /* NGCoreGraphicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82941F0A38D900207394 /* NGCoreGraphicHelper.m */; };
+		388EF7101F32C22100AE3826 /* NGCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82961F0A38D900207394 /* NGCorner.m */; };
+		388EF7141F32C22100AE3826 /* NGDeadtimeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829A1F0A38D900207394 /* NGDeadtimeTimer.m */; };
+		388EF7181F32C22100AE3826 /* NGFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA829E1F0A38D900207394 /* NGFont.m */; };
+		388EF71C1F32C22100AE3826 /* NGIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A21F0A38D900207394 /* NGIPAddress.m */; };
+		388EF71E1F32C22100AE3826 /* NGJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A41F0A38D900207394 /* NGJsonKit.m */; };
+		388EF7201F32C22100AE3826 /* NGLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A61F0A38D900207394 /* NGLocalNotification.m */; };
+		388EF7221F32C22100AE3826 /* NGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A81F0A38D900207394 /* NGLocation.m */; };
+		388EF7241F32C22100AE3826 /* NGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AA1F0A38D900207394 /* NGLog.m */; };
+		388EF7261F32C22100AE3826 /* NGMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AC1F0A38D900207394 /* NGMask.m */; };
+		388EF7281F32C22100AE3826 /* NGMD5Sha.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AE1F0A38D900207394 /* NGMD5Sha.m */; };
+		388EF72A1F32C22100AE3826 /* NGPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B01F0A38D900207394 /* NGPinYin.m */; };
+		388EF72C1F32C22100AE3826 /* NGPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B21F0A38D900207394 /* NGPredicate.m */; };
+		388EF7301F32C22100AE3826 /* NGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B61F0A38D900207394 /* NGSize.m */; };
+		388EF7321F32C22100AE3826 /* NGUIButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82B81F0A38D900207394 /* NGUIButtonMaker.m */; };
+		388EF7341F32C22100AE3826 /* NGUILabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82BA1F0A38D900207394 /* NGUILabelMaker.m */; };
+		388EF7381F32C22100AE3826 /* NGViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82BE1F0A38D900207394 /* NGViewMaker.m */; };
+		388EF73A1F32C22100AE3826 /* NGWeakObjectDeathNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C01F0A38D900207394 /* NGWeakObjectDeathNotifier.m */; };
+		388EF73C1F32C22100AE3826 /* NGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C41F0A38D900207394 /* NGActionSheet.m */; };
+		388EF73E1F32C22100AE3826 /* NGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C61F0A38D900207394 /* NGAlertView.m */; };
+		388EF7401F32C22100AE3826 /* NGCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82C81F0A38D900207394 /* NGCollectionReusableView.m */; };
+		388EF7421F32C22100AE3826 /* NGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82CA1F0A38D900207394 /* NGCollectionView.m */; };
+		388EF7441F32C22100AE3826 /* NGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82CC1F0A38D900207394 /* NGCollectionViewCell.m */; };
+		388EF7481F32C22100AE3826 /* NGPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D01F0A38D900207394 /* NGPageControl.m */; };
+		388EF74A1F32C22100AE3826 /* NGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D21F0A38D900207394 /* NGPickerView.m */; };
+		388EF74C1F32C22100AE3826 /* NGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D41F0A38D900207394 /* NGScrollView.m */; };
+		388EF74E1F32C22100AE3826 /* NGSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D61F0A38D900207394 /* NGSwitch.m */; };
+		388EF7501F32C22100AE3826 /* NGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82D81F0A38D900207394 /* NGTabBar.m */; };
+		388EF7521F32C22100AE3826 /* NGTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DA1F0A38D900207394 /* NGTabBarItem.m */; };
+		388EF7541F32C22100AE3826 /* NGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DC1F0A38D900207394 /* NGTableView.m */; };
+		388EF7561F32C22100AE3826 /* NGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82DE1F0A38D900207394 /* NGTableViewCell.m */; };
+		388EF7581F32C22100AE3826 /* NGTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E01F0A38D900207394 /* NGTableViewHeaderFooterView.m */; };
+		388EF75A1F32C22100AE3826 /* NGTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E21F0A38D900207394 /* NGTabView.m */; };
+		388EF75C1F32C22100AE3826 /* NGTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E41F0A38D900207394 /* NGTopWindow.m */; };
+		388EF75E1F32C22100AE3826 /* NGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E61F0A38D900207394 /* NGView.m */; };
+		388EF7601F32C22100AE3826 /* NGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E81F0A38D900207394 /* NGWebView.m */; };
+		388EF7621F32C22100AE3826 /* NGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EA1F0A38D900207394 /* NGWindow.m */; };
+		388EF7641F32C22100AE3826 /* NGImageFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82ED1F0A38D900207394 /* NGImageFallingView.m */; };
+		388EF7661F32C22100AE3826 /* NGAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EF1F0A38D900207394 /* NGAutoHeightTextView.m */; };
+		388EF76C1F32C22100AE3826 /* NGCommentPicScaledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F51F0A38D900207394 /* NGCommentPicScaledView.m */; };
+		388EF76E1F32C22100AE3826 /* NGCrossedOutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F71F0A38D900207394 /* NGCrossedOutLabel.m */; };
+		388EF7881F32C22100AE3826 /* NGFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83131F0A38D900207394 /* NGFPSLabel.m */; };
+		388EF78C1F32C22100AE3826 /* NGNonModelLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83171F0A38D900207394 /* NGNonModelLoadingView.m */; };
+		388EF78E1F32C22100AE3826 /* NGPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83191F0A38D900207394 /* NGPageView.m */; };
+		388EF7921F32C22100AE3826 /* NGPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831D1F0A38D900207394 /* NGPlaceHolderTextView.m */; };
+		388EF7941F32C22100AE3826 /* NGPriceAndScoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA831F1F0A38D900207394 /* NGPriceAndScoreLabel.m */; };
+		388EF79B1F32C22100AE3826 /* NGRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83261F0A38D900207394 /* NGRadioButton.m */; };
+		388EF79F1F32C22100AE3826 /* NGSegmentBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832A1F0A38D900207394 /* NGSegmentBtnView.m */; };
+		388EF7A11F32C22100AE3826 /* NGSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832C1F0A38D900207394 /* NGSegmentView.m */; };
+		388EF7A31F32C22100AE3826 /* NGTimeCountButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA832E1F0A38D900207394 /* NGTimeCountButton.m */; };
+		388EF7A51F32C22100AE3826 /* NGTimeCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA83301F0A38D900207394 /* NGTimeCountLabel.m */; };
 		388EF7A71F32C54700AE3826 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7A61F32C54700AE3826 /* MobileCoreServices.framework */; };
 		388EF7A91F32C69600AE3826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7A81F32C69600AE3826 /* UIKit.framework */; };
 		388EF7AB1F32C69D00AE3826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7AA1F32C69D00AE3826 /* Foundation.framework */; };
@@ -143,12 +143,12 @@
 		388EF7A81F32C69600AE3826 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		388EF7AA1F32C69D00AE3826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		388EF7AC1F32C6A300AE3826 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		38EA81541F0A38D900207394 /* OTSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSAppDelegate.h; sourceTree = "<group>"; };
-		38EA81551F0A38D900207394 /* OTSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSAppDelegate.m; sourceTree = "<group>"; };
+		38EA81541F0A38D900207394 /* NGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		38EA81551F0A38D900207394 /* NGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
 		38EA81691F0A38D900207394 /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
 		38EA816A1F0A38D900207394 /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
-		38EA816B1F0A38D900207394 /* NSDate+OTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+OTS.h"; sourceTree = "<group>"; };
-		38EA816C1F0A38D900207394 /* NSDate+OTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+OTS.m"; sourceTree = "<group>"; };
+		38EA816B1F0A38D900207394 /* NSDate+NG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NG.h"; sourceTree = "<group>"; };
+		38EA816C1F0A38D900207394 /* NSDate+NG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NG.m"; sourceTree = "<group>"; };
 		38EA81711F0A38D900207394 /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
 		38EA81721F0A38D900207394 /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
 		38EA81731F0A38D900207394 /* NSObject+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+category.h"; sourceTree = "<group>"; };
@@ -165,8 +165,8 @@
 		38EA817E1F0A38D900207394 /* NSObject+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+safe.m"; sourceTree = "<group>"; };
 		38EA817F1F0A38D900207394 /* NSObject+swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+swizzle.h"; sourceTree = "<group>"; };
 		38EA81801F0A38D900207394 /* NSObject+swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+swizzle.m"; sourceTree = "<group>"; };
-		38EA81811F0A38D900207394 /* OTSNotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSNotificationDefine.h; sourceTree = "<group>"; };
-		38EA81821F0A38D900207394 /* OTSNotificationDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSNotificationDefine.m; sourceTree = "<group>"; };
+		38EA81811F0A38D900207394 /* NGNotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGNotificationDefine.h; sourceTree = "<group>"; };
+		38EA81821F0A38D900207394 /* NGNotificationDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNotificationDefine.m; sourceTree = "<group>"; };
 		38EA81851F0A38D900207394 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		38EA81861F0A38D900207394 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		38EA81871F0A38D900207394 /* NSDictionary+router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+router.h"; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 		38EA81AC1F0A38D900207394 /* UICollectionView+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+safe.m"; sourceTree = "<group>"; };
 		38EA81B11F0A38D900207394 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
 		38EA81B21F0A38D900207394 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
-		38EA81B71F0A38D900207394 /* UINavigationController+ots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ots.h"; sourceTree = "<group>"; };
-		38EA81B81F0A38D900207394 /* UINavigationController+ots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ots.m"; sourceTree = "<group>"; };
+		38EA81B71F0A38D900207394 /* UINavigationController+NG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NG.h"; sourceTree = "<group>"; };
+		38EA81B81F0A38D900207394 /* UINavigationController+NG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NG.m"; sourceTree = "<group>"; };
 		38EA81BD1F0A38D900207394 /* UIViewController+animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+animation.h"; sourceTree = "<group>"; };
 		38EA81BE1F0A38D900207394 /* UIViewController+animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+animation.m"; sourceTree = "<group>"; };
 		38EA81BF1F0A38D900207394 /* UIViewController+base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+base.h"; sourceTree = "<group>"; };
@@ -250,145 +250,145 @@
 		38EA81F91F0A38D900207394 /* UIView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Maker.m"; sourceTree = "<group>"; };
 		38EA81FA1F0A38D900207394 /* UIView+Plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Plus.h"; sourceTree = "<group>"; };
 		38EA81FB1F0A38D900207394 /* UIView+Plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Plus.m"; sourceTree = "<group>"; };
-		38EA82111F0A38D900207394 /* OTSArchiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSArchiveData.h; sourceTree = "<group>"; };
-		38EA82121F0A38D900207394 /* OTSArchiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSArchiveData.m; sourceTree = "<group>"; };
-		38EA82141F0A38D900207394 /* OTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCoreDataManager.h; sourceTree = "<group>"; };
-		38EA82151F0A38D900207394 /* OTSCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCoreDataManager.m; sourceTree = "<group>"; };
-		38EA82161F0A38D900207394 /* OTSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSManagedObject.h; sourceTree = "<group>"; };
-		38EA82171F0A38D900207394 /* OTSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSManagedObject.m; sourceTree = "<group>"; };
-		38EA82191F0A38D900207394 /* OTSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFileManager.h; sourceTree = "<group>"; };
-		38EA821A1F0A38D900207394 /* OTSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFileManager.m; sourceTree = "<group>"; };
+		38EA82111F0A38D900207394 /* NGArchiveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGArchiveData.h; sourceTree = "<group>"; };
+		38EA82121F0A38D900207394 /* NGArchiveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGArchiveData.m; sourceTree = "<group>"; };
+		38EA82141F0A38D900207394 /* NGCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCoreDataManager.h; sourceTree = "<group>"; };
+		38EA82151F0A38D900207394 /* NGCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCoreDataManager.m; sourceTree = "<group>"; };
+		38EA82161F0A38D900207394 /* NGManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGManagedObject.h; sourceTree = "<group>"; };
+		38EA82171F0A38D900207394 /* NGManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGManagedObject.m; sourceTree = "<group>"; };
+		38EA82191F0A38D900207394 /* NGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFileManager.h; sourceTree = "<group>"; };
+		38EA821A1F0A38D900207394 /* NGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFileManager.m; sourceTree = "<group>"; };
 		38EA821D1F0A38D900207394 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		38EA821E1F0A38D900207394 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		38EA821F1F0A38D900207394 /* OTSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSKeychain.h; sourceTree = "<group>"; };
-		38EA82201F0A38D900207394 /* OTSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSKeychain.m; sourceTree = "<group>"; };
-		38EA82241F0A38D900207394 /* OTSUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSUserDefault.h; sourceTree = "<group>"; };
-		38EA82251F0A38D900207394 /* OTSUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSUserDefault.m; sourceTree = "<group>"; };
-		38EA822A1F0A38D900207394 /* OTSFuncDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFuncDefine.h; sourceTree = "<group>"; };
-		38EA822C1F0A38D900207394 /* OTSMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMacroDefine.h; sourceTree = "<group>"; };
-		38EA822E1F0A38D900207394 /* OTSSizeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSizeDefine.h; sourceTree = "<group>"; };
-		38EA82311F0A38D900207394 /* OTSClientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSClientInfo.h; sourceTree = "<group>"; };
-		38EA82321F0A38D900207394 /* OTSClientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSClientInfo.m; sourceTree = "<group>"; };
-		38EA82351F0A38D900207394 /* OTSGlobalValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSGlobalValue.h; sourceTree = "<group>"; };
-		38EA82361F0A38D900207394 /* OTSGlobalValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSGlobalValue.m; sourceTree = "<group>"; };
-		38EA82371F0A38D900207394 /* OTSValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSValueObject.h; sourceTree = "<group>"; };
-		38EA82381F0A38D900207394 /* OTSValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSValueObject.m; sourceTree = "<group>"; };
-		38EA82521F0A38D900207394 /* OTSVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSVCAnimation.h; sourceTree = "<group>"; };
-		38EA82531F0A38D900207394 /* OTSVCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSVCAnimation.m; sourceTree = "<group>"; };
-		38EA82831F0A38D900207394 /* OTSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSAudioPlayer.h; sourceTree = "<group>"; };
-		38EA82841F0A38D900207394 /* OTSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSAudioPlayer.m; sourceTree = "<group>"; };
-		38EA82871F0A38D900207394 /* OTSBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSBorder.h; sourceTree = "<group>"; };
-		38EA82881F0A38D900207394 /* OTSBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSBorder.m; sourceTree = "<group>"; };
-		38EA82891F0A38D900207394 /* OTSCalendarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCalendarNotification.h; sourceTree = "<group>"; };
-		38EA828A1F0A38D900207394 /* OTSCalendarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCalendarNotification.m; sourceTree = "<group>"; };
-		38EA828B1F0A38D900207394 /* OTSCollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
-		38EA828C1F0A38D900207394 /* OTSCollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
-		38EA828D1F0A38D900207394 /* OTSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSColor.h; sourceTree = "<group>"; };
-		38EA828E1F0A38D900207394 /* OTSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSColor.m; sourceTree = "<group>"; };
-		38EA828F1F0A38D900207394 /* OTSConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSConstraintHelper.h; sourceTree = "<group>"; };
-		38EA82901F0A38D900207394 /* OTSConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSConstraintHelper.m; sourceTree = "<group>"; };
-		38EA82931F0A38D900207394 /* OTSCoreGraphicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCoreGraphicHelper.h; sourceTree = "<group>"; };
-		38EA82941F0A38D900207394 /* OTSCoreGraphicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCoreGraphicHelper.m; sourceTree = "<group>"; };
-		38EA82951F0A38D900207394 /* OTSCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCorner.h; sourceTree = "<group>"; };
-		38EA82961F0A38D900207394 /* OTSCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCorner.m; sourceTree = "<group>"; };
-		38EA82991F0A38D900207394 /* OTSDeadtimeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSDeadtimeTimer.h; sourceTree = "<group>"; };
-		38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDeadtimeTimer.m; sourceTree = "<group>"; };
-		38EA829D1F0A38D900207394 /* OTSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFont.h; sourceTree = "<group>"; };
-		38EA829E1F0A38D900207394 /* OTSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFont.m; sourceTree = "<group>"; };
-		38EA82A11F0A38D900207394 /* OTSIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSIPAddress.h; sourceTree = "<group>"; };
-		38EA82A21F0A38D900207394 /* OTSIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSIPAddress.m; sourceTree = "<group>"; };
-		38EA82A31F0A38D900207394 /* OTSJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSJsonKit.h; sourceTree = "<group>"; };
-		38EA82A41F0A38D900207394 /* OTSJsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSJsonKit.m; sourceTree = "<group>"; };
-		38EA82A51F0A38D900207394 /* OTSLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSLocalNotification.h; sourceTree = "<group>"; };
-		38EA82A61F0A38D900207394 /* OTSLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSLocalNotification.m; sourceTree = "<group>"; };
-		38EA82A71F0A38D900207394 /* OTSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSLocation.h; sourceTree = "<group>"; };
-		38EA82A81F0A38D900207394 /* OTSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSLocation.m; sourceTree = "<group>"; };
-		38EA82A91F0A38D900207394 /* OTSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSLog.h; sourceTree = "<group>"; };
-		38EA82AA1F0A38D900207394 /* OTSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSLog.m; sourceTree = "<group>"; };
-		38EA82AB1F0A38D900207394 /* OTSMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMask.h; sourceTree = "<group>"; };
-		38EA82AC1F0A38D900207394 /* OTSMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSMask.m; sourceTree = "<group>"; };
-		38EA82AD1F0A38D900207394 /* OTSMD5Sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSMD5Sha.h; sourceTree = "<group>"; };
-		38EA82AE1F0A38D900207394 /* OTSMD5Sha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSMD5Sha.m; sourceTree = "<group>"; };
-		38EA82AF1F0A38D900207394 /* OTSPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPinYin.h; sourceTree = "<group>"; };
-		38EA82B01F0A38D900207394 /* OTSPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPinYin.m; sourceTree = "<group>"; };
-		38EA82B11F0A38D900207394 /* OTSPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPredicate.h; sourceTree = "<group>"; };
-		38EA82B21F0A38D900207394 /* OTSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPredicate.m; sourceTree = "<group>"; };
-		38EA82B51F0A38D900207394 /* OTSSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSize.h; sourceTree = "<group>"; };
-		38EA82B61F0A38D900207394 /* OTSSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSSize.m; sourceTree = "<group>"; };
-		38EA82B71F0A38D900207394 /* OTSUIButtonMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSUIButtonMaker.h; sourceTree = "<group>"; };
-		38EA82B81F0A38D900207394 /* OTSUIButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSUIButtonMaker.m; sourceTree = "<group>"; };
-		38EA82B91F0A38D900207394 /* OTSUILabelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSUILabelMaker.h; sourceTree = "<group>"; };
-		38EA82BA1F0A38D900207394 /* OTSUILabelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSUILabelMaker.m; sourceTree = "<group>"; };
-		38EA82BD1F0A38D900207394 /* OTSViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSViewMaker.h; sourceTree = "<group>"; };
-		38EA82BE1F0A38D900207394 /* OTSViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSViewMaker.m; sourceTree = "<group>"; };
-		38EA82BF1F0A38D900207394 /* OTSWeakObjectDeathNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSWeakObjectDeathNotifier.h; sourceTree = "<group>"; };
-		38EA82C01F0A38D900207394 /* OTSWeakObjectDeathNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSWeakObjectDeathNotifier.m; sourceTree = "<group>"; };
-		38EA82C31F0A38D900207394 /* OTSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSActionSheet.h; sourceTree = "<group>"; };
-		38EA82C41F0A38D900207394 /* OTSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSActionSheet.m; sourceTree = "<group>"; };
-		38EA82C51F0A38D900207394 /* OTSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSAlertView.h; sourceTree = "<group>"; };
-		38EA82C61F0A38D900207394 /* OTSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSAlertView.m; sourceTree = "<group>"; };
-		38EA82C71F0A38D900207394 /* OTSCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCollectionReusableView.h; sourceTree = "<group>"; };
-		38EA82C81F0A38D900207394 /* OTSCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCollectionReusableView.m; sourceTree = "<group>"; };
-		38EA82C91F0A38D900207394 /* OTSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCollectionView.h; sourceTree = "<group>"; };
-		38EA82CA1F0A38D900207394 /* OTSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCollectionView.m; sourceTree = "<group>"; };
-		38EA82CB1F0A38D900207394 /* OTSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCollectionViewCell.h; sourceTree = "<group>"; };
-		38EA82CC1F0A38D900207394 /* OTSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCollectionViewCell.m; sourceTree = "<group>"; };
-		38EA82CF1F0A38D900207394 /* OTSPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPageControl.h; sourceTree = "<group>"; };
-		38EA82D01F0A38D900207394 /* OTSPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPageControl.m; sourceTree = "<group>"; };
-		38EA82D11F0A38D900207394 /* OTSPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPickerView.h; sourceTree = "<group>"; };
-		38EA82D21F0A38D900207394 /* OTSPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPickerView.m; sourceTree = "<group>"; };
-		38EA82D31F0A38D900207394 /* OTSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSScrollView.h; sourceTree = "<group>"; };
-		38EA82D41F0A38D900207394 /* OTSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSScrollView.m; sourceTree = "<group>"; };
-		38EA82D51F0A38D900207394 /* OTSSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSwitch.h; sourceTree = "<group>"; };
-		38EA82D61F0A38D900207394 /* OTSSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSSwitch.m; sourceTree = "<group>"; };
-		38EA82D71F0A38D900207394 /* OTSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTabBar.h; sourceTree = "<group>"; };
-		38EA82D81F0A38D900207394 /* OTSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTabBar.m; sourceTree = "<group>"; };
-		38EA82D91F0A38D900207394 /* OTSTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTabBarItem.h; sourceTree = "<group>"; };
-		38EA82DA1F0A38D900207394 /* OTSTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTabBarItem.m; sourceTree = "<group>"; };
-		38EA82DB1F0A38D900207394 /* OTSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTableView.h; sourceTree = "<group>"; };
-		38EA82DC1F0A38D900207394 /* OTSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTableView.m; sourceTree = "<group>"; };
-		38EA82DD1F0A38D900207394 /* OTSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTableViewCell.h; sourceTree = "<group>"; };
-		38EA82DE1F0A38D900207394 /* OTSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTableViewCell.m; sourceTree = "<group>"; };
-		38EA82DF1F0A38D900207394 /* OTSTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		38EA82E01F0A38D900207394 /* OTSTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		38EA82E11F0A38D900207394 /* OTSTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTabView.h; sourceTree = "<group>"; };
-		38EA82E21F0A38D900207394 /* OTSTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTabView.m; sourceTree = "<group>"; };
-		38EA82E31F0A38D900207394 /* OTSTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTopWindow.h; sourceTree = "<group>"; };
-		38EA82E41F0A38D900207394 /* OTSTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTopWindow.m; sourceTree = "<group>"; };
-		38EA82E51F0A38D900207394 /* OTSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSView.h; sourceTree = "<group>"; };
-		38EA82E61F0A38D900207394 /* OTSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSView.m; sourceTree = "<group>"; };
-		38EA82E71F0A38D900207394 /* OTSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSWebView.h; sourceTree = "<group>"; };
-		38EA82E81F0A38D900207394 /* OTSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSWebView.m; sourceTree = "<group>"; };
-		38EA82E91F0A38D900207394 /* OTSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSWindow.h; sourceTree = "<group>"; };
-		38EA82EA1F0A38D900207394 /* OTSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSWindow.m; sourceTree = "<group>"; };
-		38EA82EC1F0A38D900207394 /* OTSImageFallingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSImageFallingView.h; sourceTree = "<group>"; };
-		38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSImageFallingView.m; sourceTree = "<group>"; };
-		38EA82EE1F0A38D900207394 /* OTSAutoHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSAutoHeightTextView.h; sourceTree = "<group>"; };
-		38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSAutoHeightTextView.m; sourceTree = "<group>"; };
-		38EA82F41F0A38D900207394 /* OTSCommentPicScaledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCommentPicScaledView.h; sourceTree = "<group>"; };
-		38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCommentPicScaledView.m; sourceTree = "<group>"; };
-		38EA82F61F0A38D900207394 /* OTSCrossedOutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSCrossedOutLabel.h; sourceTree = "<group>"; };
-		38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSCrossedOutLabel.m; sourceTree = "<group>"; };
-		38EA83121F0A38D900207394 /* OTSFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFPSLabel.h; sourceTree = "<group>"; };
-		38EA83131F0A38D900207394 /* OTSFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFPSLabel.m; sourceTree = "<group>"; };
-		38EA83161F0A38D900207394 /* OTSNonModelLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSNonModelLoadingView.h; sourceTree = "<group>"; };
-		38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSNonModelLoadingView.m; sourceTree = "<group>"; };
-		38EA83181F0A38D900207394 /* OTSPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPageView.h; sourceTree = "<group>"; };
-		38EA83191F0A38D900207394 /* OTSPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPageView.m; sourceTree = "<group>"; };
-		38EA831C1F0A38D900207394 /* OTSPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPlaceHolderTextView.h; sourceTree = "<group>"; };
-		38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPlaceHolderTextView.m; sourceTree = "<group>"; };
-		38EA831E1F0A38D900207394 /* OTSPriceAndScoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSPriceAndScoreLabel.h; sourceTree = "<group>"; };
-		38EA831F1F0A38D900207394 /* OTSPriceAndScoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSPriceAndScoreLabel.m; sourceTree = "<group>"; };
-		38EA83251F0A38D900207394 /* OTSRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSRadioButton.h; sourceTree = "<group>"; };
-		38EA83261F0A38D900207394 /* OTSRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSRadioButton.m; sourceTree = "<group>"; };
-		38EA83291F0A38D900207394 /* OTSSegmentBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSegmentBtnView.h; sourceTree = "<group>"; };
-		38EA832A1F0A38D900207394 /* OTSSegmentBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSSegmentBtnView.m; sourceTree = "<group>"; };
-		38EA832B1F0A38D900207394 /* OTSSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSSegmentView.h; sourceTree = "<group>"; };
-		38EA832C1F0A38D900207394 /* OTSSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSSegmentView.m; sourceTree = "<group>"; };
-		38EA832D1F0A38D900207394 /* OTSTimeCountButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTimeCountButton.h; sourceTree = "<group>"; };
-		38EA832E1F0A38D900207394 /* OTSTimeCountButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTimeCountButton.m; sourceTree = "<group>"; };
-		38EA832F1F0A38D900207394 /* OTSTimeCountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSTimeCountLabel.h; sourceTree = "<group>"; };
-		38EA83301F0A38D900207394 /* OTSTimeCountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSTimeCountLabel.m; sourceTree = "<group>"; };
+		38EA821F1F0A38D900207394 /* NGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGKeychain.h; sourceTree = "<group>"; };
+		38EA82201F0A38D900207394 /* NGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGKeychain.m; sourceTree = "<group>"; };
+		38EA82241F0A38D900207394 /* NGUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGUserDefault.h; sourceTree = "<group>"; };
+		38EA82251F0A38D900207394 /* NGUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGUserDefault.m; sourceTree = "<group>"; };
+		38EA822A1F0A38D900207394 /* NGFuncDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFuncDefine.h; sourceTree = "<group>"; };
+		38EA822C1F0A38D900207394 /* NGMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMacroDefine.h; sourceTree = "<group>"; };
+		38EA822E1F0A38D900207394 /* NGSizeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSizeDefine.h; sourceTree = "<group>"; };
+		38EA82311F0A38D900207394 /* NGClientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGClientInfo.h; sourceTree = "<group>"; };
+		38EA82321F0A38D900207394 /* NGClientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGClientInfo.m; sourceTree = "<group>"; };
+		38EA82351F0A38D900207394 /* NGGlobalValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGGlobalValue.h; sourceTree = "<group>"; };
+		38EA82361F0A38D900207394 /* NGGlobalValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGGlobalValue.m; sourceTree = "<group>"; };
+		38EA82371F0A38D900207394 /* NGValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGValueObject.h; sourceTree = "<group>"; };
+		38EA82381F0A38D900207394 /* NGValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGValueObject.m; sourceTree = "<group>"; };
+		38EA82521F0A38D900207394 /* NGVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGVCAnimation.h; sourceTree = "<group>"; };
+		38EA82531F0A38D900207394 /* NGVCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGVCAnimation.m; sourceTree = "<group>"; };
+		38EA82831F0A38D900207394 /* NGAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAudioPlayer.h; sourceTree = "<group>"; };
+		38EA82841F0A38D900207394 /* NGAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAudioPlayer.m; sourceTree = "<group>"; };
+		38EA82871F0A38D900207394 /* NGBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBorder.h; sourceTree = "<group>"; };
+		38EA82881F0A38D900207394 /* NGBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBorder.m; sourceTree = "<group>"; };
+		38EA82891F0A38D900207394 /* NGCalendarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCalendarNotification.h; sourceTree = "<group>"; };
+		38EA828A1F0A38D900207394 /* NGCalendarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCalendarNotification.m; sourceTree = "<group>"; };
+		38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		38EA828D1F0A38D900207394 /* NGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGColor.h; sourceTree = "<group>"; };
+		38EA828E1F0A38D900207394 /* NGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGColor.m; sourceTree = "<group>"; };
+		38EA828F1F0A38D900207394 /* NGConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGConstraintHelper.h; sourceTree = "<group>"; };
+		38EA82901F0A38D900207394 /* NGConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGConstraintHelper.m; sourceTree = "<group>"; };
+		38EA82931F0A38D900207394 /* NGCoreGraphicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCoreGraphicHelper.h; sourceTree = "<group>"; };
+		38EA82941F0A38D900207394 /* NGCoreGraphicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCoreGraphicHelper.m; sourceTree = "<group>"; };
+		38EA82951F0A38D900207394 /* NGCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCorner.h; sourceTree = "<group>"; };
+		38EA82961F0A38D900207394 /* NGCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCorner.m; sourceTree = "<group>"; };
+		38EA82991F0A38D900207394 /* NGDeadtimeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDeadtimeTimer.h; sourceTree = "<group>"; };
+		38EA829A1F0A38D900207394 /* NGDeadtimeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDeadtimeTimer.m; sourceTree = "<group>"; };
+		38EA829D1F0A38D900207394 /* NGFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFont.h; sourceTree = "<group>"; };
+		38EA829E1F0A38D900207394 /* NGFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFont.m; sourceTree = "<group>"; };
+		38EA82A11F0A38D900207394 /* NGIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGIPAddress.h; sourceTree = "<group>"; };
+		38EA82A21F0A38D900207394 /* NGIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGIPAddress.m; sourceTree = "<group>"; };
+		38EA82A31F0A38D900207394 /* NGJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGJsonKit.h; sourceTree = "<group>"; };
+		38EA82A41F0A38D900207394 /* NGJsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGJsonKit.m; sourceTree = "<group>"; };
+		38EA82A51F0A38D900207394 /* NGLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLocalNotification.h; sourceTree = "<group>"; };
+		38EA82A61F0A38D900207394 /* NGLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLocalNotification.m; sourceTree = "<group>"; };
+		38EA82A71F0A38D900207394 /* NGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLocation.h; sourceTree = "<group>"; };
+		38EA82A81F0A38D900207394 /* NGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLocation.m; sourceTree = "<group>"; };
+		38EA82A91F0A38D900207394 /* NGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLog.h; sourceTree = "<group>"; };
+		38EA82AA1F0A38D900207394 /* NGLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLog.m; sourceTree = "<group>"; };
+		38EA82AB1F0A38D900207394 /* NGMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMask.h; sourceTree = "<group>"; };
+		38EA82AC1F0A38D900207394 /* NGMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMask.m; sourceTree = "<group>"; };
+		38EA82AD1F0A38D900207394 /* NGMD5Sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMD5Sha.h; sourceTree = "<group>"; };
+		38EA82AE1F0A38D900207394 /* NGMD5Sha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMD5Sha.m; sourceTree = "<group>"; };
+		38EA82AF1F0A38D900207394 /* NGPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPinYin.h; sourceTree = "<group>"; };
+		38EA82B01F0A38D900207394 /* NGPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPinYin.m; sourceTree = "<group>"; };
+		38EA82B11F0A38D900207394 /* NGPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPredicate.h; sourceTree = "<group>"; };
+		38EA82B21F0A38D900207394 /* NGPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPredicate.m; sourceTree = "<group>"; };
+		38EA82B51F0A38D900207394 /* NGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSize.h; sourceTree = "<group>"; };
+		38EA82B61F0A38D900207394 /* NGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSize.m; sourceTree = "<group>"; };
+		38EA82B71F0A38D900207394 /* NGUIButtonMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGUIButtonMaker.h; sourceTree = "<group>"; };
+		38EA82B81F0A38D900207394 /* NGUIButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGUIButtonMaker.m; sourceTree = "<group>"; };
+		38EA82B91F0A38D900207394 /* NGUILabelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGUILabelMaker.h; sourceTree = "<group>"; };
+		38EA82BA1F0A38D900207394 /* NGUILabelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGUILabelMaker.m; sourceTree = "<group>"; };
+		38EA82BD1F0A38D900207394 /* NGViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGViewMaker.h; sourceTree = "<group>"; };
+		38EA82BE1F0A38D900207394 /* NGViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGViewMaker.m; sourceTree = "<group>"; };
+		38EA82BF1F0A38D900207394 /* NGWeakObjectDeathNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGWeakObjectDeathNotifier.h; sourceTree = "<group>"; };
+		38EA82C01F0A38D900207394 /* NGWeakObjectDeathNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGWeakObjectDeathNotifier.m; sourceTree = "<group>"; };
+		38EA82C31F0A38D900207394 /* NGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGActionSheet.h; sourceTree = "<group>"; };
+		38EA82C41F0A38D900207394 /* NGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGActionSheet.m; sourceTree = "<group>"; };
+		38EA82C51F0A38D900207394 /* NGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAlertView.h; sourceTree = "<group>"; };
+		38EA82C61F0A38D900207394 /* NGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAlertView.m; sourceTree = "<group>"; };
+		38EA82C71F0A38D900207394 /* NGCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionReusableView.h; sourceTree = "<group>"; };
+		38EA82C81F0A38D900207394 /* NGCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionReusableView.m; sourceTree = "<group>"; };
+		38EA82C91F0A38D900207394 /* NGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionView.h; sourceTree = "<group>"; };
+		38EA82CA1F0A38D900207394 /* NGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionView.m; sourceTree = "<group>"; };
+		38EA82CB1F0A38D900207394 /* NGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionViewCell.h; sourceTree = "<group>"; };
+		38EA82CC1F0A38D900207394 /* NGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionViewCell.m; sourceTree = "<group>"; };
+		38EA82CF1F0A38D900207394 /* NGPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPageControl.h; sourceTree = "<group>"; };
+		38EA82D01F0A38D900207394 /* NGPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPageControl.m; sourceTree = "<group>"; };
+		38EA82D11F0A38D900207394 /* NGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPickerView.h; sourceTree = "<group>"; };
+		38EA82D21F0A38D900207394 /* NGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPickerView.m; sourceTree = "<group>"; };
+		38EA82D31F0A38D900207394 /* NGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGScrollView.h; sourceTree = "<group>"; };
+		38EA82D41F0A38D900207394 /* NGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGScrollView.m; sourceTree = "<group>"; };
+		38EA82D51F0A38D900207394 /* NGSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSwitch.h; sourceTree = "<group>"; };
+		38EA82D61F0A38D900207394 /* NGSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSwitch.m; sourceTree = "<group>"; };
+		38EA82D71F0A38D900207394 /* NGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTabBar.h; sourceTree = "<group>"; };
+		38EA82D81F0A38D900207394 /* NGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTabBar.m; sourceTree = "<group>"; };
+		38EA82D91F0A38D900207394 /* NGTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTabBarItem.h; sourceTree = "<group>"; };
+		38EA82DA1F0A38D900207394 /* NGTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTabBarItem.m; sourceTree = "<group>"; };
+		38EA82DB1F0A38D900207394 /* NGTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTableView.h; sourceTree = "<group>"; };
+		38EA82DC1F0A38D900207394 /* NGTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTableView.m; sourceTree = "<group>"; };
+		38EA82DD1F0A38D900207394 /* NGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTableViewCell.h; sourceTree = "<group>"; };
+		38EA82DE1F0A38D900207394 /* NGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTableViewCell.m; sourceTree = "<group>"; };
+		38EA82DF1F0A38D900207394 /* NGTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		38EA82E01F0A38D900207394 /* NGTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		38EA82E11F0A38D900207394 /* NGTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTabView.h; sourceTree = "<group>"; };
+		38EA82E21F0A38D900207394 /* NGTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTabView.m; sourceTree = "<group>"; };
+		38EA82E31F0A38D900207394 /* NGTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTopWindow.h; sourceTree = "<group>"; };
+		38EA82E41F0A38D900207394 /* NGTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTopWindow.m; sourceTree = "<group>"; };
+		38EA82E51F0A38D900207394 /* NGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGView.h; sourceTree = "<group>"; };
+		38EA82E61F0A38D900207394 /* NGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGView.m; sourceTree = "<group>"; };
+		38EA82E71F0A38D900207394 /* NGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGWebView.h; sourceTree = "<group>"; };
+		38EA82E81F0A38D900207394 /* NGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGWebView.m; sourceTree = "<group>"; };
+		38EA82E91F0A38D900207394 /* NGWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGWindow.h; sourceTree = "<group>"; };
+		38EA82EA1F0A38D900207394 /* NGWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGWindow.m; sourceTree = "<group>"; };
+		38EA82EC1F0A38D900207394 /* NGImageFallingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGImageFallingView.h; sourceTree = "<group>"; };
+		38EA82ED1F0A38D900207394 /* NGImageFallingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGImageFallingView.m; sourceTree = "<group>"; };
+		38EA82EE1F0A38D900207394 /* NGAutoHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAutoHeightTextView.h; sourceTree = "<group>"; };
+		38EA82EF1F0A38D900207394 /* NGAutoHeightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAutoHeightTextView.m; sourceTree = "<group>"; };
+		38EA82F41F0A38D900207394 /* NGCommentPicScaledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCommentPicScaledView.h; sourceTree = "<group>"; };
+		38EA82F51F0A38D900207394 /* NGCommentPicScaledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCommentPicScaledView.m; sourceTree = "<group>"; };
+		38EA82F61F0A38D900207394 /* NGCrossedOutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCrossedOutLabel.h; sourceTree = "<group>"; };
+		38EA82F71F0A38D900207394 /* NGCrossedOutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCrossedOutLabel.m; sourceTree = "<group>"; };
+		38EA83121F0A38D900207394 /* NGFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFPSLabel.h; sourceTree = "<group>"; };
+		38EA83131F0A38D900207394 /* NGFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFPSLabel.m; sourceTree = "<group>"; };
+		38EA83161F0A38D900207394 /* NGNonModelLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGNonModelLoadingView.h; sourceTree = "<group>"; };
+		38EA83171F0A38D900207394 /* NGNonModelLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNonModelLoadingView.m; sourceTree = "<group>"; };
+		38EA83181F0A38D900207394 /* NGPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPageView.h; sourceTree = "<group>"; };
+		38EA83191F0A38D900207394 /* NGPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPageView.m; sourceTree = "<group>"; };
+		38EA831C1F0A38D900207394 /* NGPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPlaceHolderTextView.h; sourceTree = "<group>"; };
+		38EA831D1F0A38D900207394 /* NGPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPlaceHolderTextView.m; sourceTree = "<group>"; };
+		38EA831E1F0A38D900207394 /* NGPriceAndScoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPriceAndScoreLabel.h; sourceTree = "<group>"; };
+		38EA831F1F0A38D900207394 /* NGPriceAndScoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPriceAndScoreLabel.m; sourceTree = "<group>"; };
+		38EA83251F0A38D900207394 /* NGRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRadioButton.h; sourceTree = "<group>"; };
+		38EA83261F0A38D900207394 /* NGRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRadioButton.m; sourceTree = "<group>"; };
+		38EA83291F0A38D900207394 /* NGSegmentBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSegmentBtnView.h; sourceTree = "<group>"; };
+		38EA832A1F0A38D900207394 /* NGSegmentBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSegmentBtnView.m; sourceTree = "<group>"; };
+		38EA832B1F0A38D900207394 /* NGSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSegmentView.h; sourceTree = "<group>"; };
+		38EA832C1F0A38D900207394 /* NGSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSegmentView.m; sourceTree = "<group>"; };
+		38EA832D1F0A38D900207394 /* NGTimeCountButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTimeCountButton.h; sourceTree = "<group>"; };
+		38EA832E1F0A38D900207394 /* NGTimeCountButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTimeCountButton.m; sourceTree = "<group>"; };
+		38EA832F1F0A38D900207394 /* NGTimeCountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTimeCountLabel.h; sourceTree = "<group>"; };
+		38EA83301F0A38D900207394 /* NGTimeCountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTimeCountLabel.m; sourceTree = "<group>"; };
 		38EA83311F0A38D900207394 /* NGiOSBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGiOSBase.pch; sourceTree = "<group>"; };
 		38EA83321F0A38D900207394 /* NGiOSBase.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NGiOSBase.podspec; sourceTree = "<group>"; };
 		9630A48713E63C5710C2161B /* Pods-NGiOSBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSBase.release.xcconfig"; path = "Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase.release.xcconfig"; sourceTree = "<group>"; };
@@ -432,8 +432,8 @@
 		38EA81531F0A38D900207394 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				38EA81541F0A38D900207394 /* OTSAppDelegate.h */,
-				38EA81551F0A38D900207394 /* OTSAppDelegate.m */,
+				38EA81541F0A38D900207394 /* NGAppDelegate.h */,
+				38EA81551F0A38D900207394 /* NGAppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -458,8 +458,8 @@
 			children = (
 				38EA81691F0A38D900207394 /* NSDate+Format.h */,
 				38EA816A1F0A38D900207394 /* NSDate+Format.m */,
-				38EA816B1F0A38D900207394 /* NSDate+OTS.h */,
-				38EA816C1F0A38D900207394 /* NSDate+OTS.m */,
+				38EA816B1F0A38D900207394 /* NSDate+NG.h */,
+				38EA816C1F0A38D900207394 /* NSDate+NG.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -483,8 +483,8 @@
 				38EA817E1F0A38D900207394 /* NSObject+safe.m */,
 				38EA817F1F0A38D900207394 /* NSObject+swizzle.h */,
 				38EA81801F0A38D900207394 /* NSObject+swizzle.m */,
-				38EA81811F0A38D900207394 /* OTSNotificationDefine.h */,
-				38EA81821F0A38D900207394 /* OTSNotificationDefine.m */,
+				38EA81811F0A38D900207394 /* NGNotificationDefine.h */,
+				38EA81821F0A38D900207394 /* NGNotificationDefine.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -560,8 +560,8 @@
 		38EA81B61F0A38D900207394 /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				38EA81B71F0A38D900207394 /* UINavigationController+ots.h */,
-				38EA81B81F0A38D900207394 /* UINavigationController+ots.m */,
+				38EA81B71F0A38D900207394 /* UINavigationController+NG.h */,
+				38EA81B81F0A38D900207394 /* UINavigationController+NG.m */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -645,8 +645,8 @@
 		38EA82101F0A38D900207394 /* ArchiveData */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82111F0A38D900207394 /* OTSArchiveData.h */,
-				38EA82121F0A38D900207394 /* OTSArchiveData.m */,
+				38EA82111F0A38D900207394 /* NGArchiveData.h */,
+				38EA82121F0A38D900207394 /* NGArchiveData.m */,
 			);
 			path = ArchiveData;
 			sourceTree = "<group>";
@@ -654,10 +654,10 @@
 		38EA82131F0A38D900207394 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82141F0A38D900207394 /* OTSCoreDataManager.h */,
-				38EA82151F0A38D900207394 /* OTSCoreDataManager.m */,
-				38EA82161F0A38D900207394 /* OTSManagedObject.h */,
-				38EA82171F0A38D900207394 /* OTSManagedObject.m */,
+				38EA82141F0A38D900207394 /* NGCoreDataManager.h */,
+				38EA82151F0A38D900207394 /* NGCoreDataManager.m */,
+				38EA82161F0A38D900207394 /* NGManagedObject.h */,
+				38EA82171F0A38D900207394 /* NGManagedObject.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -665,8 +665,8 @@
 		38EA82181F0A38D900207394 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82191F0A38D900207394 /* OTSFileManager.h */,
-				38EA821A1F0A38D900207394 /* OTSFileManager.m */,
+				38EA82191F0A38D900207394 /* NGFileManager.h */,
+				38EA821A1F0A38D900207394 /* NGFileManager.m */,
 			);
 			path = FileManager;
 			sourceTree = "<group>";
@@ -675,8 +675,8 @@
 			isa = PBXGroup;
 			children = (
 				38EA821C1F0A38D900207394 /* KeychainItemWrapper */,
-				38EA821F1F0A38D900207394 /* OTSKeychain.h */,
-				38EA82201F0A38D900207394 /* OTSKeychain.m */,
+				38EA821F1F0A38D900207394 /* NGKeychain.h */,
+				38EA82201F0A38D900207394 /* NGKeychain.m */,
 			);
 			path = Keychain;
 			sourceTree = "<group>";
@@ -693,8 +693,8 @@
 		38EA82231F0A38D900207394 /* UserDefault */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82241F0A38D900207394 /* OTSUserDefault.h */,
-				38EA82251F0A38D900207394 /* OTSUserDefault.m */,
+				38EA82241F0A38D900207394 /* NGUserDefault.h */,
+				38EA82251F0A38D900207394 /* NGUserDefault.m */,
 			);
 			path = UserDefault;
 			sourceTree = "<group>";
@@ -702,9 +702,9 @@
 		38EA82281F0A38D900207394 /* DefineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				38EA822A1F0A38D900207394 /* OTSFuncDefine.h */,
-				38EA822C1F0A38D900207394 /* OTSMacroDefine.h */,
-				38EA822E1F0A38D900207394 /* OTSSizeDefine.h */,
+				38EA822A1F0A38D900207394 /* NGFuncDefine.h */,
+				38EA822C1F0A38D900207394 /* NGMacroDefine.h */,
+				38EA822E1F0A38D900207394 /* NGSizeDefine.h */,
 			);
 			path = DefineHeader;
 			sourceTree = "<group>";
@@ -712,12 +712,12 @@
 		38EA82301F0A38D900207394 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82311F0A38D900207394 /* OTSClientInfo.h */,
-				38EA82321F0A38D900207394 /* OTSClientInfo.m */,
-				38EA82351F0A38D900207394 /* OTSGlobalValue.h */,
-				38EA82361F0A38D900207394 /* OTSGlobalValue.m */,
-				38EA82371F0A38D900207394 /* OTSValueObject.h */,
-				38EA82381F0A38D900207394 /* OTSValueObject.m */,
+				38EA82311F0A38D900207394 /* NGClientInfo.h */,
+				38EA82321F0A38D900207394 /* NGClientInfo.m */,
+				38EA82351F0A38D900207394 /* NGGlobalValue.h */,
+				38EA82361F0A38D900207394 /* NGGlobalValue.m */,
+				38EA82371F0A38D900207394 /* NGValueObject.h */,
+				38EA82381F0A38D900207394 /* NGValueObject.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -726,54 +726,54 @@
 			isa = PBXGroup;
 			children = (
 				38EA824F1F0A38D900207394 /* Animation */,
-				38EA82831F0A38D900207394 /* OTSAudioPlayer.h */,
-				38EA82841F0A38D900207394 /* OTSAudioPlayer.m */,
-				38EA82871F0A38D900207394 /* OTSBorder.h */,
-				38EA82881F0A38D900207394 /* OTSBorder.m */,
-				38EA82891F0A38D900207394 /* OTSCalendarNotification.h */,
-				38EA828A1F0A38D900207394 /* OTSCalendarNotification.m */,
-				38EA828B1F0A38D900207394 /* OTSCollectionViewLeftAlignedLayout.h */,
-				38EA828C1F0A38D900207394 /* OTSCollectionViewLeftAlignedLayout.m */,
-				38EA828D1F0A38D900207394 /* OTSColor.h */,
-				38EA828E1F0A38D900207394 /* OTSColor.m */,
-				38EA828F1F0A38D900207394 /* OTSConstraintHelper.h */,
-				38EA82901F0A38D900207394 /* OTSConstraintHelper.m */,
-				38EA82931F0A38D900207394 /* OTSCoreGraphicHelper.h */,
-				38EA82941F0A38D900207394 /* OTSCoreGraphicHelper.m */,
-				38EA82951F0A38D900207394 /* OTSCorner.h */,
-				38EA82961F0A38D900207394 /* OTSCorner.m */,
-				38EA82991F0A38D900207394 /* OTSDeadtimeTimer.h */,
-				38EA829A1F0A38D900207394 /* OTSDeadtimeTimer.m */,
-				38EA829D1F0A38D900207394 /* OTSFont.h */,
-				38EA829E1F0A38D900207394 /* OTSFont.m */,
-				38EA82A11F0A38D900207394 /* OTSIPAddress.h */,
-				38EA82A21F0A38D900207394 /* OTSIPAddress.m */,
-				38EA82A31F0A38D900207394 /* OTSJsonKit.h */,
-				38EA82A41F0A38D900207394 /* OTSJsonKit.m */,
-				38EA82A51F0A38D900207394 /* OTSLocalNotification.h */,
-				38EA82A61F0A38D900207394 /* OTSLocalNotification.m */,
-				38EA82A71F0A38D900207394 /* OTSLocation.h */,
-				38EA82A81F0A38D900207394 /* OTSLocation.m */,
-				38EA82A91F0A38D900207394 /* OTSLog.h */,
-				38EA82AA1F0A38D900207394 /* OTSLog.m */,
-				38EA82AB1F0A38D900207394 /* OTSMask.h */,
-				38EA82AC1F0A38D900207394 /* OTSMask.m */,
-				38EA82AD1F0A38D900207394 /* OTSMD5Sha.h */,
-				38EA82AE1F0A38D900207394 /* OTSMD5Sha.m */,
-				38EA82AF1F0A38D900207394 /* OTSPinYin.h */,
-				38EA82B01F0A38D900207394 /* OTSPinYin.m */,
-				38EA82B11F0A38D900207394 /* OTSPredicate.h */,
-				38EA82B21F0A38D900207394 /* OTSPredicate.m */,
-				38EA82B51F0A38D900207394 /* OTSSize.h */,
-				38EA82B61F0A38D900207394 /* OTSSize.m */,
-				38EA82B71F0A38D900207394 /* OTSUIButtonMaker.h */,
-				38EA82B81F0A38D900207394 /* OTSUIButtonMaker.m */,
-				38EA82B91F0A38D900207394 /* OTSUILabelMaker.h */,
-				38EA82BA1F0A38D900207394 /* OTSUILabelMaker.m */,
-				38EA82BD1F0A38D900207394 /* OTSViewMaker.h */,
-				38EA82BE1F0A38D900207394 /* OTSViewMaker.m */,
-				38EA82BF1F0A38D900207394 /* OTSWeakObjectDeathNotifier.h */,
-				38EA82C01F0A38D900207394 /* OTSWeakObjectDeathNotifier.m */,
+				38EA82831F0A38D900207394 /* NGAudioPlayer.h */,
+				38EA82841F0A38D900207394 /* NGAudioPlayer.m */,
+				38EA82871F0A38D900207394 /* NGBorder.h */,
+				38EA82881F0A38D900207394 /* NGBorder.m */,
+				38EA82891F0A38D900207394 /* NGCalendarNotification.h */,
+				38EA828A1F0A38D900207394 /* NGCalendarNotification.m */,
+				38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */,
+				38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */,
+				38EA828D1F0A38D900207394 /* NGColor.h */,
+				38EA828E1F0A38D900207394 /* NGColor.m */,
+				38EA828F1F0A38D900207394 /* NGConstraintHelper.h */,
+				38EA82901F0A38D900207394 /* NGConstraintHelper.m */,
+				38EA82931F0A38D900207394 /* NGCoreGraphicHelper.h */,
+				38EA82941F0A38D900207394 /* NGCoreGraphicHelper.m */,
+				38EA82951F0A38D900207394 /* NGCorner.h */,
+				38EA82961F0A38D900207394 /* NGCorner.m */,
+				38EA82991F0A38D900207394 /* NGDeadtimeTimer.h */,
+				38EA829A1F0A38D900207394 /* NGDeadtimeTimer.m */,
+				38EA829D1F0A38D900207394 /* NGFont.h */,
+				38EA829E1F0A38D900207394 /* NGFont.m */,
+				38EA82A11F0A38D900207394 /* NGIPAddress.h */,
+				38EA82A21F0A38D900207394 /* NGIPAddress.m */,
+				38EA82A31F0A38D900207394 /* NGJsonKit.h */,
+				38EA82A41F0A38D900207394 /* NGJsonKit.m */,
+				38EA82A51F0A38D900207394 /* NGLocalNotification.h */,
+				38EA82A61F0A38D900207394 /* NGLocalNotification.m */,
+				38EA82A71F0A38D900207394 /* NGLocation.h */,
+				38EA82A81F0A38D900207394 /* NGLocation.m */,
+				38EA82A91F0A38D900207394 /* NGLog.h */,
+				38EA82AA1F0A38D900207394 /* NGLog.m */,
+				38EA82AB1F0A38D900207394 /* NGMask.h */,
+				38EA82AC1F0A38D900207394 /* NGMask.m */,
+				38EA82AD1F0A38D900207394 /* NGMD5Sha.h */,
+				38EA82AE1F0A38D900207394 /* NGMD5Sha.m */,
+				38EA82AF1F0A38D900207394 /* NGPinYin.h */,
+				38EA82B01F0A38D900207394 /* NGPinYin.m */,
+				38EA82B11F0A38D900207394 /* NGPredicate.h */,
+				38EA82B21F0A38D900207394 /* NGPredicate.m */,
+				38EA82B51F0A38D900207394 /* NGSize.h */,
+				38EA82B61F0A38D900207394 /* NGSize.m */,
+				38EA82B71F0A38D900207394 /* NGUIButtonMaker.h */,
+				38EA82B81F0A38D900207394 /* NGUIButtonMaker.m */,
+				38EA82B91F0A38D900207394 /* NGUILabelMaker.h */,
+				38EA82BA1F0A38D900207394 /* NGUILabelMaker.m */,
+				38EA82BD1F0A38D900207394 /* NGViewMaker.h */,
+				38EA82BE1F0A38D900207394 /* NGViewMaker.m */,
+				38EA82BF1F0A38D900207394 /* NGWeakObjectDeathNotifier.h */,
+				38EA82C01F0A38D900207394 /* NGWeakObjectDeathNotifier.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -781,8 +781,8 @@
 		38EA824F1F0A38D900207394 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82521F0A38D900207394 /* OTSVCAnimation.h */,
-				38EA82531F0A38D900207394 /* OTSVCAnimation.m */,
+				38EA82521F0A38D900207394 /* NGVCAnimation.h */,
+				38EA82531F0A38D900207394 /* NGVCAnimation.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -792,32 +792,32 @@
 			children = (
 				38EA82C21F0A38D900207394 /* BaseView */,
 				38EA82EB1F0A38D900207394 /* ImageFalling */,
-				38EA82EE1F0A38D900207394 /* OTSAutoHeightTextView.h */,
-				38EA82EF1F0A38D900207394 /* OTSAutoHeightTextView.m */,
-				38EA82F41F0A38D900207394 /* OTSCommentPicScaledView.h */,
-				38EA82F51F0A38D900207394 /* OTSCommentPicScaledView.m */,
-				38EA82F61F0A38D900207394 /* OTSCrossedOutLabel.h */,
-				38EA82F71F0A38D900207394 /* OTSCrossedOutLabel.m */,
-				38EA83121F0A38D900207394 /* OTSFPSLabel.h */,
-				38EA83131F0A38D900207394 /* OTSFPSLabel.m */,
-				38EA83161F0A38D900207394 /* OTSNonModelLoadingView.h */,
-				38EA83171F0A38D900207394 /* OTSNonModelLoadingView.m */,
-				38EA83181F0A38D900207394 /* OTSPageView.h */,
-				38EA83191F0A38D900207394 /* OTSPageView.m */,
-				38EA831C1F0A38D900207394 /* OTSPlaceHolderTextView.h */,
-				38EA831D1F0A38D900207394 /* OTSPlaceHolderTextView.m */,
-				38EA831E1F0A38D900207394 /* OTSPriceAndScoreLabel.h */,
-				38EA831F1F0A38D900207394 /* OTSPriceAndScoreLabel.m */,
-				38EA83251F0A38D900207394 /* OTSRadioButton.h */,
-				38EA83261F0A38D900207394 /* OTSRadioButton.m */,
-				38EA83291F0A38D900207394 /* OTSSegmentBtnView.h */,
-				38EA832A1F0A38D900207394 /* OTSSegmentBtnView.m */,
-				38EA832B1F0A38D900207394 /* OTSSegmentView.h */,
-				38EA832C1F0A38D900207394 /* OTSSegmentView.m */,
-				38EA832D1F0A38D900207394 /* OTSTimeCountButton.h */,
-				38EA832E1F0A38D900207394 /* OTSTimeCountButton.m */,
-				38EA832F1F0A38D900207394 /* OTSTimeCountLabel.h */,
-				38EA83301F0A38D900207394 /* OTSTimeCountLabel.m */,
+				38EA82EE1F0A38D900207394 /* NGAutoHeightTextView.h */,
+				38EA82EF1F0A38D900207394 /* NGAutoHeightTextView.m */,
+				38EA82F41F0A38D900207394 /* NGCommentPicScaledView.h */,
+				38EA82F51F0A38D900207394 /* NGCommentPicScaledView.m */,
+				38EA82F61F0A38D900207394 /* NGCrossedOutLabel.h */,
+				38EA82F71F0A38D900207394 /* NGCrossedOutLabel.m */,
+				38EA83121F0A38D900207394 /* NGFPSLabel.h */,
+				38EA83131F0A38D900207394 /* NGFPSLabel.m */,
+				38EA83161F0A38D900207394 /* NGNonModelLoadingView.h */,
+				38EA83171F0A38D900207394 /* NGNonModelLoadingView.m */,
+				38EA83181F0A38D900207394 /* NGPageView.h */,
+				38EA83191F0A38D900207394 /* NGPageView.m */,
+				38EA831C1F0A38D900207394 /* NGPlaceHolderTextView.h */,
+				38EA831D1F0A38D900207394 /* NGPlaceHolderTextView.m */,
+				38EA831E1F0A38D900207394 /* NGPriceAndScoreLabel.h */,
+				38EA831F1F0A38D900207394 /* NGPriceAndScoreLabel.m */,
+				38EA83251F0A38D900207394 /* NGRadioButton.h */,
+				38EA83261F0A38D900207394 /* NGRadioButton.m */,
+				38EA83291F0A38D900207394 /* NGSegmentBtnView.h */,
+				38EA832A1F0A38D900207394 /* NGSegmentBtnView.m */,
+				38EA832B1F0A38D900207394 /* NGSegmentView.h */,
+				38EA832C1F0A38D900207394 /* NGSegmentView.m */,
+				38EA832D1F0A38D900207394 /* NGTimeCountButton.h */,
+				38EA832E1F0A38D900207394 /* NGTimeCountButton.m */,
+				38EA832F1F0A38D900207394 /* NGTimeCountLabel.h */,
+				38EA83301F0A38D900207394 /* NGTimeCountLabel.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -825,44 +825,44 @@
 		38EA82C21F0A38D900207394 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82C31F0A38D900207394 /* OTSActionSheet.h */,
-				38EA82C41F0A38D900207394 /* OTSActionSheet.m */,
-				38EA82C51F0A38D900207394 /* OTSAlertView.h */,
-				38EA82C61F0A38D900207394 /* OTSAlertView.m */,
-				38EA82C71F0A38D900207394 /* OTSCollectionReusableView.h */,
-				38EA82C81F0A38D900207394 /* OTSCollectionReusableView.m */,
-				38EA82C91F0A38D900207394 /* OTSCollectionView.h */,
-				38EA82CA1F0A38D900207394 /* OTSCollectionView.m */,
-				38EA82CB1F0A38D900207394 /* OTSCollectionViewCell.h */,
-				38EA82CC1F0A38D900207394 /* OTSCollectionViewCell.m */,
-				38EA82CF1F0A38D900207394 /* OTSPageControl.h */,
-				38EA82D01F0A38D900207394 /* OTSPageControl.m */,
-				38EA82D11F0A38D900207394 /* OTSPickerView.h */,
-				38EA82D21F0A38D900207394 /* OTSPickerView.m */,
-				38EA82D31F0A38D900207394 /* OTSScrollView.h */,
-				38EA82D41F0A38D900207394 /* OTSScrollView.m */,
-				38EA82D51F0A38D900207394 /* OTSSwitch.h */,
-				38EA82D61F0A38D900207394 /* OTSSwitch.m */,
-				38EA82D71F0A38D900207394 /* OTSTabBar.h */,
-				38EA82D81F0A38D900207394 /* OTSTabBar.m */,
-				38EA82D91F0A38D900207394 /* OTSTabBarItem.h */,
-				38EA82DA1F0A38D900207394 /* OTSTabBarItem.m */,
-				38EA82DB1F0A38D900207394 /* OTSTableView.h */,
-				38EA82DC1F0A38D900207394 /* OTSTableView.m */,
-				38EA82DD1F0A38D900207394 /* OTSTableViewCell.h */,
-				38EA82DE1F0A38D900207394 /* OTSTableViewCell.m */,
-				38EA82DF1F0A38D900207394 /* OTSTableViewHeaderFooterView.h */,
-				38EA82E01F0A38D900207394 /* OTSTableViewHeaderFooterView.m */,
-				38EA82E11F0A38D900207394 /* OTSTabView.h */,
-				38EA82E21F0A38D900207394 /* OTSTabView.m */,
-				38EA82E31F0A38D900207394 /* OTSTopWindow.h */,
-				38EA82E41F0A38D900207394 /* OTSTopWindow.m */,
-				38EA82E51F0A38D900207394 /* OTSView.h */,
-				38EA82E61F0A38D900207394 /* OTSView.m */,
-				38EA82E71F0A38D900207394 /* OTSWebView.h */,
-				38EA82E81F0A38D900207394 /* OTSWebView.m */,
-				38EA82E91F0A38D900207394 /* OTSWindow.h */,
-				38EA82EA1F0A38D900207394 /* OTSWindow.m */,
+				38EA82C31F0A38D900207394 /* NGActionSheet.h */,
+				38EA82C41F0A38D900207394 /* NGActionSheet.m */,
+				38EA82C51F0A38D900207394 /* NGAlertView.h */,
+				38EA82C61F0A38D900207394 /* NGAlertView.m */,
+				38EA82C71F0A38D900207394 /* NGCollectionReusableView.h */,
+				38EA82C81F0A38D900207394 /* NGCollectionReusableView.m */,
+				38EA82C91F0A38D900207394 /* NGCollectionView.h */,
+				38EA82CA1F0A38D900207394 /* NGCollectionView.m */,
+				38EA82CB1F0A38D900207394 /* NGCollectionViewCell.h */,
+				38EA82CC1F0A38D900207394 /* NGCollectionViewCell.m */,
+				38EA82CF1F0A38D900207394 /* NGPageControl.h */,
+				38EA82D01F0A38D900207394 /* NGPageControl.m */,
+				38EA82D11F0A38D900207394 /* NGPickerView.h */,
+				38EA82D21F0A38D900207394 /* NGPickerView.m */,
+				38EA82D31F0A38D900207394 /* NGScrollView.h */,
+				38EA82D41F0A38D900207394 /* NGScrollView.m */,
+				38EA82D51F0A38D900207394 /* NGSwitch.h */,
+				38EA82D61F0A38D900207394 /* NGSwitch.m */,
+				38EA82D71F0A38D900207394 /* NGTabBar.h */,
+				38EA82D81F0A38D900207394 /* NGTabBar.m */,
+				38EA82D91F0A38D900207394 /* NGTabBarItem.h */,
+				38EA82DA1F0A38D900207394 /* NGTabBarItem.m */,
+				38EA82DB1F0A38D900207394 /* NGTableView.h */,
+				38EA82DC1F0A38D900207394 /* NGTableView.m */,
+				38EA82DD1F0A38D900207394 /* NGTableViewCell.h */,
+				38EA82DE1F0A38D900207394 /* NGTableViewCell.m */,
+				38EA82DF1F0A38D900207394 /* NGTableViewHeaderFooterView.h */,
+				38EA82E01F0A38D900207394 /* NGTableViewHeaderFooterView.m */,
+				38EA82E11F0A38D900207394 /* NGTabView.h */,
+				38EA82E21F0A38D900207394 /* NGTabView.m */,
+				38EA82E31F0A38D900207394 /* NGTopWindow.h */,
+				38EA82E41F0A38D900207394 /* NGTopWindow.m */,
+				38EA82E51F0A38D900207394 /* NGView.h */,
+				38EA82E61F0A38D900207394 /* NGView.m */,
+				38EA82E71F0A38D900207394 /* NGWebView.h */,
+				38EA82E81F0A38D900207394 /* NGWebView.m */,
+				38EA82E91F0A38D900207394 /* NGWindow.h */,
+				38EA82EA1F0A38D900207394 /* NGWindow.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -870,8 +870,8 @@
 		38EA82EB1F0A38D900207394 /* ImageFalling */ = {
 			isa = PBXGroup;
 			children = (
-				38EA82EC1F0A38D900207394 /* OTSImageFallingView.h */,
-				38EA82ED1F0A38D900207394 /* OTSImageFallingView.m */,
+				38EA82EC1F0A38D900207394 /* NGImageFallingView.h */,
+				38EA82ED1F0A38D900207394 /* NGImageFallingView.m */,
 			);
 			path = ImageFalling;
 			sourceTree = "<group>";
@@ -1019,9 +1019,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388EF6021F32C22000AE3826 /* OTSAppDelegate.m in Sources */,
+				388EF6021F32C22000AE3826 /* NGAppDelegate.m in Sources */,
 				388EF60C1F32C22000AE3826 /* NSDate+Format.m in Sources */,
-				388EF60E1F32C22000AE3826 /* NSDate+OTS.m in Sources */,
+				388EF60E1F32C22000AE3826 /* NSDate+NG.m in Sources */,
 				388EF6121F32C22000AE3826 /* NSObject+BeeNotification.m in Sources */,
 				388EF6141F32C22000AE3826 /* NSObject+category.m in Sources */,
 				388EF6161F32C22000AE3826 /* NSObject+coder.m in Sources */,
@@ -1030,7 +1030,7 @@
 				388EF61C1F32C22000AE3826 /* NSObject+runtime.m in Sources */,
 				388EF61E1F32C22000AE3826 /* NSObject+safe.m in Sources */,
 				388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */,
-				388EF6221F32C22000AE3826 /* OTSNotificationDefine.m in Sources */,
+				388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */,
 				388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */,
 				388EF6261F32C22000AE3826 /* NSDictionary+router.m in Sources */,
 				388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */,
@@ -1046,7 +1046,7 @@
 				388EF6411F32C22000AE3826 /* NSString+safe.m in Sources */,
 				388EF6431F32C22000AE3826 /* UICollectionView+safe.m in Sources */,
 				388EF6471F32C22000AE3826 /* UIDevice+IdentifierAddition.m in Sources */,
-				388EF64B1F32C22000AE3826 /* UINavigationController+ots.m in Sources */,
+				388EF64B1F32C22000AE3826 /* UINavigationController+NG.m in Sources */,
 				388EF64F1F32C22000AE3826 /* UIViewController+animation.m in Sources */,
 				388EF6511F32C22000AE3826 /* UIViewController+base.m in Sources */,
 				388EF6531F32C22000AE3826 /* UIViewController+create.m in Sources */,
@@ -1072,74 +1072,74 @@
 				388EF6871F32C22000AE3826 /* UIView+loading.m in Sources */,
 				388EF6891F32C22000AE3826 /* UIView+Maker.m in Sources */,
 				388EF68B1F32C22100AE3826 /* UIView+Plus.m in Sources */,
-				388EF69D1F32C22100AE3826 /* OTSArchiveData.m in Sources */,
-				388EF69F1F32C22100AE3826 /* OTSCoreDataManager.m in Sources */,
-				388EF6A11F32C22100AE3826 /* OTSManagedObject.m in Sources */,
-				388EF6A31F32C22100AE3826 /* OTSFileManager.m in Sources */,
+				388EF69D1F32C22100AE3826 /* NGArchiveData.m in Sources */,
+				388EF69F1F32C22100AE3826 /* NGCoreDataManager.m in Sources */,
+				388EF6A11F32C22100AE3826 /* NGManagedObject.m in Sources */,
+				388EF6A31F32C22100AE3826 /* NGFileManager.m in Sources */,
 				388EF6A51F32C22100AE3826 /* KeychainItemWrapper.m in Sources */,
-				388EF6A71F32C22100AE3826 /* OTSKeychain.m in Sources */,
-				388EF6AB1F32C22100AE3826 /* OTSUserDefault.m in Sources */,
-				388EF6B61F32C22100AE3826 /* OTSClientInfo.m in Sources */,
-				388EF6BA1F32C22100AE3826 /* OTSGlobalValue.m in Sources */,
-				388EF6BC1F32C22100AE3826 /* OTSValueObject.m in Sources */,
-				388EF6CE1F32C22100AE3826 /* OTSVCAnimation.m in Sources */,
-				388EF6FE1F32C22100AE3826 /* OTSAudioPlayer.m in Sources */,
-				388EF7021F32C22100AE3826 /* OTSBorder.m in Sources */,
-				388EF7041F32C22100AE3826 /* OTSCalendarNotification.m in Sources */,
-				388EF7061F32C22100AE3826 /* OTSCollectionViewLeftAlignedLayout.m in Sources */,
-				388EF7081F32C22100AE3826 /* OTSColor.m in Sources */,
-				388EF70A1F32C22100AE3826 /* OTSConstraintHelper.m in Sources */,
-				388EF70E1F32C22100AE3826 /* OTSCoreGraphicHelper.m in Sources */,
-				388EF7101F32C22100AE3826 /* OTSCorner.m in Sources */,
-				388EF7141F32C22100AE3826 /* OTSDeadtimeTimer.m in Sources */,
-				388EF7181F32C22100AE3826 /* OTSFont.m in Sources */,
-				388EF71C1F32C22100AE3826 /* OTSIPAddress.m in Sources */,
-				388EF71E1F32C22100AE3826 /* OTSJsonKit.m in Sources */,
-				388EF7201F32C22100AE3826 /* OTSLocalNotification.m in Sources */,
-				388EF7221F32C22100AE3826 /* OTSLocation.m in Sources */,
-				388EF7241F32C22100AE3826 /* OTSLog.m in Sources */,
-				388EF7261F32C22100AE3826 /* OTSMask.m in Sources */,
-				388EF7281F32C22100AE3826 /* OTSMD5Sha.m in Sources */,
-				388EF72A1F32C22100AE3826 /* OTSPinYin.m in Sources */,
-				388EF72C1F32C22100AE3826 /* OTSPredicate.m in Sources */,
-				388EF7301F32C22100AE3826 /* OTSSize.m in Sources */,
-				388EF7321F32C22100AE3826 /* OTSUIButtonMaker.m in Sources */,
-				388EF7341F32C22100AE3826 /* OTSUILabelMaker.m in Sources */,
-				388EF7381F32C22100AE3826 /* OTSViewMaker.m in Sources */,
-				388EF73A1F32C22100AE3826 /* OTSWeakObjectDeathNotifier.m in Sources */,
-				388EF73C1F32C22100AE3826 /* OTSActionSheet.m in Sources */,
-				388EF73E1F32C22100AE3826 /* OTSAlertView.m in Sources */,
-				388EF7401F32C22100AE3826 /* OTSCollectionReusableView.m in Sources */,
-				388EF7421F32C22100AE3826 /* OTSCollectionView.m in Sources */,
-				388EF7441F32C22100AE3826 /* OTSCollectionViewCell.m in Sources */,
-				388EF7481F32C22100AE3826 /* OTSPageControl.m in Sources */,
-				388EF74A1F32C22100AE3826 /* OTSPickerView.m in Sources */,
-				388EF74C1F32C22100AE3826 /* OTSScrollView.m in Sources */,
-				388EF74E1F32C22100AE3826 /* OTSSwitch.m in Sources */,
-				388EF7501F32C22100AE3826 /* OTSTabBar.m in Sources */,
-				388EF7521F32C22100AE3826 /* OTSTabBarItem.m in Sources */,
-				388EF7541F32C22100AE3826 /* OTSTableView.m in Sources */,
-				388EF7561F32C22100AE3826 /* OTSTableViewCell.m in Sources */,
-				388EF7581F32C22100AE3826 /* OTSTableViewHeaderFooterView.m in Sources */,
-				388EF75A1F32C22100AE3826 /* OTSTabView.m in Sources */,
-				388EF75C1F32C22100AE3826 /* OTSTopWindow.m in Sources */,
-				388EF75E1F32C22100AE3826 /* OTSView.m in Sources */,
-				388EF7601F32C22100AE3826 /* OTSWebView.m in Sources */,
-				388EF7621F32C22100AE3826 /* OTSWindow.m in Sources */,
-				388EF7641F32C22100AE3826 /* OTSImageFallingView.m in Sources */,
-				388EF7661F32C22100AE3826 /* OTSAutoHeightTextView.m in Sources */,
-				388EF76C1F32C22100AE3826 /* OTSCommentPicScaledView.m in Sources */,
-				388EF76E1F32C22100AE3826 /* OTSCrossedOutLabel.m in Sources */,
-				388EF7881F32C22100AE3826 /* OTSFPSLabel.m in Sources */,
-				388EF78C1F32C22100AE3826 /* OTSNonModelLoadingView.m in Sources */,
-				388EF78E1F32C22100AE3826 /* OTSPageView.m in Sources */,
-				388EF7921F32C22100AE3826 /* OTSPlaceHolderTextView.m in Sources */,
-				388EF7941F32C22100AE3826 /* OTSPriceAndScoreLabel.m in Sources */,
-				388EF79B1F32C22100AE3826 /* OTSRadioButton.m in Sources */,
-				388EF79F1F32C22100AE3826 /* OTSSegmentBtnView.m in Sources */,
-				388EF7A11F32C22100AE3826 /* OTSSegmentView.m in Sources */,
-				388EF7A31F32C22100AE3826 /* OTSTimeCountButton.m in Sources */,
-				388EF7A51F32C22100AE3826 /* OTSTimeCountLabel.m in Sources */,
+				388EF6A71F32C22100AE3826 /* NGKeychain.m in Sources */,
+				388EF6AB1F32C22100AE3826 /* NGUserDefault.m in Sources */,
+				388EF6B61F32C22100AE3826 /* NGClientInfo.m in Sources */,
+				388EF6BA1F32C22100AE3826 /* NGGlobalValue.m in Sources */,
+				388EF6BC1F32C22100AE3826 /* NGValueObject.m in Sources */,
+				388EF6CE1F32C22100AE3826 /* NGVCAnimation.m in Sources */,
+				388EF6FE1F32C22100AE3826 /* NGAudioPlayer.m in Sources */,
+				388EF7021F32C22100AE3826 /* NGBorder.m in Sources */,
+				388EF7041F32C22100AE3826 /* NGCalendarNotification.m in Sources */,
+				388EF7061F32C22100AE3826 /* NGCollectionViewLeftAlignedLayout.m in Sources */,
+				388EF7081F32C22100AE3826 /* NGColor.m in Sources */,
+				388EF70A1F32C22100AE3826 /* NGConstraintHelper.m in Sources */,
+				388EF70E1F32C22100AE3826 /* NGCoreGraphicHelper.m in Sources */,
+				388EF7101F32C22100AE3826 /* NGCorner.m in Sources */,
+				388EF7141F32C22100AE3826 /* NGDeadtimeTimer.m in Sources */,
+				388EF7181F32C22100AE3826 /* NGFont.m in Sources */,
+				388EF71C1F32C22100AE3826 /* NGIPAddress.m in Sources */,
+				388EF71E1F32C22100AE3826 /* NGJsonKit.m in Sources */,
+				388EF7201F32C22100AE3826 /* NGLocalNotification.m in Sources */,
+				388EF7221F32C22100AE3826 /* NGLocation.m in Sources */,
+				388EF7241F32C22100AE3826 /* NGLog.m in Sources */,
+				388EF7261F32C22100AE3826 /* NGMask.m in Sources */,
+				388EF7281F32C22100AE3826 /* NGMD5Sha.m in Sources */,
+				388EF72A1F32C22100AE3826 /* NGPinYin.m in Sources */,
+				388EF72C1F32C22100AE3826 /* NGPredicate.m in Sources */,
+				388EF7301F32C22100AE3826 /* NGSize.m in Sources */,
+				388EF7321F32C22100AE3826 /* NGUIButtonMaker.m in Sources */,
+				388EF7341F32C22100AE3826 /* NGUILabelMaker.m in Sources */,
+				388EF7381F32C22100AE3826 /* NGViewMaker.m in Sources */,
+				388EF73A1F32C22100AE3826 /* NGWeakObjectDeathNotifier.m in Sources */,
+				388EF73C1F32C22100AE3826 /* NGActionSheet.m in Sources */,
+				388EF73E1F32C22100AE3826 /* NGAlertView.m in Sources */,
+				388EF7401F32C22100AE3826 /* NGCollectionReusableView.m in Sources */,
+				388EF7421F32C22100AE3826 /* NGCollectionView.m in Sources */,
+				388EF7441F32C22100AE3826 /* NGCollectionViewCell.m in Sources */,
+				388EF7481F32C22100AE3826 /* NGPageControl.m in Sources */,
+				388EF74A1F32C22100AE3826 /* NGPickerView.m in Sources */,
+				388EF74C1F32C22100AE3826 /* NGScrollView.m in Sources */,
+				388EF74E1F32C22100AE3826 /* NGSwitch.m in Sources */,
+				388EF7501F32C22100AE3826 /* NGTabBar.m in Sources */,
+				388EF7521F32C22100AE3826 /* NGTabBarItem.m in Sources */,
+				388EF7541F32C22100AE3826 /* NGTableView.m in Sources */,
+				388EF7561F32C22100AE3826 /* NGTableViewCell.m in Sources */,
+				388EF7581F32C22100AE3826 /* NGTableViewHeaderFooterView.m in Sources */,
+				388EF75A1F32C22100AE3826 /* NGTabView.m in Sources */,
+				388EF75C1F32C22100AE3826 /* NGTopWindow.m in Sources */,
+				388EF75E1F32C22100AE3826 /* NGView.m in Sources */,
+				388EF7601F32C22100AE3826 /* NGWebView.m in Sources */,
+				388EF7621F32C22100AE3826 /* NGWindow.m in Sources */,
+				388EF7641F32C22100AE3826 /* NGImageFallingView.m in Sources */,
+				388EF7661F32C22100AE3826 /* NGAutoHeightTextView.m in Sources */,
+				388EF76C1F32C22100AE3826 /* NGCommentPicScaledView.m in Sources */,
+				388EF76E1F32C22100AE3826 /* NGCrossedOutLabel.m in Sources */,
+				388EF7881F32C22100AE3826 /* NGFPSLabel.m in Sources */,
+				388EF78C1F32C22100AE3826 /* NGNonModelLoadingView.m in Sources */,
+				388EF78E1F32C22100AE3826 /* NGPageView.m in Sources */,
+				388EF7921F32C22100AE3826 /* NGPlaceHolderTextView.m in Sources */,
+				388EF7941F32C22100AE3826 /* NGPriceAndScoreLabel.m in Sources */,
+				388EF79B1F32C22100AE3826 /* NGRadioButton.m in Sources */,
+				388EF79F1F32C22100AE3826 /* NGSegmentBtnView.m in Sources */,
+				388EF7A11F32C22100AE3826 /* NGSegmentView.m in Sources */,
+				388EF7A31F32C22100AE3826 /* NGTimeCountButton.m in Sources */,
+				388EF7A51F32C22100AE3826 /* NGTimeCountLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

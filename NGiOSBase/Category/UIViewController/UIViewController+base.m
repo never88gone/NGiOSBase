@@ -8,8 +8,8 @@
 
 #import "UIViewController+base.h"
 //tool
-#import "OTSLog.h"
-#import "OTSWeakObjectDeathNotifier.h"
+#import "NGLog.h"
+#import "NGWeakObjectDeathNotifier.h"
 //category
 #import "NSObject+category.h"
 
@@ -21,19 +21,19 @@
 //添加到rootvc
 - (void)addToRootVC
 {
-    OTSLogFuncW;
+    NGLogFuncW;
 }
 
 //添加到containerVC
 - (void)addToContainerVC:(UIViewController *)aContainerVC
 {
-    OTSLogFuncW;
+    NGLogFuncW;
 }
 
 //呈现动画
 - (void)presentViewControllerAnimated:(BOOL)animated completion:(void (^)(void))completion
 {
-    OTSLogFuncW;
+    NGLogFuncW;
 }
 
 //是否共享屏幕，默认为NO，代表如果有新的pc被router调用展现，则会取消之前显示的pc，然后展现此pc（目前应该只有登录界面会为YES）

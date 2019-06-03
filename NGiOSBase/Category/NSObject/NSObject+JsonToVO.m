@@ -9,7 +9,7 @@
 #import "NSObject+JsonToVO.h"
 #import <objc/runtime.h>
 //tool
-#import "OTSLog.h"
+#import "NGLog.h"
 //category
 #import "NSObject+category.h"
 #import "NSString+safe.h"
@@ -351,7 +351,7 @@
         NSMutableDictionary *propertyDic = [propertyList safeObjectAtIndex:i];
         NSString *propertyName = [propertyDic objectForKey:@"propertyName"];
 
-        if ((!propertyName)||([propertyName hasSuffix:@"OTSignore"])) {
+        if ((!propertyName)||([propertyName hasSuffix:@"NGignore"])) {
             continue;
         }
 
@@ -502,7 +502,7 @@
     }
     @catch (NSException *exception)
     {
-        OTSLogE(@"to JSON string exception: %@", exception.description);
+        NGLogE(@"to JSON string exception: %@", exception.description);
         return nil;
     }
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];

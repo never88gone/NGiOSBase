@@ -8,7 +8,7 @@
 
 #import "UIViewController+animation.h"
 
-@implementation UIViewController (OTSAnimation)
+@implementation UIViewController (NGAnimation)
 
 - (id<UIViewControllerAnimatedTransitioning>)pushAnimations
 {

@@ -10,22 +10,22 @@
 //category
 #import "UIImage+bundleRes.h"
 
-static const CGFloat OTSUpdownLayoutNaviBtnImgWidth = 24.0;
-static const CGFloat OTSUpdownLayoutNaviBtnTitleHeight = 14.0;
+static const CGFloat NGUpdownLayoutNaviBtnImgWidth = 24.0;
+static const CGFloat NGUpdownLayoutNaviBtnTitleHeight = 14.0;
 
-@implementation OTSDataNaviBtn
+@implementation NGDataNaviBtn
 
 @end
 
-@implementation OTSUpdownLayoutNaviBtn
+@implementation NGUpdownLayoutNaviBtn
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
-    return CGRectMake(contentRect.size.width/2-OTSUpdownLayoutNaviBtnImgWidth/2, contentRect.size.height/2-(OTSUpdownLayoutNaviBtnImgWidth+OTSUpdownLayoutNaviBtnTitleHeight)/2, OTSUpdownLayoutNaviBtnImgWidth, OTSUpdownLayoutNaviBtnImgWidth);
+    return CGRectMake(contentRect.size.width/2-NGUpdownLayoutNaviBtnImgWidth/2, contentRect.size.height/2-(NGUpdownLayoutNaviBtnImgWidth+NGUpdownLayoutNaviBtnTitleHeight)/2, NGUpdownLayoutNaviBtnImgWidth, NGUpdownLayoutNaviBtnImgWidth);
 }
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect
 {
-    return CGRectMake(0, contentRect.size.height/2-(OTSUpdownLayoutNaviBtnImgWidth+OTSUpdownLayoutNaviBtnTitleHeight)/2+OTSUpdownLayoutNaviBtnImgWidth, contentRect.size.width, OTSUpdownLayoutNaviBtnTitleHeight);
+    return CGRectMake(0, contentRect.size.height/2-(NGUpdownLayoutNaviBtnImgWidth+NGUpdownLayoutNaviBtnTitleHeight)/2+NGUpdownLayoutNaviBtnImgWidth, contentRect.size.width, NGUpdownLayoutNaviBtnTitleHeight);
 }
 
 @end

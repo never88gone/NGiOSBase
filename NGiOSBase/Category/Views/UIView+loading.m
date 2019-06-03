@@ -10,7 +10,7 @@
 
 #import "MBProgressHUD.h"
 
-#import "OTSNonModelLoadingView.h"
+#import "NGNonModelLoadingView.h"
 
 @implementation UIView (loading)
 
@@ -60,12 +60,12 @@
 
 - (void)showNonModelLoading
 {
-    [OTSNonModelLoadingView showLoadingAddedTo:self animated:YES];
+    [NGNonModelLoadingView showLoadingAddedTo:self animated:YES];
 }
 
 - (void)hideNonModelLoading
 {
-    [OTSNonModelLoadingView hideLoadingForView:self animated:YES];
+    [NGNonModelLoadingView hideLoadingForView:self animated:YES];
 }
 
 @end

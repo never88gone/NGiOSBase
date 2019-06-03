@@ -16,12 +16,12 @@
  *
  *  @return
  */
-- (id)otsDecodeWithCoder:(NSCoder *)aDecoder;
+- (id)NGDecodeWithCoder:(NSCoder *)aDecoder;
 /**
  *  快捷归档方法
  *
  *  @param aCoder 
  */
-- (void)otsEncodeWithCoder:(NSCoder *)aCoder;
+- (void)NGEncodeWithCoder:(NSCoder *)aCoder;
 
 @end

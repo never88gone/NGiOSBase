@@ -6,7 +6,7 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
-#import "OTSNotificationDefine.h"
+#import "NGNotificationDefine.h"
 
 @interface NSObject (BeeNotification)
 

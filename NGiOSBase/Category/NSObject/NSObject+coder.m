@@ -15,7 +15,7 @@
 
 @implementation NSObject (coder)
 
-- (id)otsDecodeWithCoder:(NSCoder *)aDecoder
+- (id)NGDecodeWithCoder:(NSCoder *)aDecoder
 {
     [[self getProperties] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [self setValue:[aDecoder decodeObjectForKey:obj] forKey:obj];
@@ -23,7 +23,7 @@
     return self;
 }
 
-- (void)otsEncodeWithCoder:(NSCoder *)aCoder
+- (void)NGEncodeWithCoder:(NSCoder *)aCoder
 {
     [[self getProperties] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [aCoder encodeObject:[self valueForKey:obj] forKey:obj];

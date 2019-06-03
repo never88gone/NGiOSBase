@@ -15,19 +15,19 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, OTSUIButtonLayoutStyle) {
-    OTSDefalutStyle = 0,//默认的方式
-	OTSImageLeftTitleRightStyle = 1, // image左 title右
-	OTSTitleLeftImageRightStyle = 2, // image右,title左
-	OTSImageTopTitleBottomStyle = 3, //image上，title下
-	OTSTitleTopImageBottomStyle = 4, // image下,title上
+typedef NS_ENUM(NSInteger, NGUIButtonLayoutStyle) {
+    NGDefalutStyle = 0,//默认的方式
+	NGImageLeftTitleRightStyle = 1, // image左 title右
+	NGTitleLeftImageRightStyle = 2, // image右,title左
+	NGImageTopTitleBottomStyle = 3, //image上，title下
+	NGTitleTopImageBottomStyle = 4, // image下,title上
 };
 @interface UIButton(LayoutStyle)
 
 /**
  *  图片和文字显示方向
  */
-@property(nonatomic)IBInspectable OTSUIButtonLayoutStyle layoutStyle;
+@property(nonatomic)IBInspectable NGUIButtonLayoutStyle layoutStyle;
 
 /**
  *  图片和文字之间的间距
@@ -37,9 +37,9 @@ typedef NS_ENUM(NSInteger, OTSUIButtonLayoutStyle) {
 /**
  *	功能:设置UIButton的布局，图片和文字按照指定方向显示
  *
- *	@param aLayoutStyle:参见OTSUIButtonLayoutStyle
+ *	@param aLayoutStyle:参见NGUIButtonLayoutStyle
  *	@param aSpacing:图片和文字之间的间隔
  */
-- (void)setLayout:(OTSUIButtonLayoutStyle )aLayoutStyle
+- (void)setLayout:(NGUIButtonLayoutStyle )aLayoutStyle
 		  spacing:(CGFloat)aSpacing;
 @end

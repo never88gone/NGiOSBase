@@ -11,26 +11,26 @@
 
 @implementation UIView(Maker)
 
-+ (instancetype)makeAutoLayoutView:(void(^)(OTSViewMaker *maker))block
++ (instancetype)makeAutoLayoutView:(void(^)(NGViewMaker *maker))block
 {
     if (![[self class] isSubclassOfClass:[UIView class]]) {
         return nil;
     }
     return [self makeAutoLayoutView:block
                       withViewClass:[UIView class]
-                     withMakerClass:[OTSViewMaker class]];
+                     withMakerClass:[NGViewMaker class]];
 }
 
-+ (instancetype)makeAutoLayoutView:(void(^)(OTSViewMaker *))block
++ (instancetype)makeAutoLayoutView:(void(^)(NGViewMaker *))block
                           withViewClass:(Class )viewClass
                          withMakerClass:(Class )makerClass
 {
     if (![viewClass isSubclassOfClass:[self class]]
-        || ![makerClass isSubclassOfClass:[OTSViewMaker class]]) {
+        || ![makerClass isSubclassOfClass:[NGViewMaker class]]) {
         return nil;
     }
     UIView *view = [viewClass autolayoutView];
-    OTSViewMaker *maker = [[makerClass alloc] initWithView:view];
+    NGViewMaker *maker = [[makerClass alloc] initWithView:view];
     maker.isAutoLayout = YES;
     if (block) {
         block(maker);
@@ -40,23 +40,23 @@
     return view;
 }
 
-+ (instancetype)makeAutoLayoutLabel:(void(^)(OTSUILabelMaker* labelMaker))block
++ (instancetype)makeAutoLayoutLabel:(void(^)(NGUILabelMaker* labelMaker))block
 {
     if (![[self class] isSubclassOfClass:[UILabel class]]) {
         return nil;
     }
-    return [self makeAutoLayoutView:(void(^)(OTSViewMaker *))block
+    return [self makeAutoLayoutView:(void(^)(NGViewMaker *))block
                       withViewClass:[self class]
-                     withMakerClass:[OTSUILabelMaker class]];
+                     withMakerClass:[NGUILabelMaker class]];
 }
 
-+ (instancetype)makeAutoLayoutButton:(void(^)(OTSUIButtonMaker* buttonMaker))block
++ (instancetype)makeAutoLayoutButton:(void(^)(NGUIButtonMaker* buttonMaker))block
 {
     if (![[self class] isSubclassOfClass:[UIButton class]]) {
         return nil;
     }
-    return [self makeAutoLayoutView:(void(^)(OTSViewMaker *))block
+    return [self makeAutoLayoutView:(void(^)(NGViewMaker *))block
                       withViewClass:[self class]
-                     withMakerClass:[OTSUIButtonMaker class]];
+                     withMakerClass:[NGUIButtonMaker class]];
 }
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-@class OTSContainerController;
+@class NGContainerController;
 
 @interface UIViewController (base)
 
-@property (nonatomic, weak) OTSContainerController *containerVC;//容器vc
+@property (nonatomic, weak) NGContainerController *containerVC;//容器vc
 
 //添加到rootvc
 - (void)addToRootVC;

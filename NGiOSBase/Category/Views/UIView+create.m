@@ -9,9 +9,9 @@
 #import "UIView+create.h"
 
 #import "UINib+create.h"
-#import "OTSFont.h"
-#import "OTSSize.h"
-#import "OTSFuncDefine.h"
+#import "NGFont.h"
+#import "NGSize.h"
+#import "NGFuncDefine.h"
 
 @implementation UIView (create)
 
@@ -74,10 +74,10 @@
         NSMutableAttributedString *str = nil;
         if(obj[@"isTitle"]&&[obj[@"isTitle"]boolValue]==1){
             if(obj[@"textColor"]){
-                str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[OTSFont large]}];
+                str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[NGFont large]}];
                 
             }else{
-                str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[OTSFont large]}];
+                str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[NGFont large]}];
             }
             NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
             [paragraphStyle setAlignment:NSTextAlignmentCenter];
@@ -86,15 +86,15 @@
         }else{
             if(idx == attributs.count){//为了去掉省略号
                 if(obj[@"textColor"]){
-                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[OTSFont medium]}];
+                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[NGFont medium]}];
                 }else{
-                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[OTSFont medium]}];
+                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[NGFont medium]}];
                 }
             }else{
                 if(obj[@"textColor"]){
-                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[OTSFont medium]}];
+                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]] attributes:@{NSForegroundColorAttributeName:obj[@"textColor"],NSFontAttributeName:[NGFont medium]}];
                 }else{
-                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[OTSFont medium]}];
+                    str = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@\n\n",obj[@"text"]]attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[NGFont medium]}];
                 }
             }
             

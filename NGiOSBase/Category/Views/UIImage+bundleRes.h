@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 //define
-#import "OTSMacroDefine.h"
+#import "NGMacroDefine.h"
 
 @interface UIImage (bundleRes)
 
