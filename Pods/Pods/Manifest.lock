@@ -28,9 +28,9 @@ PODS:
   - MagicalRecord/Core (2.3.2)
   - MBProgressHUD (1.0.0)
   - PureLayout (3.0.2)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
   - "UIView+FDCollapsibleConstraints (1.1)"
 
 DEPENDENCIES:
@@ -42,7 +42,7 @@ DEPENDENCIES:
   - MagicalRecord (= 2.3.2)
   - MBProgressHUD (= 1.0.0)
   - PureLayout (= 3.0.2)
-  - SDWebImage (= 3.7.6)
+  - SDWebImage (= 4.4.6)
   - "UIView+FDCollapsibleConstraints (= 1.1)"
 
 SPEC REPOS:
@@ -67,9 +67,9 @@ SPEC CHECKSUMS:
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   "UIView+FDCollapsibleConstraints": 9357eaf03b4e088263ab74a3b86a382a64ce38dd
 
-PODFILE CHECKSUM: afe7be33d003df928cf0fb29107069a5455fdd27
+PODFILE CHECKSUM: ed95dad3fb42efa3916fd683f66c7b98e79d3b7a
 
 COCOAPODS: 1.6.1

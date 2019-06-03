@@ -194,7 +194,7 @@
                     [self.layer addSublayer:self.emitterLayer];
                 } else {
                     WEAK_SELF;
-                    [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:self.imageUrl] options:0 progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+                    [[SDWebImageManager sharedManager].imageDownloader downloadImageWithURL:[NSURL URLWithString:self.imageUrl] options:0 progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
                         STRONG_SELF;
                         if (!error && finished) {
                             if (self.fallingType == ImageFallingTypeRoll) {

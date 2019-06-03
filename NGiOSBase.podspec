@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.2.5"
+  s.version      = "0.2.6"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.dependency "MBProgressHUD","1.0.0"
   s.dependency "MagicalRecord","2.3.2"
   s.dependency "PureLayout","3.0.2"
-  s.dependency "SDWebImage","3.7.6"
+  s.dependency "SDWebImage","4.4.6"
   s.dependency "UIView+FDCollapsibleConstraints","1.1"
 
 

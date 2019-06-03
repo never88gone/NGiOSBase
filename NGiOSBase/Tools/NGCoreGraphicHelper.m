@@ -164,7 +164,7 @@ void deallocCallback (void * refCon)
                     if (image) {
                         CGContextDrawImage(c, imageRect, image.CGImage);
                     } else {
-                        [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:imageName] options:0 progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+                        [[SDWebImageManager sharedManager].imageDownloader downloadImageWithURL:[NSURL URLWithString:imageName] options:0 progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
                             if (!error && finished) {
                                  CGContextDrawImage(c, imageRect, image.CGImage);
                             }

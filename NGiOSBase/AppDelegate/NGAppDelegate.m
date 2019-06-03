@@ -54,7 +54,7 @@
     
     
     //setup SDImageCache
-    [SDImageCache sharedImageCache].maxCacheSize  = 50 * 1024 * 1024;//50MB
+    [SDImageCache sharedImageCache].config.maxCacheSize  = 50 * 1024 * 1024;//50MB
     [SDImageCache sharedImageCache].maxMemoryCost = 50 * 1024 * 1024;//50MB
     
     //setup log
