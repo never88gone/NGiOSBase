@@ -20,7 +20,6 @@
 		388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81801F0A38D900207394 /* NSObject+swizzle.m */; };
 		388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81821F0A38D900207394 /* NGNotificationDefine.m */; };
 		388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81861F0A38D900207394 /* NSString+MD5.m */; };
-		388EF6261F32C22000AE3826 /* NSDictionary+router.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81881F0A38D900207394 /* NSDictionary+router.m */; };
 		388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA818A1F0A38D900207394 /* NSString+ConvertType.m */; };
 		388EF62A1F32C22000AE3826 /* NSString+CSSHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA818C1F0A38D900207394 /* NSString+CSSHtml.m */; };
 		388EF62D1F32C22000AE3826 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81901F0A38D900207394 /* GTMNSString+HTML.m */; };
@@ -169,8 +168,6 @@
 		38EA81821F0A38D900207394 /* NGNotificationDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNotificationDefine.m; sourceTree = "<group>"; };
 		38EA81851F0A38D900207394 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		38EA81861F0A38D900207394 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		38EA81871F0A38D900207394 /* NSDictionary+router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+router.h"; sourceTree = "<group>"; };
-		38EA81881F0A38D900207394 /* NSDictionary+router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+router.m"; sourceTree = "<group>"; };
 		38EA81891F0A38D900207394 /* NSString+ConvertType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ConvertType.h"; sourceTree = "<group>"; };
 		38EA818A1F0A38D900207394 /* NSString+ConvertType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ConvertType.m"; sourceTree = "<group>"; };
 		38EA818B1F0A38D900207394 /* NSString+CSSHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CSSHtml.h"; sourceTree = "<group>"; };
@@ -493,8 +490,6 @@
 			isa = PBXGroup;
 			children = (
 				38EA81841F0A38D900207394 /* Encryption */,
-				38EA81871F0A38D900207394 /* NSDictionary+router.h */,
-				38EA81881F0A38D900207394 /* NSDictionary+router.m */,
 				38EA81891F0A38D900207394 /* NSString+ConvertType.h */,
 				38EA818A1F0A38D900207394 /* NSString+ConvertType.m */,
 				38EA818B1F0A38D900207394 /* NSString+CSSHtml.h */,
@@ -1032,7 +1027,6 @@
 				388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */,
 				388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */,
 				388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */,
-				388EF6261F32C22000AE3826 /* NSDictionary+router.m in Sources */,
 				388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */,
 				388EF62A1F32C22000AE3826 /* NSString+CSSHtml.m in Sources */,
 				388EF62D1F32C22000AE3826 /* GTMNSString+HTML.m in Sources */,

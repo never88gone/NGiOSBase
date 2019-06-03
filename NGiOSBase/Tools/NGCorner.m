@@ -17,8 +17,8 @@
     maskLayer.frame = aView.bounds;
     maskLayer.path = maskPath.CGPath;
     aView.layer.mask = maskLayer;
-    aView.layer.shouldRasterize = YES;
-    aView.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    aView.layer.shouldRasterize = YES;
+    aView.layer.rasterizationScale = [UIScreen mainScreen].scale;
 }
 
 @end

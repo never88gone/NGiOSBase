@@ -19,9 +19,9 @@
  *  self.frame = CGRctZero
  *  self.translatesAutoresizingMaskIntoConstraints = NO
  *
- *  @param block:可以设置NGViewMaker对象来简化赋值
+ *  @param block :可以设置NGViewMaker对象来简化赋值
  *
- *  @return
+ *  @return 对象
  */
 + (instancetype)makeAutoLayoutView:(void(^)(NGViewMaker *maker))block;
 
@@ -34,9 +34,9 @@
  *  self.fontSize = [UIFont systemFontSize];
  *  self.numberOfLines = 1;
  *
- *  @param block:可以设置NGUILabelMaker对象来简化赋值UILabel对象
+ *  @param block :可以设置NGUILabelMaker对象来简化赋值UILabel对象
  *
- *  @return
+ *  @return 对象
  */
 
 + (instancetype)makeAutoLayoutLabel:(void(^)(NGUILabelMaker* labelMaker))block;
@@ -48,9 +48,9 @@
  *  self.titleColor = [UIColor whiteColor];
  *  self.frame = CGRctZero
  *  self.translatesAutoresizingMaskIntoConstraints = NO
- *  @param block:可以设置NGUIButtonMaker对象来简化赋值UIButton对象
+ *  @param block :可以设置NGUIButtonMaker对象来简化赋值UIButton对象
  *
- *  @return
+ *  @return 对象
  */
 
 + (instancetype)makeAutoLayoutButton:(void(^)(NGUIButtonMaker* buttonMaker))block;

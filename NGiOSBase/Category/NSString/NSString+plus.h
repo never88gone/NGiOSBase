@@ -21,19 +21,19 @@
 /**
  *  urlencoding
  *
- *  @return 
+ *  @return  字符串
  */
 - (NSString *)urlEncoding;
 /**
  *  urldecoding
  *
- *  @return
+ *  @return 字符串
  */
 - (NSString *)urlDecoding;
 /**
  *  url encoding所有字符
  *
- *  @return
+ *  @return 字符串
  */
 - (NSString *)urlEncodingAllCharacter;
 

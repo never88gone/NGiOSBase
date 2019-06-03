@@ -27,14 +27,14 @@
  *
  *	@param aClass :子视图类型
  *
- *	@return
+ *	@return 数组
  */
 - (NSArray *)subViewsWithClass:(Class)aClass;
 
 /**
  *	功能:在当前view里面现实laoding信息
  *
- *	@param aMessage:现实的信息内容
+ *	@param aMessage :现实的信息内容
  */
 - (void)showLoadingWithMessage:(NSString *)aMessage;
 

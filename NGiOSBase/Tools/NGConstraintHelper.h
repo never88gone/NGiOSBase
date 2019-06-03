@@ -47,16 +47,15 @@
 /**
  *  aViews等分aSuperview的宽或者高
  *
- *  @param aViews
- *  @param aSuperview
- *  @param isHorizontal 
+ *  @param aViews  aViews
+ *  @param aSuperview aSuperview
+ *  @param isHorizontal  isHorizontal
  */
 + (void)setViews:(NSArray *)aViews equalToSuperview:(UIView *)aSuperview isHorizontal:(BOOL)isHorizontal;
 
 /**
  *  测试View是否有错误的约束
  *
- *  @return BOOL
  */
 + (void)testAmbiguity:(UIView *)aView;
 

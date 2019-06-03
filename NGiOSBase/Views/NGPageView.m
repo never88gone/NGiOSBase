@@ -286,7 +286,7 @@
 /**
  *	功能:设置某个位置的内容视图。一次只显示自己和相邻两边的视图。并删除上次已经显示完成的视图
  *
- *	@param aIndex
+ *	@param aIndex 序号
  */
 - (void)setContentViewAtIndex:(NSInteger)aIndex
 {

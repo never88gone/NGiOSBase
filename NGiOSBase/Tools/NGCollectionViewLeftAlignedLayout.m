@@ -16,7 +16,7 @@
 /**
  *  更新UICollectionViewLayoutAttributes的frame让其左对齐
  *
- *  @param insets
+ *  @param insets 边距
  */
 - (void )updateLeftAlignLayoutAttributesWithSectionInsent:(UIEdgeInsets )insets
 {

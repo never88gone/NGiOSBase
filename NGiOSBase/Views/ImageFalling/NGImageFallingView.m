@@ -15,6 +15,9 @@
 #define NGImageFallingBigViewWidth [NGSize getLengthWithSizeType:NGSizeType4_7 andLength:320]
 #define NGImageFallingBigViewHeight [NGSize getLengthWithSizeType:NGSizeType4_7 andLength:480]
 
+@interface NGImageFallingElementView() <CAAnimationDelegate>
+
+@end
 @implementation NGImageFallingElementView
 
 - (instancetype)initWithFrame:(CGRect)frame {

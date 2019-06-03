@@ -57,7 +57,7 @@
 {
 	MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;
-    hud.detailsLabelText = aMessage;
+    hud.detailsLabel.text = aMessage;
 }
 
 - (void)hideLoading
@@ -68,12 +68,12 @@
 - (void)showToastWithTitle:(NSString *)title titleFont:(UIFont *)titleFont message:(NSString *)message messageFont:(UIFont *)messageFont duration:(CGFloat)duration {
     MBProgressHUD *hud = [[MBProgressHUD alloc] initWithView:self];
     hud.mode = MBProgressHUDModeText;
-    hud.labelText = title;
-    hud.labelFont = titleFont;
-    hud.detailsLabelFont = messageFont;
-    hud.detailsLabelText = message;
+    hud.label.text  = title;
+    hud.label.font = titleFont;
+    hud.detailsLabel.font = messageFont;
+    hud.detailsLabel.text  = message;
     [self addSubview:hud];
-    [hud show:YES];
-    [hud hide:YES afterDelay:duration];
+    [hud showAnimated:YES];
+    [hud hideAnimated:YES afterDelay:duration];
 }
 @end

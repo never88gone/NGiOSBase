@@ -24,7 +24,6 @@
 /**
  *  快捷创建UIView及其子类
  *
- *  @param aNibName nib名称 = self.class
  *
  *  @return kind of UIView
  */
@@ -32,7 +31,7 @@
 /**
  *  快捷创建UIView及其子类
  *
- *  @param aNibName nib名称
+ *  @param aXibName nib名称
  *
  *  @return kind of UIView
  */
@@ -44,16 +43,16 @@
  *
  *  @return NGVC
  */
-+ (instancetype)createFromNibWithBundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
++ (instancetype)createFromNibWithBundleName:(NSString *)aBundleName;
 /**
  *  快捷创建UIView及其子类
  *
- *  @param aNibName nib名称
+ *  @param aXibName nib名称
  *  @param aBundleName bundle名称
  *
  *  @return kind of UIView
  */
-+ (instancetype)createWithNibName:(NSString *)aXibName bundleName:(NSString *)aBundleName NS_DEPRECATED_IOS(6_0,7_0,"Pad的资源已经合并到Application Target中，不需要从bundle中取出来，请使用不带bundle的方法");
++ (instancetype)createWithNibName:(NSString *)aXibName bundleName:(NSString *)aBundleName;
 
 /**
  *  生成一个frame = CGRectZero的 View，并设置translatesAutoresizingMaskIntoConstraints = NO

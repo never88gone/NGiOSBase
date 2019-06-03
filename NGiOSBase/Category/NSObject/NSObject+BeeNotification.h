@@ -13,7 +13,7 @@
 /**
  *  处理处理通知
  *
- *  @param notification
+ *  @param notification 通知
  */
 - (void)handleNotification:(NSNotification *)notification;
 /**
@@ -37,7 +37,6 @@
  *
  *  @param name 通知名称
  *
- *  @return
  */
 - (void)postNotification:(NSString *)name;
 /**
@@ -46,7 +45,6 @@
  *  @param name   通知名称
  *  @param object 传递的参数
  *
- *  @return 
  */
 - (void)postNotification:(NSString *)name withObject:(NSObject *)object;
 /**
@@ -56,7 +54,6 @@
  *  @param object 传递的参数
  *  @param info 传递的参数
  *
- *  @return
  */
 - (void)postNotification:(NSString *)name withObject:(NSObject *)object userInfo:(NSDictionary *)info;
 @end

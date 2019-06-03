@@ -38,7 +38,7 @@
  *
  *  @param aKey key
  *
- *  @return
+ *  @return bool值
  */
 + (BOOL)getBoolValueForKey:(NSString *)aKey;
 

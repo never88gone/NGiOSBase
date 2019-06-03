@@ -145,7 +145,7 @@
 {
     NSLog(@"locations = %@",locations);
     CLLocation *newLocation = locations[0];
-    [self locationToCityName:locations[0]];
+    [self locationToCityName:newLocation];
 }
 
 //当位置获取或更新失败会调用的方法

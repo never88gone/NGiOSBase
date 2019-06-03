@@ -13,7 +13,7 @@
 /**
  *  给html添加一个居中显示的css样式,返回此html
  *
- *  @return
+ *  @return 字符串
  */
 - (NSString *)getAlignCenterCssHtml;
 

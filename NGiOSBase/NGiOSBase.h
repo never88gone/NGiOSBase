@@ -14,7 +14,6 @@
 #import <NGiOSBase/NSArray+safe.h>
 #import <NGiOSBase/NSDate+Format.h>
 #import <NGiOSBase/NSDate+NG.h>
-#import <NGiOSBase/NSDictionary+router.h>
 #import <NGiOSBase/NSDictionary+safe.h>
 #import <NGiOSBase/NSMutableArray+safe.h>
 #import <NGiOSBase/NSMutableDictionary+safe.h>

@@ -164,7 +164,7 @@ static NSString *const kPRED_CONDITION_ZUOJIHAO = @"0[0-9]{2,3}-[0-9]{7,8}";//åº
 {
     NSMutableString *phoneAddressStr = [[NSMutableString alloc]initWithString:@""];
     NSString *SelectWhatMobile = @"SELECT mobile FROM numbermobile where uid=";
-    NSString *SelectWhatMobileFull = [SelectWhatMobile stringByAppendingFormat:phonemobile];
+    NSString *SelectWhatMobileFull = [SelectWhatMobile stringByAppendingFormat:@"%@", phonemobile];
     sqlite3 *database;
     if (sqlite3_open([[self findDatabase] UTF8String], &database)
         != SQLITE_OK) {
@@ -178,7 +178,7 @@ static NSString *const kPRED_CONDITION_ZUOJIHAO = @"0[0-9]{2,3}-[0-9]{7,8}";//åº
             if (mobilenumber) {
                 NSString *mobileNumberString = [NSString stringWithFormat:@"%d",mobilenumber];
                 NSString *SelectWhatMobileName = @"SELECT mobile FROM mobilenumber WHERE uid=";
-                NSString *SelectWhatMobileNameFull = [SelectWhatMobileName stringByAppendingFormat:mobileNumberString];
+                NSString *SelectWhatMobileNameFull = [SelectWhatMobileName stringByAppendingFormat:@"%@", mobileNumberString];
                 sqlite3_stmt *stmt2;
                 if (sqlite3_prepare_v2(database, [SelectWhatMobileNameFull UTF8String], -1, &stmt2, nil) == SQLITE_OK) {
                     while (sqlite3_step(stmt2) == SQLITE_ROW) {
@@ -197,14 +197,14 @@ static NSString *const kPRED_CONDITION_ZUOJIHAO = @"0[0-9]{2,3}-[0-9]{7,8}";//åº
     }
     sqlite3_stmt *stmt3;
     NSString *SelectCityNumberByPhoneNumber = @"SELECT city FROM phonenumberwithcity WHERE uid=";
-    NSString *SelectCityNumberByPhoneNumberFull = [SelectCityNumberByPhoneNumber stringByAppendingFormat:phonenumber];
+    NSString *SelectCityNumberByPhoneNumberFull = [SelectCityNumberByPhoneNumber stringByAppendingFormat:@"%@", phonenumber];
     if (sqlite3_prepare_v2(database, [SelectCityNumberByPhoneNumberFull UTF8String], -1, &stmt3, nil) == SQLITE_OK) {
         if (sqlite3_step(stmt3) == SQLITE_ROW) {
             int citynumber = sqlite3_column_int(stmt3, 0);
             NSString *citynumberNSString = [NSString stringWithFormat:@"%d",citynumber];
             if (citynumberNSString != nil) {
                 NSString *SelectCityNameAndCtiyZoneByCityBumber = @"SELECT city,zone FROM citywithnumber WHERE uid=";
-                NSString *SelectCityNameAndCtiyZoneByCityBumberFull = [SelectCityNameAndCtiyZoneByCityBumber stringByAppendingFormat:citynumberNSString];
+                NSString *SelectCityNameAndCtiyZoneByCityBumberFull = [SelectCityNameAndCtiyZoneByCityBumber stringByAppendingFormat:@"%@", citynumberNSString];
                 sqlite3_stmt *stmt4;
                 if (sqlite3_prepare_v2(database, [SelectCityNameAndCtiyZoneByCityBumberFull UTF8String], -1, &stmt4, nil) == SQLITE_OK) {
                     if (sqlite3_step(stmt4) == SQLITE_ROW) {

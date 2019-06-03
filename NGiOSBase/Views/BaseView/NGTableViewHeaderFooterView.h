@@ -28,16 +28,16 @@
 /**
  *	功能:cell根据数据显示ui
  *
- *	@param aData:cell数据
+ *	@param aData :cell数据
  */
 - (void)updateWithCellData:(id)aData;
 
 /**
  *	功能:获取cell的高度
  *
- *	@param aData:cell的数据
+ *	@param aData :cell的数据
  *
- *	@return
+ *	@return 高度
  */
 + (CGFloat)heightForCellData:(id)aData;
 

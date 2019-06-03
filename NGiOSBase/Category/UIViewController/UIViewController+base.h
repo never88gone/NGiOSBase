@@ -11,8 +11,6 @@
 
 @interface UIViewController (base)
 
-@property (nonatomic, weak) NGContainerController *containerVC;//容器vc
-
 //添加到rootvc
 - (void)addToRootVC;
 //添加到containerVC
@@ -28,7 +26,7 @@
  *  默认是YES
  *  pc展示此vc时,如果已有同样的类型的vc在展示,用此变量来控制当前vc是否展示
  *
- *  @return
+ *  @return 是否成功
  */
 - (BOOL)isPresented;
 @end

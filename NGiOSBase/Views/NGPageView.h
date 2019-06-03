@@ -40,10 +40,10 @@ NGPageViewModeType;
 /**
  *	功能:初始化
  *
- *	@param frame
- *	@param aDelegate
+ *	@param frame 布局
+ *	@param aDelegate 代理
  *
- *	@return
+ *	@return  对象
  */
 - (id)initWithFrame:(CGRect)frame
            delegate:(id<NGPageViewDelegate>)aDelegate;
@@ -64,8 +64,8 @@ NGPageViewModeType;
 /**
  *  使用图片,设置滑块
  *
- *  @param activeImage
- *  @param inactiveImage
+ *  @param activeImage 活动的image
+ *  @param inactiveImage 不活动的image
  */
 - (void)setPageControlWithActiveImage:(UIImage *)activeImage
                     withInactiveImage:(UIImage *)inactiveImage;
@@ -77,7 +77,7 @@ NGPageViewModeType;
 /**
  *	功能:滑动到index页
  *
- *	@param	index:滑动到的目标页，超过或者小于0就不进行任何操作
+ *	@param	index 滑动到的目标页，超过或者小于0就不进行任何操作
  */
 - (void)scroolToPageIndex:(NSInteger)index;
 
@@ -93,9 +93,9 @@ NGPageViewModeType;
 /**
  *  获取某个索引位置的视图
  *
- *  @param index
+ *  @param aIndex 索引
  *
- *  @return
+ *  @return 当前View
  */
 - (UIView *)viewForIndex:(NSInteger )aIndex;
 

@@ -34,7 +34,7 @@
  *  - #RRGGBB
  *  - #AARRGGBB
  *
- *  @param hex HEX string
+ *  @param hexString HEX string
  *
  *  @return Returns the UIColor instance
  */
@@ -52,7 +52,7 @@
 /**
  *  公用颜色系.背景颜色#eeeeee
  *
- *  @return
+ *  @return 颜色
  */
 + (UIColor *)bgColor;
 /**

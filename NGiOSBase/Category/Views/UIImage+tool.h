@@ -13,7 +13,7 @@
 /**
  *  通过颜色创建image
  *
- *  @param color 颜色
+ *  @param aColor 颜色
  *
  *  @return image
  */
@@ -25,9 +25,9 @@
 /**
  *  视图转换为UIImage
  *
- *  @param view
+ *  @param view view
  *
- *  @return
+ *  @return UIImage
  */
 + (UIImage *)imageWithView:(UIView *)view;
 
@@ -48,9 +48,9 @@
 /**
  *	按照尺寸缩放图片
  *
- *	@param aSize
+ *	@param aSize size
  *
- *	@return
+ *	@return UIImage
  */
 - (UIImage *)shrinkImageForSize:(CGSize)aSize;
 
@@ -60,18 +60,9 @@
  *	@param imageName :图片名称
  *	@param aQuality  :压缩比率
  *
- *	@return 
+ *	@return  NSString
  */
 - (NSString *)saveImageWithName:(NSString *)imageName
 		  forCompressionQuality:(CGFloat )aQuality;
-
-/**
- *	功能:按照尺寸绘制图片
- *
- *	@param size :尺寸
- *
- *	@return
- */
--(UIImage *)imageDrawInNewSize:(CGSize)size;
 
 @end

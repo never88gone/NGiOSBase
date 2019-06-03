@@ -36,7 +36,7 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:aView animated:YES];
     
     if (message) {
-        hud.labelText = message;
+        hud.label.text = message;
         hud.mode = MBProgressHUDModeText;
     }
     else {
@@ -44,7 +44,7 @@
     }
     
     if (second > 0) {
-        [hud hide:YES afterDelay:second];
+        [hud hideAnimated:YES afterDelay:second];
     }
 }
 
@@ -55,7 +55,7 @@
 
 - (void)hideLoadingOnView:(UIView *)aView
 {
-    [MBProgressHUD hideAllHUDsForView:aView animated:YES];
+    [MBProgressHUD hideHUDForView:aView animated:YES];
 }
 
 - (void)showNonModelLoading

@@ -37,8 +37,8 @@ typedef NS_ENUM(NSInteger, NGUIButtonLayoutStyle) {
 /**
  *	功能:设置UIButton的布局，图片和文字按照指定方向显示
  *
- *	@param aLayoutStyle:参见NGUIButtonLayoutStyle
- *	@param aSpacing:图片和文字之间的间隔
+ *	@param aLayoutStyle :参见NGUIButtonLayoutStyle
+ *	@param aSpacing :图片和文字之间的间隔
  */
 - (void)setLayout:(NGUIButtonLayoutStyle )aLayoutStyle
 		  spacing:(CGFloat)aSpacing;

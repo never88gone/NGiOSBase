@@ -12,15 +12,15 @@
 /**
  *  快捷从归档恢复方法
  *
- *  @param aDecoder
+ *  @param aDecoder aDecoder
  *
- *  @return
+ *  @return id
  */
 - (id)NGDecodeWithCoder:(NSCoder *)aDecoder;
 /**
  *  快捷归档方法
  *
- *  @param aCoder 
+ *  @param aCoder  aDecoder
  */
 - (void)NGEncodeWithCoder:(NSCoder *)aCoder;
 

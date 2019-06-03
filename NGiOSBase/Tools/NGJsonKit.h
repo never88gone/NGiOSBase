@@ -18,18 +18,18 @@
 /**
  *  NSDictionary转字符串（格式化成较美观的json，含换行符等）
  *
- *  @param aDict
+ *  @param aDict 字典
  *
- *  @return
+ *  @return 字符串
  */
 + (NSString *)prettyStringFromDict:(NSDictionary *)aDict;
 
 /**
  *  json对象转字符串
  *
- *  @param aDict
+ *  @param aObj 对象
  *
- *  @return
+ *  @return 字符串
  */
 + (NSString *)stringFromJSONObject:(id)aObj options:(NSJSONWritingOptions)option;
 

@@ -255,7 +255,7 @@
     };
 
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *comps = [calendar components:kCFCalendarUnitWeekday|NSYearCalendarUnit| NSMonthCalendarUnit|NSDayCalendarUnit fromDate:self];
+    NSDateComponents *comps = [calendar components:kCFCalendarUnitWeekday|NSCalendarUnitYear| NSCalendarUnitMonth|NSCalendarUnitDay fromDate:self];
     if ( comps.weekday > 0 && comps.weekday <= 7) {
         return g_strZhou[comps.weekday-1];
     }

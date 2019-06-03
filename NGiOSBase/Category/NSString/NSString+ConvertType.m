@@ -16,10 +16,7 @@
     NSString *tempStr2 = [tempStr1 stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
     NSString *tempStr3 = (tempStr2 ? [[@"\"" stringByAppendingString:tempStr2] stringByAppendingString:@"\""] : tempStr2);
     NSData *tempData = [tempStr3 dataUsingEncoding:NSUTF8StringEncoding];
-    NSString* returnStr = [NSPropertyListSerialization propertyListFromData:tempData
-                                                           mutabilityOption:NSPropertyListImmutable
-                                                                     format:NULL
-                                                           errorDescription:NULL];
+    NSString* returnStr = [NSPropertyListSerialization propertyListWithData:tempData options:NSPropertyListImmutable format:NULL error:nil];
     if ([returnStr isKindOfClass:[NSString class]])
     {
         return [returnStr stringByReplacingOccurrencesOfString:@"\\r\\n" withString:@"\n"];
@@ -61,7 +58,7 @@
     }
     NSMutableString *colorStr = [[NSMutableString alloc] initWithString:@"0x"];
     NSMutableString *valueStr = self.mutableCopy;
-    valueStr = [valueStr substringFromIndex:1];
+    valueStr = [valueStr substringFromIndex:1].mutableCopy;
     [colorStr appendString:valueStr];
     return strtoul([colorStr UTF8String],0,16);
 }

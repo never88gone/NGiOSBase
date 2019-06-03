@@ -11,7 +11,7 @@
 /**
  *  为nil则表示已经倒计时完成了
  *
- *  @param dateComponents 
+ *  @param dateComponents 时间格式
  */
 typedef void(^NGDeadtimeTimerBlock)(NSDateComponents *dateComponents);
 
