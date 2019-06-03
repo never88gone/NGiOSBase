@@ -55,24 +55,24 @@
     self.picImageView = [[UIImageView alloc]initWithFrame:self.mScrollView.bounds];
     [self.picImageView sd_setImageWithURL:[NSURL URLWithString:picURLStr] placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         if (error==nil && image!=nil) {
-            CGRect rec = _picImageView.frame;
+            CGRect rec = self->_picImageView.frame;
             CGSize imageSize = CGSizeMake(CGImageGetWidth(image.CGImage), CGImageGetHeight(image.CGImage));
             double imageCom = imageSize.width/imageSize.height;
-            double oldCom = _picImageView.bounds.size.width/_picImageView.bounds.size.height;
+            double oldCom = self->_picImageView.bounds.size.width/self->_picImageView.bounds.size.height;
             // 等比列缩放图片
             if (imageCom > oldCom) {
-                rec.size.height = imageSize.height*_picImageView.bounds.size.width/imageSize.width;
-                rec.size.width = _picImageView.bounds.size.width;
+                rec.size.height = imageSize.height*self->_picImageView.bounds.size.width/imageSize.width;
+                rec.size.width = self->_picImageView.bounds.size.width;
             }else{
-                rec.size.width = imageSize.width*_picImageView.bounds.size.height/imageSize.height;
-                rec.size.height = _picImageView.bounds.size.height;
+                rec.size.width = imageSize.width*self->_picImageView.bounds.size.height/imageSize.height;
+                rec.size.height = self->_picImageView.bounds.size.height;
             }
-            rec.origin.x = _picImageView.frame.size.width-rec.size.width > 0 ? (_picImageView.frame.size.width-rec.size.width)/2+rec.origin.x : rec.origin.x;
-            rec.origin.y = _picImageView.frame.size.height-rec.size.height > 0 ? (_picImageView.frame.size.height-rec.size.height)/2+rec.origin.y : rec.origin.y;
+            rec.origin.x = self->_picImageView.frame.size.width-rec.size.width > 0 ? (self->_picImageView.frame.size.width-rec.size.width)/2+rec.origin.x : rec.origin.x;
+            rec.origin.y = self->_picImageView.frame.size.height-rec.size.height > 0 ? (self->_picImageView.frame.size.height-rec.size.height)/2+rec.origin.y : rec.origin.y;
             
-            _picImageView.frame = rec;
+            self->_picImageView.frame = rec;
             self.orginRec = rec;
-            _picImageView.image = image;
+            self->_picImageView.image = image;
         }
     }];
     [self.mScrollView setContentSize:self.mScrollView.bounds.size];
@@ -84,14 +84,14 @@
     if (tapSender.state == UIGestureRecognizerStateEnded) {
         [UIView animateWithDuration:0.2 animations:^{
             if (self.currentScale > 1.0 || self.currentScale <1.0) {
-                _picImageView.transform = CGAffineTransformMakeScale(1.0, 1.0);
+                self->_picImageView.transform = CGAffineTransformMakeScale(1.0, 1.0);
                 self.currentScale = 1.0;
             }else{
-                _picImageView.transform = CGAffineTransformMakeScale(2.0, 2.0);
+                self->_picImageView.transform = CGAffineTransformMakeScale(2.0, 2.0);
                 self.currentScale = 2.0;
             }
-            float x = -_picImageView.frame.origin.x+_orginRec.origin.x;
-            float y = -_picImageView.frame.origin.y+_orginRec.origin.y;
+            float x = -self->_picImageView.frame.origin.x+self->_orginRec.origin.x;
+            float y = -self->_picImageView.frame.origin.y+self->_orginRec.origin.y;
             CGRect rec = self.picImageView.frame;
             rec.origin = self.orginRec.origin;
             

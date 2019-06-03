@@ -17,10 +17,10 @@ extern unsigned long ip_addrs[MAXADDRS];
 
 // Function prototypes
 
-void InitAddresses();
-void FreeAddresses();
-void GetIPAddresses();
-void GetHWAddresses();
+void InitAddresses(void);
+void FreeAddresses(void);
+void GetIPAddresses(void);
+void GetHWAddresses(void);
 
 #include <stdio.h>
 #include <stdlib.h>

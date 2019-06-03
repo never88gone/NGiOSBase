@@ -129,16 +129,6 @@
 }
 
 # pragma mark - CLLocationManagerDelegate
-
-//ios5
-- (void)locationManager:(CLLocationManager *)manager
-    didUpdateToLocation:(CLLocation *)newLocation
-           fromLocation:(CLLocation *)oldLocation
-{
-    NSLog(@"newLocation = %@",newLocation);
-    [self locationToCityName:newLocation];
-}
-
 //ios 6 up
 - (void)locationManager:(CLLocationManager *)manager
      didUpdateLocations:(NSArray *)locations
