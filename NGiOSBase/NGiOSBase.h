@@ -63,12 +63,10 @@
 #import <NGiOSBase/OTSIPAddress.h>
 #import <NGiOSBase/OTSJsonKit.h>
 #import <NGiOSBase/OTSKeychain.h>
-#import <NGiOSBase/OTSKeychainDefine.h>
 #import <NGiOSBase/OTSLocalNotification.h>
 #import <NGiOSBase/OTSLocation.h>
 #import <NGiOSBase/OTSLog.h>
 #import <NGiOSBase/OTSMacroDefine.h>
-#import <NGiOSBase/OTSMagicAnimation.h>
 #import <NGiOSBase/OTSManagedObject.h>
 #import <NGiOSBase/OTSMask.h>
 #import <NGiOSBase/OTSMD5Sha.h>
@@ -81,7 +79,6 @@
 #import <NGiOSBase/OTSPlaceHolderTextView.h>
 #import <NGiOSBase/OTSPredicate.h>
 #import <NGiOSBase/OTSPriceAndScoreLabel.h>
-#import <NGiOSBase/OTSProductCountDownView.h>
 #import <NGiOSBase/OTSRadioButton.h>
 #import <NGiOSBase/OTSScrollView.h>
 #import <NGiOSBase/OTSSegmentBtnView.h>

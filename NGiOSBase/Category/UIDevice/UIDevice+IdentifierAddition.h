@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+UIKIT_EXTERN NSString *const OTS_KEYCHAIN_DEVICECODE;//trader里头的DeviceCodeNotEncrypt
 
 @interface UIDevice (IdentifierAddition)
 

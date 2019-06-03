@@ -17,6 +17,7 @@
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
+NSString *const OTS_KEYCHAIN_DEVICECODE = @"OTS_KEYCHAIN_DEVICECODE";//trader里头的DeviceCodeNotEncrypt
 
 @implementation UIDevice (IdentifierAddition)
 

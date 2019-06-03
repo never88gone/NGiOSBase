@@ -19,8 +19,6 @@
 #import <AdSupport/AdSupport.h>
 #import "OTSGlobalValue.h"
 
-
-
 @interface OTSClientInfo ()
 
 
@@ -37,14 +35,6 @@ DEF_SINGLETON(OTSClientInfo)
         _deviceCode = [NSString stringWithString:[[UIDevice currentDevice] uniqueDeviceIdentifier]];
     }
     return self;
-}
-
-- (NSString *)deviceToken
-{
-    if ([OTSGlobalValue sharedInstance].deviceToken!=nil) {
-        return [OTSGlobalValue sharedInstance].deviceToken;
-    }
-    return _deviceToken;
 }
 
 - (NSString *)idfa{

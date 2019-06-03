@@ -10,13 +10,6 @@
 #import "OTSFuncDefine.h"
 #import "OTSValueObject.h"
 
-#ifndef PHONE_TRACK_TYPE
-#define PHONE_TRACK_TYPE 0
-#endif
-
-#ifndef PAD_TRACK_TYPE
-#define PAD_TRACK_TYPE 0
-#endif
 
 @interface OTSClientInfo : OTSValueObject
 AS_SINGLETON(OTSClientInfo)

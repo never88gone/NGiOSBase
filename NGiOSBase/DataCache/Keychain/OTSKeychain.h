@@ -6,7 +6,6 @@
 //  Copyright (c) 2018年 NGiOSBase. All rights reserved.
 //
 
-#import "OTSKeychainDefine.h"
 
 @interface OTSKeychain : NSObject
 
