@@ -25,7 +25,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelOff;
 //干掉log
 #define NSLog(...) {}
 //干掉断言
-#define NS_BLOCK_ASSERTIONS
+#define NS1_BLOCK_ASSERTIONS
 
 #endif
 

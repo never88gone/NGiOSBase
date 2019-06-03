@@ -132,7 +132,7 @@ GTM_EXTERN void _GTMUnitTestDevLog(NSString *format, ...);
 #ifndef _GTMDevAssert
 // we directly invoke the NSAssert handler so we can pass on the varargs
 // (NSAssert doesn't have a macro we can use that takes varargs)
-#if !defined(NS_BLOCK_ASSERTIONS)
+#if !defined(NS1_BLOCK_ASSERTIONS)
 #define _GTMDevAssert(condition, ...)                                       \
 do {                                                                      \
 if (!(condition)) {                                                     \
@@ -143,9 +143,9 @@ lineNumber:__LINE__                                  \
 description:__VA_ARGS__];                             \
 }                                                                       \
 } while(0)
-#else // !defined(NS_BLOCK_ASSERTIONS)
+#else // !defined(NS1_BLOCK_ASSERTIONS)
 #define _GTMDevAssert(condition, ...) do { } while (0)
-#endif // !defined(NS_BLOCK_ASSERTIONS)
+#endif // !defined(NS1_BLOCK_ASSERTIONS)
 
 #endif // _GTMDevAssert
 
