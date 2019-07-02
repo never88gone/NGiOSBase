@@ -7,8 +7,6 @@
 //
 
 #import "NGAutoHeightTextView.h"
-#import "UITextView+Placeholder.h"
-
 @implementation NGAutoHeightTextView
 
 @dynamic delegate;

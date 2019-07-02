@@ -51,7 +51,6 @@
 		388EF6751F32C22000AE3826 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81E51F0A38D900207394 /* UIScrollView+APParallaxHeader.m */; };
 		388EF6771F32C22000AE3826 /* UIScrollView+DeliverTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81E71F0A38D900207394 /* UIScrollView+DeliverTouch.m */; };
 		388EF6791F32C22000AE3826 /* UIScrollView+SVInfiniteLoadingMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81E91F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.m */; };
-		388EF67D1F32C22000AE3826 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81ED1F0A38D900207394 /* UITextView+Placeholder.m */; };
 		388EF67F1F32C22000AE3826 /* UIView+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81EF1F0A38D900207394 /* UIView+create.m */; };
 		388EF6811F32C22000AE3826 /* UIView+EnlargeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F11F0A38D900207394 /* UIView+EnlargeArea.m */; };
 		388EF6831F32C22000AE3826 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81F31F0A38D900207394 /* UIView+Extension.m */; };
@@ -231,8 +230,6 @@
 		38EA81E71F0A38D900207394 /* UIScrollView+DeliverTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DeliverTouch.m"; sourceTree = "<group>"; };
 		38EA81E81F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteLoadingMore.h"; sourceTree = "<group>"; };
 		38EA81E91F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteLoadingMore.m"; sourceTree = "<group>"; };
-		38EA81EC1F0A38D900207394 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		38EA81ED1F0A38D900207394 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		38EA81EE1F0A38D900207394 /* UIView+create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+create.h"; sourceTree = "<group>"; };
 		38EA81EF1F0A38D900207394 /* UIView+create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+create.m"; sourceTree = "<group>"; };
 		38EA81F01F0A38D900207394 /* UIView+EnlargeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EnlargeArea.h"; sourceTree = "<group>"; };
@@ -605,8 +602,6 @@
 				38EA81E71F0A38D900207394 /* UIScrollView+DeliverTouch.m */,
 				38EA81E81F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.h */,
 				38EA81E91F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.m */,
-				38EA81EC1F0A38D900207394 /* UITextView+Placeholder.h */,
-				38EA81ED1F0A38D900207394 /* UITextView+Placeholder.m */,
 				38EA81EE1F0A38D900207394 /* UIView+create.h */,
 				38EA81EF1F0A38D900207394 /* UIView+create.m */,
 				38EA81F01F0A38D900207394 /* UIView+EnlargeArea.h */,
@@ -954,7 +949,6 @@
 				TargetAttributes = {
 					388EF5EC1F32C13B00AE3826 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7XV5NKQSCC;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1057,7 +1051,6 @@
 				388EF6751F32C22000AE3826 /* UIScrollView+APParallaxHeader.m in Sources */,
 				388EF6771F32C22000AE3826 /* UIScrollView+DeliverTouch.m in Sources */,
 				388EF6791F32C22000AE3826 /* UIScrollView+SVInfiniteLoadingMore.m in Sources */,
-				388EF67D1F32C22000AE3826 /* UITextView+Placeholder.m in Sources */,
 				388EF67F1F32C22000AE3826 /* UIView+create.m in Sources */,
 				388EF6811F32C22000AE3826 /* UIView+EnlargeArea.m in Sources */,
 				388EF6831F32C22000AE3826 /* UIView+Extension.m in Sources */,
@@ -1147,7 +1140,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XV5NKQSCC;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1173,7 +1166,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XV5NKQSCC;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
