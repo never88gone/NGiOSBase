@@ -119,7 +119,6 @@
 #import <NGiOSBase/UIScrollView+APParallaxHeader.h>
 #import <NGiOSBase/UIScrollView+DeliverTouch.h>
 #import <NGiOSBase/UIScrollView+SVInfiniteLoadingMore.h>
-#import <NGiOSBase/UITextView+Placeholder.h>
 #import <NGiOSBase/UIView+create.h>
 #import <NGiOSBase/UIView+EnlargeArea.h>
 #import <NGiOSBase/UIView+Extension.h>
