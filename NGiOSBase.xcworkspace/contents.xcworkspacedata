@@ -2,8 +2,11 @@
 <Workspace
    version = "1.0">
    <FileRef
-   location = "group:NGiOSBase.xcodeproj">
-</FileRef>
+      location = "group:NGiOSDemo/NGiOSDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NGiOSBase.xcodeproj">
+   </FileRef>
    <FileRef
       location = "group:Pods/Pods/Pods.xcodeproj">
    </FileRef>

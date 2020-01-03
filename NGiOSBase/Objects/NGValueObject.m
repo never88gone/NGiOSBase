@@ -15,7 +15,7 @@
     if (self = [super init]) {
         static dispatch_once_t once;
         dispatch_once(&once, ^{
-            [JSONModel setGlobalKeyMapper:[[JSONKeyMapper alloc] initWithDictionary:@{@"id": @"nid"}]];
+            [JSONModel setGlobalKeyMapper:[[JSONKeyMapper alloc] initWithDictionary:@{@"id": @"nid",@"description": @"ndescription"}]];
         });
     }
     return self;

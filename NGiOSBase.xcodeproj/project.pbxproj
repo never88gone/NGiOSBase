@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10376B9B531A51F7F5AF8344 /* Pods_NGiOSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */; };
 		388EF6021F32C22000AE3826 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81551F0A38D900207394 /* NGAppDelegate.m */; };
 		388EF60C1F32C22000AE3826 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816A1F0A38D900207394 /* NSDate+Format.m */; };
 		388EF60E1F32C22000AE3826 /* NSDate+NG.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816C1F0A38D900207394 /* NSDate+NG.m */; };
@@ -123,7 +124,6 @@
 		388EF7A91F32C69600AE3826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7A81F32C69600AE3826 /* UIKit.framework */; };
 		388EF7AB1F32C69D00AE3826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7AA1F32C69D00AE3826 /* Foundation.framework */; };
 		388EF7AD1F32C6A400AE3826 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7AC1F32C6A300AE3826 /* libsqlite3.tbd */; };
-		7B0A25C5ACF91560EFB4A0E4 /* libPods-NGiOSBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AE52CE91F2B05F2C7FDD7 /* libPods-NGiOSBase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -365,8 +365,8 @@
 		38EA83311F0A38D900207394 /* NGiOSBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGiOSBase.pch; sourceTree = "<group>"; };
 		38EA83321F0A38D900207394 /* NGiOSBase.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NGiOSBase.podspec; sourceTree = "<group>"; };
 		9630A48713E63C5710C2161B /* Pods-NGiOSBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSBase.release.xcconfig"; path = "Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase.release.xcconfig"; sourceTree = "<group>"; };
-		A23AE52CE91F2B05F2C7FDD7 /* libPods-NGiOSBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGiOSBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF79873C33BFAC8633707494 /* Pods-NGiOSBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSBase.debug.xcconfig"; path = "Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,7 +378,7 @@
 				388EF7AB1F32C69D00AE3826 /* Foundation.framework in Frameworks */,
 				388EF7A91F32C69600AE3826 /* UIKit.framework in Frameworks */,
 				388EF7A71F32C54700AE3826 /* MobileCoreServices.framework in Frameworks */,
-				7B0A25C5ACF91560EFB4A0E4 /* libPods-NGiOSBase.a in Frameworks */,
+				10376B9B531A51F7F5AF8344 /* Pods_NGiOSBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,7 +858,7 @@
 				388EF7AA1F32C69D00AE3826 /* Foundation.framework */,
 				388EF7A81F32C69600AE3826 /* UIKit.framework */,
 				388EF7A61F32C54700AE3826 /* MobileCoreServices.framework */,
-				A23AE52CE91F2B05F2C7FDD7 /* libPods-NGiOSBase.a */,
+				EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
