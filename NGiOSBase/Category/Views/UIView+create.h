@@ -7,7 +7,6 @@
 //
 
 //block tool
-#import <PureLayout/PureLayout.h>
 #import <BlocksKit/BlocksKit.h>
 #import <BlocksKit/BlocksKit+UIKit.h>
 
@@ -70,13 +69,5 @@
  */
 + (UIView *)duplicate:(UIView *)view;
 
-/**
- *  多段落文本view
- *
- *  @param attributs 属性字典数组
- *
- *  @return 复制的view
- */
-+ (UIView *)createViewWithAttriutes:(NSArray *)attributs;
 
 @end

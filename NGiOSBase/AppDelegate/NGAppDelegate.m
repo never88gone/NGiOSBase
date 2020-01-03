@@ -15,6 +15,8 @@
 #import "NGMacroDefine.h"
 #import "NGTopWindow.h"
 #import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/SDImageCache.h>
+
 #ifndef DEBUG
 
 #endif
@@ -52,10 +54,9 @@
     [self.topWindow makeKeyAndVisible];
     self.topWindow.hidden = YES;
     
-    
     //setup SDImageCache
-    [SDImageCache sharedImageCache].config.maxCacheSize  = 50 * 1024 * 1024;//50MB
-    [SDImageCache sharedImageCache].maxMemoryCost = 50 * 1024 * 1024;//50MB
+    [SDImageCache sharedImageCache].config.maxDiskSize  = 50 * 1024 * 1024;//50MB
+    [SDImageCache sharedImageCache].config.maxMemoryCost = 50 * 1024 * 1024;//50MB
     
     //setup log
     [NGLog setupLogerStatus];

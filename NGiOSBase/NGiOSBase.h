@@ -49,7 +49,6 @@
 #import <NGiOSBase/NGCommentPicScaledView.h>
 #import <NGiOSBase/NGConstraintHelper.h>
 #import <NGiOSBase/NGCoreDataManager.h>
-#import <NGiOSBase/NGCoreGraphicHelper.h>
 #import <NGiOSBase/NGCorner.h>
 #import <NGiOSBase/NGCrossedOutLabel.h>
 #import <NGiOSBase/NGDeadtimeTimer.h>
