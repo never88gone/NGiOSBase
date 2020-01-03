@@ -8,6 +8,7 @@
 
 #import "NGLog.h"
 #import "NGFileManager.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @implementation NGLog
 

@@ -7,19 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10376B9B531A51F7F5AF8344 /* Pods_NGiOSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */; };
 		388EF6021F32C22000AE3826 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81551F0A38D900207394 /* NGAppDelegate.m */; };
 		388EF60C1F32C22000AE3826 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816A1F0A38D900207394 /* NSDate+Format.m */; };
 		388EF60E1F32C22000AE3826 /* NSDate+NG.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA816C1F0A38D900207394 /* NSDate+NG.m */; };
-		388EF6121F32C22000AE3826 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81721F0A38D900207394 /* NSObject+BeeNotification.m */; };
-		388EF6141F32C22000AE3826 /* NSObject+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81741F0A38D900207394 /* NSObject+category.m */; };
-		388EF6161F32C22000AE3826 /* NSObject+coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81761F0A38D900207394 /* NSObject+coder.m */; };
-		388EF6181F32C22000AE3826 /* NSObject+JsonToVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81781F0A38D900207394 /* NSObject+JsonToVO.m */; };
-		388EF61A1F32C22000AE3826 /* NSObject+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817A1F0A38D900207394 /* NSObject+PerformBlock.m */; };
-		388EF61C1F32C22000AE3826 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817C1F0A38D900207394 /* NSObject+runtime.m */; };
-		388EF61E1F32C22000AE3826 /* NSObject+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817E1F0A38D900207394 /* NSObject+safe.m */; };
-		388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81801F0A38D900207394 /* NSObject+swizzle.m */; };
-		388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81821F0A38D900207394 /* NGNotificationDefine.m */; };
 		388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81861F0A38D900207394 /* NSString+MD5.m */; };
 		388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA818A1F0A38D900207394 /* NSString+ConvertType.m */; };
 		388EF62A1F32C22000AE3826 /* NSString+CSSHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA818C1F0A38D900207394 /* NSString+CSSHtml.m */; };
@@ -124,9 +114,137 @@
 		388EF7A91F32C69600AE3826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7A81F32C69600AE3826 /* UIKit.framework */; };
 		388EF7AB1F32C69D00AE3826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7AA1F32C69D00AE3826 /* Foundation.framework */; };
 		388EF7AD1F32C6A400AE3826 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF7AC1F32C6A300AE3826 /* libsqlite3.tbd */; };
+		38A9F8B723BF24DF001CFD50 /* NGAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81541F0A38D900207394 /* NGAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8B823BF24ED001CFD50 /* NSDate+Format.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81691F0A38D900207394 /* NSDate+Format.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8B923BF24F2001CFD50 /* NSDate+NG.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA816B1F0A38D900207394 /* NSDate+NG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C323BF24FD001CFD50 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81851F0A38D900207394 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C423BF24FD001CFD50 /* NSString+ConvertType.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81891F0A38D900207394 /* NSString+ConvertType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C523BF24FD001CFD50 /* NSString+CSSHtml.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA818B1F0A38D900207394 /* NSString+CSSHtml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C623BF2503001CFD50 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA818E1F0A38D900207394 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C723BF2503001CFD50 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA818F1F0A38D900207394 /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C823BF2503001CFD50 /* NSString+plus.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81911F0A38D900207394 /* NSString+plus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8C923BF2509001CFD50 /* NSArray+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA819D1F0A38D900207394 /* NSArray+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CA23BF2509001CFD50 /* NSDictionary+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA819F1F0A38D900207394 /* NSDictionary+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CB23BF2509001CFD50 /* NSMutableArray+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81A11F0A38D900207394 /* NSMutableArray+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CC23BF2509001CFD50 /* NSMutableDictionary+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81A31F0A38D900207394 /* NSMutableDictionary+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CD23BF2509001CFD50 /* NSMutableString+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81A51F0A38D900207394 /* NSMutableString+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CE23BF2509001CFD50 /* NSNumber+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81A71F0A38D900207394 /* NSNumber+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8CF23BF2509001CFD50 /* NSString+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81A91F0A38D900207394 /* NSString+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D023BF2509001CFD50 /* UICollectionView+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81AB1F0A38D900207394 /* UICollectionView+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D123BF2511001CFD50 /* UIDevice+IdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81B11F0A38D900207394 /* UIDevice+IdentifierAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D223BF2511001CFD50 /* UINavigationController+NG.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81B71F0A38D900207394 /* UINavigationController+NG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D323BF2518001CFD50 /* UIViewController+animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81BD1F0A38D900207394 /* UIViewController+animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D423BF2518001CFD50 /* UIViewController+base.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81BF1F0A38D900207394 /* UIViewController+base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D523BF2518001CFD50 /* UIViewController+create.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81C11F0A38D900207394 /* UIViewController+create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D623BF2518001CFD50 /* UIViewController+custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81C31F0A38D900207394 /* UIViewController+custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D723BF2518001CFD50 /* UIViewController+loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81C51F0A38D900207394 /* UIViewController+loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D823BF251D001CFD50 /* UIButton+EnlargeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81C81F0A38D900207394 /* UIButton+EnlargeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8D923BF251D001CFD50 /* UIButton+LayoutStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81CA1F0A38D900207394 /* UIButton+LayoutStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DA23BF251D001CFD50 /* UIImage+Barcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81D01F0A38D900207394 /* UIImage+Barcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DB23BF251D001CFD50 /* UIImage+bundleRes.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81D21F0A38D900207394 /* UIImage+bundleRes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DC23BF251D001CFD50 /* UIImage+Tint.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81D61F0A38D900207394 /* UIImage+Tint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DD23BF251D001CFD50 /* UIImage+tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81D81F0A38D900207394 /* UIImage+tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DE23BF251D001CFD50 /* UILabel+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81DC1F0A38D900207394 /* UILabel+Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8DF23BF251D001CFD50 /* UILabel+DynamicSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81DE1F0A38D900207394 /* UILabel+DynamicSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E023BF251D001CFD50 /* UINib+create.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81E21F0A38D900207394 /* UINib+create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E123BF251D001CFD50 /* UIScrollView+DeliverTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81E61F0A38D900207394 /* UIScrollView+DeliverTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E223BF251D001CFD50 /* UIScrollView+SVInfiniteLoadingMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81E81F0A38D900207394 /* UIScrollView+SVInfiniteLoadingMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E323BF251D001CFD50 /* UIView+create.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81EE1F0A38D900207394 /* UIView+create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E423BF251D001CFD50 /* UIView+EnlargeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81F01F0A38D900207394 /* UIView+EnlargeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E523BF251D001CFD50 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81F21F0A38D900207394 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E623BF251D001CFD50 /* UIView+IB.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81F41F0A38D900207394 /* UIView+IB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E723BF251D001CFD50 /* UIView+loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81F61F0A38D900207394 /* UIView+loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E823BF251D001CFD50 /* UIView+Maker.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81F81F0A38D900207394 /* UIView+Maker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8E923BF251D001CFD50 /* UIView+Plus.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81FA1F0A38D900207394 /* UIView+Plus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8EA23BF252F001CFD50 /* NGArchiveData.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82111F0A38D900207394 /* NGArchiveData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8EB23BF252F001CFD50 /* NGCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82141F0A38D900207394 /* NGCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8EC23BF252F001CFD50 /* NGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82161F0A38D900207394 /* NGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8ED23BF252F001CFD50 /* NGFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82191F0A38D900207394 /* NGFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8EE23BF252F001CFD50 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA821D1F0A38D900207394 /* KeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8EF23BF252F001CFD50 /* NGUserDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82241F0A38D900207394 /* NGUserDefault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F023BF252F001CFD50 /* NGFuncDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA822A1F0A38D900207394 /* NGFuncDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F123BF252F001CFD50 /* NGMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA822C1F0A38D900207394 /* NGMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F223BF252F001CFD50 /* NGSizeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA822E1F0A38D900207394 /* NGSizeDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F323BF252F001CFD50 /* NGClientInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82311F0A38D900207394 /* NGClientInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F423BF252F001CFD50 /* NGGlobalValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82351F0A38D900207394 /* NGGlobalValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F523BF252F001CFD50 /* NGValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82371F0A38D900207394 /* NGValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F623BF252F001CFD50 /* NGVCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82521F0A38D900207394 /* NGVCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F723BF252F001CFD50 /* NGAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82831F0A38D900207394 /* NGAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F823BF252F001CFD50 /* NGBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82871F0A38D900207394 /* NGBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8F923BF2535001CFD50 /* NGCalendarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82891F0A38D900207394 /* NGCalendarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FA23BF2535001CFD50 /* NGCollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FB23BF2535001CFD50 /* NGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828D1F0A38D900207394 /* NGColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FC23BF2535001CFD50 /* NGConstraintHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828F1F0A38D900207394 /* NGConstraintHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FD23BF2535001CFD50 /* NGCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82951F0A38D900207394 /* NGCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FE23BF2535001CFD50 /* NGDeadtimeTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82991F0A38D900207394 /* NGDeadtimeTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F8FF23BF2535001CFD50 /* NGFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA829D1F0A38D900207394 /* NGFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90023BF2535001CFD50 /* NGIPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A11F0A38D900207394 /* NGIPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90123BF2535001CFD50 /* NGJsonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A31F0A38D900207394 /* NGJsonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90223BF2535001CFD50 /* NGLocalNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A51F0A38D900207394 /* NGLocalNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90323BF2535001CFD50 /* NGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A71F0A38D900207394 /* NGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90423BF2535001CFD50 /* NGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A91F0A38D900207394 /* NGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90523BF2535001CFD50 /* NGMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82AB1F0A38D900207394 /* NGMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90623BF2535001CFD50 /* NGMD5Sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82AD1F0A38D900207394 /* NGMD5Sha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90723BF2535001CFD50 /* NGPinYin.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82AF1F0A38D900207394 /* NGPinYin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90823BF2535001CFD50 /* NGPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82B11F0A38D900207394 /* NGPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90923BF2535001CFD50 /* NGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82B51F0A38D900207394 /* NGSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90A23BF2535001CFD50 /* NGUIButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82B71F0A38D900207394 /* NGUIButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90B23BF2535001CFD50 /* NGUILabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82B91F0A38D900207394 /* NGUILabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90C23BF2535001CFD50 /* NGViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82BD1F0A38D900207394 /* NGViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F90D23BF2535001CFD50 /* NGWeakObjectDeathNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82BF1F0A38D900207394 /* NGWeakObjectDeathNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92A23BF253E001CFD50 /* NGActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82C31F0A38D900207394 /* NGActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92B23BF253E001CFD50 /* NGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82C51F0A38D900207394 /* NGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92C23BF253E001CFD50 /* NGCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82C71F0A38D900207394 /* NGCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92D23BF253E001CFD50 /* NGCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82C91F0A38D900207394 /* NGCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92E23BF253E001CFD50 /* NGCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82CB1F0A38D900207394 /* NGCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F92F23BF253E001CFD50 /* NGPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82CF1F0A38D900207394 /* NGPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93023BF253E001CFD50 /* NGPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82D11F0A38D900207394 /* NGPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93123BF253E001CFD50 /* NGScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82D31F0A38D900207394 /* NGScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93223BF253E001CFD50 /* NGSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82D51F0A38D900207394 /* NGSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93323BF253E001CFD50 /* NGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82D71F0A38D900207394 /* NGTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93423BF253E001CFD50 /* NGTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82D91F0A38D900207394 /* NGTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93523BF253E001CFD50 /* NGTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82DB1F0A38D900207394 /* NGTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93623BF253E001CFD50 /* NGTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82DD1F0A38D900207394 /* NGTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93723BF253E001CFD50 /* NGTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82DF1F0A38D900207394 /* NGTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93823BF253E001CFD50 /* NGTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E11F0A38D900207394 /* NGTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93923BF253E001CFD50 /* NGTopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E31F0A38D900207394 /* NGTopWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93A23BF253E001CFD50 /* NGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E51F0A38D900207394 /* NGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93B23BF253E001CFD50 /* NGWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E71F0A38D900207394 /* NGWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93C23BF253E001CFD50 /* NGWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E91F0A38D900207394 /* NGWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93D23BF253E001CFD50 /* NGAutoHeightTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82EE1F0A38D900207394 /* NGAutoHeightTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93E23BF253E001CFD50 /* NGCommentPicScaledView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82F41F0A38D900207394 /* NGCommentPicScaledView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F93F23BF253E001CFD50 /* NGCrossedOutLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82F61F0A38D900207394 /* NGCrossedOutLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94023BF253E001CFD50 /* NGNonModelLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA83161F0A38D900207394 /* NGNonModelLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94123BF253E001CFD50 /* NGPlaceHolderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA831C1F0A38D900207394 /* NGPlaceHolderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94223BF253E001CFD50 /* NGPriceAndScoreLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA831E1F0A38D900207394 /* NGPriceAndScoreLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94323BF253E001CFD50 /* NGRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA83251F0A38D900207394 /* NGRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94423BF253E001CFD50 /* NGTimeCountButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA832D1F0A38D900207394 /* NGTimeCountButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94523BF253E001CFD50 /* NGTimeCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA832F1F0A38D900207394 /* NGTimeCountLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94623BF253E001CFD50 /* NGiOSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 38103C7F2265B878005A4279 /* NGiOSBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94723BF25A0001CFD50 /* NGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA821F1F0A38D900207394 /* NGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94823BF266D001CFD50 /* NSObject+BeeNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81711F0A38D900207394 /* NSObject+BeeNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94923BF266D001CFD50 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81721F0A38D900207394 /* NSObject+BeeNotification.m */; };
+		38A9F94A23BF266D001CFD50 /* NSObject+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81731F0A38D900207394 /* NSObject+category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94B23BF266E001CFD50 /* NSObject+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81741F0A38D900207394 /* NSObject+category.m */; };
+		38A9F94C23BF266E001CFD50 /* NSObject+coder.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81751F0A38D900207394 /* NSObject+coder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94D23BF266E001CFD50 /* NSObject+coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81761F0A38D900207394 /* NSObject+coder.m */; };
+		38A9F94E23BF266E001CFD50 /* NSObject+JsonToVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81771F0A38D900207394 /* NSObject+JsonToVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F94F23BF266E001CFD50 /* NSObject+JsonToVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81781F0A38D900207394 /* NSObject+JsonToVO.m */; };
+		38A9F95023BF266E001CFD50 /* NSObject+PerformBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81791F0A38D900207394 /* NSObject+PerformBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F95123BF266E001CFD50 /* NSObject+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817A1F0A38D900207394 /* NSObject+PerformBlock.m */; };
+		38A9F95223BF266E001CFD50 /* NSObject+runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA817B1F0A38D900207394 /* NSObject+runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F95323BF266E001CFD50 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817C1F0A38D900207394 /* NSObject+runtime.m */; };
+		38A9F95423BF266E001CFD50 /* NSObject+safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA817D1F0A38D900207394 /* NSObject+safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F95523BF266E001CFD50 /* NSObject+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA817E1F0A38D900207394 /* NSObject+safe.m */; };
+		38A9F95623BF266E001CFD50 /* NSObject+swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA817F1F0A38D900207394 /* NSObject+swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F95723BF266E001CFD50 /* NSObject+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81801F0A38D900207394 /* NSObject+swizzle.m */; };
+		38A9F95823BF266E001CFD50 /* NGNotificationDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA81811F0A38D900207394 /* NGNotificationDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A9F95923BF266E001CFD50 /* NGNotificationDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA81821F0A38D900207394 /* NGNotificationDefine.m */; };
+		C35890E1006CE46D439A80F5 /* Pods_NGiOSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13352A56E2E841583DB77100 /* Pods_NGiOSBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13352A56E2E841583DB77100 /* Pods_NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38103C7F2265B878005A4279 /* NGiOSBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGiOSBase.h; sourceTree = "<group>"; };
 		388EF5ED1F32C13B00AE3826 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		388EF5F01F32C13B00AE3826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -366,7 +484,6 @@
 		38EA83321F0A38D900207394 /* NGiOSBase.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NGiOSBase.podspec; sourceTree = "<group>"; };
 		9630A48713E63C5710C2161B /* Pods-NGiOSBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSBase.release.xcconfig"; path = "Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase.release.xcconfig"; sourceTree = "<group>"; };
 		BF79873C33BFAC8633707494 /* Pods-NGiOSBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSBase.debug.xcconfig"; path = "Pods/Pods/Target Support Files/Pods-NGiOSBase/Pods-NGiOSBase.debug.xcconfig"; sourceTree = "<group>"; };
-		EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,7 +495,7 @@
 				388EF7AB1F32C69D00AE3826 /* Foundation.framework in Frameworks */,
 				388EF7A91F32C69600AE3826 /* UIKit.framework in Frameworks */,
 				388EF7A71F32C54700AE3826 /* MobileCoreServices.framework in Frameworks */,
-				10376B9B531A51F7F5AF8344 /* Pods_NGiOSBase.framework in Frameworks */,
+				C35890E1006CE46D439A80F5 /* Pods_NGiOSBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,7 +975,7 @@
 				388EF7AA1F32C69D00AE3826 /* Foundation.framework */,
 				388EF7A81F32C69600AE3826 /* UIKit.framework */,
 				388EF7A61F32C54700AE3826 /* MobileCoreServices.framework */,
-				EDD3343FDC52367810072EBF /* Pods_NGiOSBase.framework */,
+				13352A56E2E841583DB77100 /* Pods_NGiOSBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -870,6 +987,123 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A9F93923BF253E001CFD50 /* NGTopWindow.h in Headers */,
+				38A9F90323BF2535001CFD50 /* NGLocation.h in Headers */,
+				38A9F8FF23BF2535001CFD50 /* NGFont.h in Headers */,
+				38A9F8FA23BF2535001CFD50 /* NGCollectionViewLeftAlignedLayout.h in Headers */,
+				38A9F90C23BF2535001CFD50 /* NGViewMaker.h in Headers */,
+				38A9F8E623BF251D001CFD50 /* UIView+IB.h in Headers */,
+				38A9F93123BF253E001CFD50 /* NGScrollView.h in Headers */,
+				38A9F8F723BF252F001CFD50 /* NGAudioPlayer.h in Headers */,
+				38A9F8FE23BF2535001CFD50 /* NGDeadtimeTimer.h in Headers */,
+				38A9F93423BF253E001CFD50 /* NGTabBarItem.h in Headers */,
+				38A9F94023BF253E001CFD50 /* NGNonModelLoadingView.h in Headers */,
+				38A9F8CE23BF2509001CFD50 /* NSNumber+safe.h in Headers */,
+				38A9F8DC23BF251D001CFD50 /* UIImage+Tint.h in Headers */,
+				38A9F8B923BF24F2001CFD50 /* NSDate+NG.h in Headers */,
+				38A9F93F23BF253E001CFD50 /* NGCrossedOutLabel.h in Headers */,
+				38A9F90923BF2535001CFD50 /* NGSize.h in Headers */,
+				38A9F90823BF2535001CFD50 /* NGPredicate.h in Headers */,
+				38A9F8F823BF252F001CFD50 /* NGBorder.h in Headers */,
+				38A9F8B723BF24DF001CFD50 /* NGAppDelegate.h in Headers */,
+				38A9F8DF23BF251D001CFD50 /* UILabel+DynamicSize.h in Headers */,
+				38A9F92C23BF253E001CFD50 /* NGCollectionReusableView.h in Headers */,
+				38A9F93823BF253E001CFD50 /* NGTabView.h in Headers */,
+				38A9F94C23BF266E001CFD50 /* NSObject+coder.h in Headers */,
+				38A9F8E823BF251D001CFD50 /* UIView+Maker.h in Headers */,
+				38A9F90423BF2535001CFD50 /* NGLog.h in Headers */,
+				38A9F8E323BF251D001CFD50 /* UIView+create.h in Headers */,
+				38A9F8CC23BF2509001CFD50 /* NSMutableDictionary+safe.h in Headers */,
+				38A9F90223BF2535001CFD50 /* NGLocalNotification.h in Headers */,
+				38A9F8C923BF2509001CFD50 /* NSArray+safe.h in Headers */,
+				38A9F8F523BF252F001CFD50 /* NGValueObject.h in Headers */,
+				38A9F90B23BF2535001CFD50 /* NGUILabelMaker.h in Headers */,
+				38A9F94323BF253E001CFD50 /* NGRadioButton.h in Headers */,
+				38A9F90D23BF2535001CFD50 /* NGWeakObjectDeathNotifier.h in Headers */,
+				38A9F8DB23BF251D001CFD50 /* UIImage+bundleRes.h in Headers */,
+				38A9F92B23BF253E001CFD50 /* NGAlertView.h in Headers */,
+				38A9F8C623BF2503001CFD50 /* GTMDefines.h in Headers */,
+				38A9F92F23BF253E001CFD50 /* NGPageControl.h in Headers */,
+				38A9F8EE23BF252F001CFD50 /* KeychainItemWrapper.h in Headers */,
+				38A9F95823BF266E001CFD50 /* NGNotificationDefine.h in Headers */,
+				38A9F8D523BF2518001CFD50 /* UIViewController+create.h in Headers */,
+				38A9F8FC23BF2535001CFD50 /* NGConstraintHelper.h in Headers */,
+				38A9F90023BF2535001CFD50 /* NGIPAddress.h in Headers */,
+				38A9F94523BF253E001CFD50 /* NGTimeCountLabel.h in Headers */,
+				38A9F8D023BF2509001CFD50 /* UICollectionView+safe.h in Headers */,
+				38A9F8CB23BF2509001CFD50 /* NSMutableArray+safe.h in Headers */,
+				38A9F93D23BF253E001CFD50 /* NGAutoHeightTextView.h in Headers */,
+				38A9F8F423BF252F001CFD50 /* NGGlobalValue.h in Headers */,
+				38A9F93E23BF253E001CFD50 /* NGCommentPicScaledView.h in Headers */,
+				38A9F8EA23BF252F001CFD50 /* NGArchiveData.h in Headers */,
+				38A9F8ED23BF252F001CFD50 /* NGFileManager.h in Headers */,
+				38A9F95223BF266E001CFD50 /* NSObject+runtime.h in Headers */,
+				38A9F8D423BF2518001CFD50 /* UIViewController+base.h in Headers */,
+				38A9F8D623BF2518001CFD50 /* UIViewController+custom.h in Headers */,
+				38A9F93B23BF253E001CFD50 /* NGWebView.h in Headers */,
+				38A9F8C423BF24FD001CFD50 /* NSString+ConvertType.h in Headers */,
+				38A9F93623BF253E001CFD50 /* NGTableViewCell.h in Headers */,
+				38A9F8F323BF252F001CFD50 /* NGClientInfo.h in Headers */,
+				38A9F8EF23BF252F001CFD50 /* NGUserDefault.h in Headers */,
+				38A9F92D23BF253E001CFD50 /* NGCollectionView.h in Headers */,
+				38A9F8D723BF2518001CFD50 /* UIViewController+loading.h in Headers */,
+				38A9F8D123BF2511001CFD50 /* UIDevice+IdentifierAddition.h in Headers */,
+				38A9F8F023BF252F001CFD50 /* NGFuncDefine.h in Headers */,
+				38A9F8DD23BF251D001CFD50 /* UIImage+tool.h in Headers */,
+				38A9F92A23BF253E001CFD50 /* NGActionSheet.h in Headers */,
+				38A9F8C723BF2503001CFD50 /* GTMNSString+HTML.h in Headers */,
+				38A9F94723BF25A0001CFD50 /* NGKeychain.h in Headers */,
+				38A9F8D223BF2511001CFD50 /* UINavigationController+NG.h in Headers */,
+				38A9F90523BF2535001CFD50 /* NGMask.h in Headers */,
+				38A9F8E123BF251D001CFD50 /* UIScrollView+DeliverTouch.h in Headers */,
+				38A9F8EC23BF252F001CFD50 /* NGManagedObject.h in Headers */,
+				38A9F8DA23BF251D001CFD50 /* UIImage+Barcode.h in Headers */,
+				38A9F8EB23BF252F001CFD50 /* NGCoreDataManager.h in Headers */,
+				38A9F90123BF2535001CFD50 /* NGJsonKit.h in Headers */,
+				38A9F8E923BF251D001CFD50 /* UIView+Plus.h in Headers */,
+				38A9F93523BF253E001CFD50 /* NGTableView.h in Headers */,
+				38A9F90A23BF2535001CFD50 /* NGUIButtonMaker.h in Headers */,
+				38A9F8FD23BF2535001CFD50 /* NGCorner.h in Headers */,
+				38A9F92E23BF253E001CFD50 /* NGCollectionViewCell.h in Headers */,
+				38A9F94423BF253E001CFD50 /* NGTimeCountButton.h in Headers */,
+				38A9F8FB23BF2535001CFD50 /* NGColor.h in Headers */,
+				38A9F94E23BF266E001CFD50 /* NSObject+JsonToVO.h in Headers */,
+				38A9F93323BF253E001CFD50 /* NGTabBar.h in Headers */,
+				38A9F95023BF266E001CFD50 /* NSObject+PerformBlock.h in Headers */,
+				38A9F8E023BF251D001CFD50 /* UINib+create.h in Headers */,
+				38A9F8E223BF251D001CFD50 /* UIScrollView+SVInfiniteLoadingMore.h in Headers */,
+				38A9F90723BF2535001CFD50 /* NGPinYin.h in Headers */,
+				38A9F93223BF253E001CFD50 /* NGSwitch.h in Headers */,
+				38A9F8C523BF24FD001CFD50 /* NSString+CSSHtml.h in Headers */,
+				38A9F8E423BF251D001CFD50 /* UIView+EnlargeArea.h in Headers */,
+				38A9F8CD23BF2509001CFD50 /* NSMutableString+safe.h in Headers */,
+				38A9F8C323BF24FD001CFD50 /* NSString+MD5.h in Headers */,
+				38A9F8CF23BF2509001CFD50 /* NSString+safe.h in Headers */,
+				38A9F93023BF253E001CFD50 /* NGPickerView.h in Headers */,
+				38A9F94123BF253E001CFD50 /* NGPlaceHolderTextView.h in Headers */,
+				38A9F93C23BF253E001CFD50 /* NGWindow.h in Headers */,
+				38A9F94A23BF266D001CFD50 /* NSObject+category.h in Headers */,
+				38A9F94623BF253E001CFD50 /* NGiOSBase.h in Headers */,
+				38A9F90623BF2535001CFD50 /* NGMD5Sha.h in Headers */,
+				38A9F8D823BF251D001CFD50 /* UIButton+EnlargeArea.h in Headers */,
+				38A9F8E723BF251D001CFD50 /* UIView+loading.h in Headers */,
+				38A9F8CA23BF2509001CFD50 /* NSDictionary+safe.h in Headers */,
+				38A9F8C823BF2503001CFD50 /* NSString+plus.h in Headers */,
+				38A9F95423BF266E001CFD50 /* NSObject+safe.h in Headers */,
+				38A9F94823BF266D001CFD50 /* NSObject+BeeNotification.h in Headers */,
+				38A9F8E523BF251D001CFD50 /* UIView+Extension.h in Headers */,
+				38A9F94223BF253E001CFD50 /* NGPriceAndScoreLabel.h in Headers */,
+				38A9F8F223BF252F001CFD50 /* NGSizeDefine.h in Headers */,
+				38A9F93A23BF253E001CFD50 /* NGView.h in Headers */,
+				38A9F8F923BF2535001CFD50 /* NGCalendarNotification.h in Headers */,
+				38A9F8DE23BF251D001CFD50 /* UILabel+Attribute.h in Headers */,
+				38A9F8F623BF252F001CFD50 /* NGVCAnimation.h in Headers */,
+				38A9F8D923BF251D001CFD50 /* UIButton+LayoutStyle.h in Headers */,
+				38A9F95623BF266E001CFD50 /* NSObject+swizzle.h in Headers */,
+				38A9F8B823BF24ED001CFD50 /* NSDate+Format.h in Headers */,
+				38A9F8D323BF2518001CFD50 /* UIViewController+animation.h in Headers */,
+				38A9F93723BF253E001CFD50 /* NGTableViewHeaderFooterView.h in Headers */,
+				38A9F8F123BF252F001CFD50 /* NGMacroDefine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,19 +1201,12 @@
 				388EF6021F32C22000AE3826 /* NGAppDelegate.m in Sources */,
 				388EF60C1F32C22000AE3826 /* NSDate+Format.m in Sources */,
 				388EF60E1F32C22000AE3826 /* NSDate+NG.m in Sources */,
-				388EF6121F32C22000AE3826 /* NSObject+BeeNotification.m in Sources */,
-				388EF6141F32C22000AE3826 /* NSObject+category.m in Sources */,
-				388EF6161F32C22000AE3826 /* NSObject+coder.m in Sources */,
-				388EF6181F32C22000AE3826 /* NSObject+JsonToVO.m in Sources */,
-				388EF61A1F32C22000AE3826 /* NSObject+PerformBlock.m in Sources */,
-				388EF61C1F32C22000AE3826 /* NSObject+runtime.m in Sources */,
-				388EF61E1F32C22000AE3826 /* NSObject+safe.m in Sources */,
-				388EF6201F32C22000AE3826 /* NSObject+swizzle.m in Sources */,
-				388EF6221F32C22000AE3826 /* NGNotificationDefine.m in Sources */,
 				388EF6241F32C22000AE3826 /* NSString+MD5.m in Sources */,
 				388EF6281F32C22000AE3826 /* NSString+ConvertType.m in Sources */,
 				388EF62A1F32C22000AE3826 /* NSString+CSSHtml.m in Sources */,
 				388EF62D1F32C22000AE3826 /* GTMNSString+HTML.m in Sources */,
+				38A9F95323BF266E001CFD50 /* NSObject+runtime.m in Sources */,
+				38A9F95123BF266E001CFD50 /* NSObject+PerformBlock.m in Sources */,
 				388EF62F1F32C22000AE3826 /* NSString+plus.m in Sources */,
 				388EF6351F32C22000AE3826 /* NSArray+safe.m in Sources */,
 				388EF6371F32C22000AE3826 /* NSDictionary+safe.m in Sources */,
@@ -994,6 +1221,7 @@
 				388EF64F1F32C22000AE3826 /* UIViewController+animation.m in Sources */,
 				388EF6511F32C22000AE3826 /* UIViewController+base.m in Sources */,
 				388EF6531F32C22000AE3826 /* UIViewController+create.m in Sources */,
+				38A9F95723BF266E001CFD50 /* NSObject+swizzle.m in Sources */,
 				388EF6551F32C22000AE3826 /* UIViewController+custom.m in Sources */,
 				388EF6571F32C22000AE3826 /* UIViewController+loading.m in Sources */,
 				388EF6591F32C22000AE3826 /* UIButton+EnlargeArea.m in Sources */,
@@ -1023,6 +1251,7 @@
 				388EF6AB1F32C22100AE3826 /* NGUserDefault.m in Sources */,
 				388EF6B61F32C22100AE3826 /* NGClientInfo.m in Sources */,
 				388EF6BA1F32C22100AE3826 /* NGGlobalValue.m in Sources */,
+				38A9F94B23BF266E001CFD50 /* NSObject+category.m in Sources */,
 				388EF6BC1F32C22100AE3826 /* NGValueObject.m in Sources */,
 				388EF6CE1F32C22100AE3826 /* NGVCAnimation.m in Sources */,
 				388EF6FE1F32C22100AE3826 /* NGAudioPlayer.m in Sources */,
@@ -1048,6 +1277,7 @@
 				388EF7341F32C22100AE3826 /* NGUILabelMaker.m in Sources */,
 				388EF7381F32C22100AE3826 /* NGViewMaker.m in Sources */,
 				388EF73A1F32C22100AE3826 /* NGWeakObjectDeathNotifier.m in Sources */,
+				38A9F94923BF266D001CFD50 /* NSObject+BeeNotification.m in Sources */,
 				388EF73C1F32C22100AE3826 /* NGActionSheet.m in Sources */,
 				388EF73E1F32C22100AE3826 /* NGAlertView.m in Sources */,
 				388EF7401F32C22100AE3826 /* NGCollectionReusableView.m in Sources */,
@@ -1058,6 +1288,7 @@
 				388EF74C1F32C22100AE3826 /* NGScrollView.m in Sources */,
 				388EF74E1F32C22100AE3826 /* NGSwitch.m in Sources */,
 				388EF7501F32C22100AE3826 /* NGTabBar.m in Sources */,
+				38A9F94F23BF266E001CFD50 /* NSObject+JsonToVO.m in Sources */,
 				388EF7521F32C22100AE3826 /* NGTabBarItem.m in Sources */,
 				388EF7541F32C22100AE3826 /* NGTableView.m in Sources */,
 				388EF7561F32C22100AE3826 /* NGTableViewCell.m in Sources */,
@@ -1066,13 +1297,16 @@
 				388EF75C1F32C22100AE3826 /* NGTopWindow.m in Sources */,
 				388EF75E1F32C22100AE3826 /* NGView.m in Sources */,
 				388EF7601F32C22100AE3826 /* NGWebView.m in Sources */,
+				38A9F94D23BF266E001CFD50 /* NSObject+coder.m in Sources */,
 				388EF7621F32C22100AE3826 /* NGWindow.m in Sources */,
 				388EF7661F32C22100AE3826 /* NGAutoHeightTextView.m in Sources */,
 				388EF76C1F32C22100AE3826 /* NGCommentPicScaledView.m in Sources */,
 				388EF76E1F32C22100AE3826 /* NGCrossedOutLabel.m in Sources */,
+				38A9F95923BF266E001CFD50 /* NGNotificationDefine.m in Sources */,
 				388EF78C1F32C22100AE3826 /* NGNonModelLoadingView.m in Sources */,
 				388EF7921F32C22100AE3826 /* NGPlaceHolderTextView.m in Sources */,
 				388EF7941F32C22100AE3826 /* NGPriceAndScoreLabel.m in Sources */,
+				38A9F95523BF266E001CFD50 /* NSObject+safe.m in Sources */,
 				388EF79B1F32C22100AE3826 /* NGRadioButton.m in Sources */,
 				388EF7A31F32C22100AE3826 /* NGTimeCountButton.m in Sources */,
 				388EF7A51F32C22100AE3826 /* NGTimeCountLabel.m in Sources */,

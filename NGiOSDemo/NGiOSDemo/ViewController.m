@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <NGiOSBase/NGiOSBase.h>
-#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
 @interface ViewController ()
 @property (nonatomic,weak) IBOutlet UIButton* btn_test;
 @end
@@ -17,9 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.btn_test bk_whenTapped:^{
-        
-    }];
+    [self.btn_test bk_addEventHandler:^(id sender) {
+        if (IS_IPHONE_6_5_LAND) {
+            NSLog(@"%@",@"IS_IPHONE_6_5");
+        }else if (IS_IPHONE_6_1_LAND) {
+            NSLog(@"%@",@"IS_IPHONE_6_1");
+        }else if (IS_IPHONE_5_8_LAND) {
+            NSLog(@"%@",@"IS_IPHONE_5_8");
+        }
+    } forControlEvents:UIControlEventTouchUpInside];
 }
 
 

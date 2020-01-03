@@ -12,6 +12,11 @@
 #import "NGFont.h"
 #import "NGSize.h"
 #import "NGFuncDefine.h"
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
 
 @implementation UIView (create)
 

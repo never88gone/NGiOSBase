@@ -13,7 +13,7 @@
 //   to endorse or promote products derived from this software without specific
 //   prior written permission of Deusty, LLC.
 
-#import "DDASLLogCapture.h"
+#import <CocoaLumberjack/DDASLLogCapture.h>
 
 // Disable legacy macros
 #ifndef DD_LEGACY_MACROS
@@ -70,7 +70,7 @@ static DDLogLevel _captureLevel = DDLogLevelVerbose;
 #if !TARGET_OS_IPHONE || (defined(TARGET_SIMULATOR) && TARGET_SIMULATOR)
     int processId = [[NSProcessInfo processInfo] processIdentifier];
     char pid[16];
-    sprintf(pid, "%d", processId);
+    snprintf(pid, sizeof(pid), "%d", processId);
     asl_set_query(query, ASL_KEY_PID, pid, ASL_QUERY_OP_EQUAL | ASL_QUERY_OP_NUMERIC);
 #endif
 }

@@ -1,4 +1,4 @@
-platform:ios ,’8.0’
+platform :ios, '9.0'
 
 inhibit_all_warnings!
 
@@ -6,9 +6,9 @@ workspace '../NGiOSBase'
 project '../NGiOSBase.xcodeproj'
 
 def shared_pods
-    use_frameworks!
+use_frameworks!
 pod 'BlocksKit','2.2.5'
-pod 'CocoaLumberjack','3.5.2'
+pod 'CocoaLumberjack','3.6.0'
 pod 'JSONModel','1.8.0'
 pod 'MBProgressHUD','1.1.0'
 pod 'MagicalRecord','2.3.2'

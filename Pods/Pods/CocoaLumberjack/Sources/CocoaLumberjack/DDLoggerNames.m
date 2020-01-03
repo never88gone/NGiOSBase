@@ -13,15 +13,9 @@
 //   to endorse or promote products derived from this software without specific
 //   prior written permission of Deusty, LLC.
 
-#import "DDFileLogger.h"
+#import <CocoaLumberjack/DDLoggerNames.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface DDFileLogger (Buffering)
-
-- (instancetype)wrapWithBuffer;
-- (instancetype)unwrapFromBuffer;
-
-@end
-
-NS_ASSUME_NONNULL_END
+DDLoggerName const DDLoggerNameASL    = @"cocoa.lumberjack.aslLogger";
+DDLoggerName const DDLoggerNameTTY    = @"cocoa.lumberjack.ttyLogger";
+DDLoggerName const DDLoggerNameOS     = @"cocoa.lumberjack.osLogger";
+DDLoggerName const DDLoggerNameFile   = @"cocoa.lumberjack.fileLogger";

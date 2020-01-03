@@ -13,7 +13,7 @@
 //   to endorse or promote products derived from this software without specific
 //   prior written permission of Deusty, LLC.
 
-#import "DDTTYLogger.h"
+#import <CocoaLumberjack/DDTTYLogger.h>
 
 #import <sys/uio.h>
 
@@ -844,7 +844,7 @@ static DDTTYLogger *sharedInstance;
             _appLen = [_appName lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
         }
 
-        _app = (char *)malloc(_appLen + 1);
+        _app = (char *)calloc(_appLen + 1, sizeof(char));
 
         if (_app == NULL) {
             return nil;
@@ -862,7 +862,7 @@ static DDTTYLogger *sharedInstance;
         _processID = [NSString stringWithFormat:@"%i", (int)getpid()];
 
         _pidLen = [_processID lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
-        _pid = (char *)malloc(_pidLen + 1);
+        _pid = (char *)calloc(_pidLen + 1, sizeof(char));
 
         if (_pid == NULL) {
             free(_app);
@@ -1211,7 +1211,7 @@ static DDTTYLogger *sharedInstance;
         const BOOL useStack = msgLen < (1024 * 4);
 
         char msgStack[useStack ? (msgLen + 1) : 1]; // Analyzer doesn't like zero-size array, hence the 1
-        char *msg = useStack ? msgStack : (char *)malloc(msgLen + 1);
+        char *msg = useStack ? msgStack : (char *)calloc(msgLen + 1, sizeof(char));
 
         if (msg == NULL) {
             return;

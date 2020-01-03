@@ -14,8 +14,8 @@
 		38A9F88323BF1CFC001CFD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A9F88223BF1CFC001CFD50 /* Assets.xcassets */; };
 		38A9F88623BF1CFC001CFD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9F88423BF1CFC001CFD50 /* LaunchScreen.storyboard */; };
 		38A9F88923BF1CFC001CFD50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A9F88823BF1CFC001CFD50 /* main.m */; };
-		38A9F8A023BF1F4C001CFD50 /* NGiOSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A9F89F23BF1F4C001CFD50 /* NGiOSBase.framework */; };
-		ED2119AE38100BE4D2A2330C /* Pods_NGiOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2EF8EE2226B97A036FB433 /* Pods_NGiOSDemo.framework */; };
+		38A9F8B223BF2370001CFD50 /* NGiOSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A9F8B023BF234C001CFD50 /* NGiOSBase.framework */; };
+		B3F844A3FF361144F3D5B4AE /* Pods_NGiOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCCE63F86AD468FB6E59F4 /* Pods_NGiOSDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,13 @@
 		38A9F88523BF1CFC001CFD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A9F88723BF1CFC001CFD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A9F88823BF1CFC001CFD50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		38A9F89F23BF1F4C001CFD50 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9F8A823BF2300001CFD50 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9F8AA23BF2309001CFD50 /* Pods_NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9F8AC23BF2323001CFD50 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9F8AE23BF232B001CFD50 /* Pods_NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9F8B023BF234C001CFD50 /* NGiOSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NGiOSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A465E772E2D13AEEE95B0ED /* Pods-NGiOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSDemo.release.xcconfig"; path = "Target Support Files/Pods-NGiOSDemo/Pods-NGiOSDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7C2EF8EE2226B97A036FB433 /* Pods_NGiOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGiOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCCE63F86AD468FB6E59F4 /* Pods_NGiOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGiOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF8BD3CA7FBF87B7A8FBD7D /* Pods-NGiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGiOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-NGiOSDemo/Pods-NGiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,8 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A9F8A023BF1F4C001CFD50 /* NGiOSBase.framework in Frameworks */,
-				ED2119AE38100BE4D2A2330C /* Pods_NGiOSDemo.framework in Frameworks */,
+				38A9F8B223BF2370001CFD50 /* NGiOSBase.framework in Frameworks */,
+				B3F844A3FF361144F3D5B4AE /* Pods_NGiOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +103,12 @@
 		C38B0289259B04C204C88EA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				38A9F89F23BF1F4C001CFD50 /* NGiOSBase.framework */,
-				7C2EF8EE2226B97A036FB433 /* Pods_NGiOSDemo.framework */,
+				38A9F8B023BF234C001CFD50 /* NGiOSBase.framework */,
+				38A9F8AE23BF232B001CFD50 /* Pods_NGiOSBase.framework */,
+				38A9F8AC23BF2323001CFD50 /* NGiOSBase.framework */,
+				38A9F8AA23BF2309001CFD50 /* Pods_NGiOSBase.framework */,
+				38A9F8A823BF2300001CFD50 /* NGiOSBase.framework */,
+				CEFCCE63F86AD468FB6E59F4 /* Pods_NGiOSDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,7 +124,7 @@
 				38A9F86F23BF1CFA001CFD50 /* Sources */,
 				38A9F87023BF1CFA001CFD50 /* Frameworks */,
 				38A9F87123BF1CFA001CFD50 /* Resources */,
-				C9007E4E2C29C70E28FA644F /* [CP] Embed Pods Frameworks */,
+				AC5695244B9A017875E82311 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +203,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9007E4E2C29C70E28FA644F /* [CP] Embed Pods Frameworks */ = {
+		AC5695244B9A017875E82311 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

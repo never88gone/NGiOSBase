@@ -54,10 +54,8 @@
 #import <NGiOSBase/NGDeadtimeTimer.h>
 #import <NGiOSBase/NGFileManager.h>
 #import <NGiOSBase/NGFont.h>
-#import <NGiOSBase/NGFPSLabel.h>
 #import <NGiOSBase/NGFuncDefine.h>
 #import <NGiOSBase/NGGlobalValue.h>
-#import <NGiOSBase/NGImageFallingView.h>
 #import <NGiOSBase/NGIPAddress.h>
 #import <NGiOSBase/NGJsonKit.h>
 #import <NGiOSBase/NGKeychain.h>
@@ -71,7 +69,6 @@
 #import <NGiOSBase/NGNonModelLoadingView.h>
 #import <NGiOSBase/NGNotificationDefine.h>
 #import <NGiOSBase/NGPageControl.h>
-#import <NGiOSBase/NGPageView.h>
 #import <NGiOSBase/NGPickerView.h>
 #import <NGiOSBase/NGPinYin.h>
 #import <NGiOSBase/NGPlaceHolderTextView.h>
@@ -79,8 +76,6 @@
 #import <NGiOSBase/NGPriceAndScoreLabel.h>
 #import <NGiOSBase/NGRadioButton.h>
 #import <NGiOSBase/NGScrollView.h>
-#import <NGiOSBase/NGSegmentBtnView.h>
-#import <NGiOSBase/NGSegmentView.h>
 #import <NGiOSBase/NGSize.h>
 #import <NGiOSBase/NGSizeDefine.h>
 #import <NGiOSBase/NGSwitch.h>
@@ -115,7 +110,6 @@
 #import <NGiOSBase/UILabel+DynamicSize.h>
 #import <NGiOSBase/UINavigationController+NG.h>
 #import <NGiOSBase/UINib+create.h>
-#import <NGiOSBase/UIScrollView+APParallaxHeader.h>
 #import <NGiOSBase/UIScrollView+DeliverTouch.h>
 #import <NGiOSBase/UIScrollView+SVInfiniteLoadingMore.h>
 #import <NGiOSBase/UIView+create.h>
