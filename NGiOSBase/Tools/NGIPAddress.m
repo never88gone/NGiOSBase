@@ -17,10 +17,10 @@ extern unsigned long ip_addrs[MAXADDRS];
 
 // Function prototypes
 
-void InitAddresses(void);
-void FreeAddresses(void);
-void GetIPAddresses(void);
-void GetHWAddresses(void);
+void NGInitAddresses(void);
+void NGFreeAddresses(void);
+void NGGetIPAddresses(void);
+void NGGetHWAddresses(void);
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -50,7 +50,7 @@ unsigned long ip_addrs[MAXADDRS];
 
 static int  nextAddr = 0;
 
-void InitAddresses()
+void NGInitAddresses()
 {
     int i;
     for (i=0; i<MAXADDRS; ++i)
@@ -60,7 +60,7 @@ void InitAddresses()
     }
 }
 
-void FreeAddresses()
+void NGFreeAddresses()
 {
     int i;
     for (i=0; i<MAXADDRS; ++i)
@@ -71,10 +71,10 @@ void FreeAddresses()
         ip_addrs[i] = 0;
     }
     
-    InitAddresses();
+    NGInitAddresses();
 }
 
-void GetIPAddresses()
+void NGGetIPAddresses()
 {
     int                i, len, flags;
     char                buffer[BUFFERSIZE], *ptr, lastname[IFNAMSIZ], *cptr;
@@ -155,7 +155,7 @@ void GetIPAddresses()
     
 }
 
-void GetHWAddresses()
+void NGGetHWAddresses()
 {
     struct ifconf ifc;
     struct ifreq *ifr;
@@ -221,16 +221,16 @@ DEF_SINGLETON(NGIPAddress);
 - (id)init
 {
     if (self = [super init]) {
-        InitAddresses();
-        GetIPAddresses();
-        GetHWAddresses();
+        NGInitAddresses();
+        NGGetIPAddresses();
+        NGGetHWAddresses();
     }
     return self;
 }
 
 - (void)dealloc
 {
-    FreeAddresses();
+    NGFreeAddresses();
 }
 
 - (NSString *)getIPAddress
