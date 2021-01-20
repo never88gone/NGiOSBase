@@ -94,7 +94,6 @@
 #import <NGiOSBase/NGView.h>
 #import <NGiOSBase/NGViewMaker.h>
 #import <NGiOSBase/NGWeakObjectDeathNotifier.h>
-#import <NGiOSBase/NGWebView.h>
 #import <NGiOSBase/NGWindow.h>
 #import <NGiOSBase/UIButton+EnlargeArea.h>
 #import <NGiOSBase/UIButton+LayoutStyle.h>
