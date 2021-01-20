@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.3.6"
+  s.version      = "0.3.7"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
                     Owned by NG.
                    DESC
 
-  s.homepage     = "http://www.never88gone.cn"
+  s.homepage     = "https://www.myit2017.com"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author       = { "never88gone" => "86278708@qq.com" }
+  s.author       = { "never88gone" => "hsb@myit2017.com" }
   s.platform     = :ios, "8.0"
 
   s.ios.deployment_target = "8.0"
