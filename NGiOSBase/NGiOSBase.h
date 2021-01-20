@@ -39,7 +39,6 @@
 #import <NGiOSBase/NGAudioPlayer.h>
 #import <NGiOSBase/NGAutoHeightTextView.h>
 #import <NGiOSBase/NGBorder.h>
-#import <NGiOSBase/NGCalendarNotification.h>
 #import <NGiOSBase/NGClientInfo.h>
 #import <NGiOSBase/NGCollectionReusableView.h>
 #import <NGiOSBase/NGCollectionView.h>
@@ -60,7 +59,6 @@
 #import <NGiOSBase/NGJsonKit.h>
 #import <NGiOSBase/NGKeychain.h>
 #import <NGiOSBase/NGLocalNotification.h>
-#import <NGiOSBase/NGLocation.h>
 #import <NGiOSBase/NGLog.h>
 #import <NGiOSBase/NGMacroDefine.h>
 #import <NGiOSBase/NGManagedObject.h>

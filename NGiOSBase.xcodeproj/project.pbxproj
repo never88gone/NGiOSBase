@@ -61,7 +61,6 @@
 		388EF6CE1F32C22100AE3826 /* NGVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82531F0A38D900207394 /* NGVCAnimation.m */; };
 		388EF6FE1F32C22100AE3826 /* NGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82841F0A38D900207394 /* NGAudioPlayer.m */; };
 		388EF7021F32C22100AE3826 /* NGBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82881F0A38D900207394 /* NGBorder.m */; };
-		388EF7041F32C22100AE3826 /* NGCalendarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828A1F0A38D900207394 /* NGCalendarNotification.m */; };
 		388EF7061F32C22100AE3826 /* NGCollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */; };
 		388EF7081F32C22100AE3826 /* NGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA828E1F0A38D900207394 /* NGColor.m */; };
 		388EF70A1F32C22100AE3826 /* NGConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82901F0A38D900207394 /* NGConstraintHelper.m */; };
@@ -71,7 +70,6 @@
 		388EF71C1F32C22100AE3826 /* NGIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A21F0A38D900207394 /* NGIPAddress.m */; };
 		388EF71E1F32C22100AE3826 /* NGJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A41F0A38D900207394 /* NGJsonKit.m */; };
 		388EF7201F32C22100AE3826 /* NGLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A61F0A38D900207394 /* NGLocalNotification.m */; };
-		388EF7221F32C22100AE3826 /* NGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82A81F0A38D900207394 /* NGLocation.m */; };
 		388EF7241F32C22100AE3826 /* NGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AA1F0A38D900207394 /* NGLog.m */; };
 		388EF7261F32C22100AE3826 /* NGMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AC1F0A38D900207394 /* NGMask.m */; };
 		388EF7281F32C22100AE3826 /* NGMD5Sha.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82AE1F0A38D900207394 /* NGMD5Sha.m */; };
@@ -99,7 +97,6 @@
 		388EF75A1F32C22100AE3826 /* NGTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E21F0A38D900207394 /* NGTabView.m */; };
 		388EF75C1F32C22100AE3826 /* NGTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E41F0A38D900207394 /* NGTopWindow.m */; };
 		388EF75E1F32C22100AE3826 /* NGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E61F0A38D900207394 /* NGView.m */; };
-		388EF7601F32C22100AE3826 /* NGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82E81F0A38D900207394 /* NGWebView.m */; };
 		388EF7621F32C22100AE3826 /* NGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EA1F0A38D900207394 /* NGWindow.m */; };
 		388EF7661F32C22100AE3826 /* NGAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82EF1F0A38D900207394 /* NGAutoHeightTextView.m */; };
 		388EF76C1F32C22100AE3826 /* NGCommentPicScaledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA82F51F0A38D900207394 /* NGCommentPicScaledView.m */; };
@@ -171,7 +168,6 @@
 		38A9F8F623BF252F001CFD50 /* NGVCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82521F0A38D900207394 /* NGVCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F8F723BF252F001CFD50 /* NGAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82831F0A38D900207394 /* NGAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F8F823BF252F001CFD50 /* NGBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82871F0A38D900207394 /* NGBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A9F8F923BF2535001CFD50 /* NGCalendarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82891F0A38D900207394 /* NGCalendarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F8FA23BF2535001CFD50 /* NGCollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F8FB23BF2535001CFD50 /* NGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828D1F0A38D900207394 /* NGColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F8FC23BF2535001CFD50 /* NGConstraintHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA828F1F0A38D900207394 /* NGConstraintHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,7 +177,6 @@
 		38A9F90023BF2535001CFD50 /* NGIPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A11F0A38D900207394 /* NGIPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F90123BF2535001CFD50 /* NGJsonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A31F0A38D900207394 /* NGJsonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F90223BF2535001CFD50 /* NGLocalNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A51F0A38D900207394 /* NGLocalNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A9F90323BF2535001CFD50 /* NGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A71F0A38D900207394 /* NGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F90423BF2535001CFD50 /* NGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82A91F0A38D900207394 /* NGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F90523BF2535001CFD50 /* NGMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82AB1F0A38D900207394 /* NGMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F90623BF2535001CFD50 /* NGMD5Sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82AD1F0A38D900207394 /* NGMD5Sha.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -209,7 +204,6 @@
 		38A9F93823BF253E001CFD50 /* NGTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E11F0A38D900207394 /* NGTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F93923BF253E001CFD50 /* NGTopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E31F0A38D900207394 /* NGTopWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F93A23BF253E001CFD50 /* NGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E51F0A38D900207394 /* NGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A9F93B23BF253E001CFD50 /* NGWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E71F0A38D900207394 /* NGWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F93C23BF253E001CFD50 /* NGWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82E91F0A38D900207394 /* NGWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F93D23BF253E001CFD50 /* NGAutoHeightTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82EE1F0A38D900207394 /* NGAutoHeightTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A9F93E23BF253E001CFD50 /* NGCommentPicScaledView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EA82F41F0A38D900207394 /* NGCommentPicScaledView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -382,8 +376,6 @@
 		38EA82841F0A38D900207394 /* NGAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAudioPlayer.m; sourceTree = "<group>"; };
 		38EA82871F0A38D900207394 /* NGBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBorder.h; sourceTree = "<group>"; };
 		38EA82881F0A38D900207394 /* NGBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBorder.m; sourceTree = "<group>"; };
-		38EA82891F0A38D900207394 /* NGCalendarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCalendarNotification.h; sourceTree = "<group>"; };
-		38EA828A1F0A38D900207394 /* NGCalendarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCalendarNotification.m; sourceTree = "<group>"; };
 		38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 		38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		38EA828D1F0A38D900207394 /* NGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGColor.h; sourceTree = "<group>"; };
@@ -402,8 +394,6 @@
 		38EA82A41F0A38D900207394 /* NGJsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGJsonKit.m; sourceTree = "<group>"; };
 		38EA82A51F0A38D900207394 /* NGLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLocalNotification.h; sourceTree = "<group>"; };
 		38EA82A61F0A38D900207394 /* NGLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLocalNotification.m; sourceTree = "<group>"; };
-		38EA82A71F0A38D900207394 /* NGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLocation.h; sourceTree = "<group>"; };
-		38EA82A81F0A38D900207394 /* NGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLocation.m; sourceTree = "<group>"; };
 		38EA82A91F0A38D900207394 /* NGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLog.h; sourceTree = "<group>"; };
 		38EA82AA1F0A38D900207394 /* NGLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLog.m; sourceTree = "<group>"; };
 		38EA82AB1F0A38D900207394 /* NGMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMask.h; sourceTree = "<group>"; };
@@ -458,8 +448,6 @@
 		38EA82E41F0A38D900207394 /* NGTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTopWindow.m; sourceTree = "<group>"; };
 		38EA82E51F0A38D900207394 /* NGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGView.h; sourceTree = "<group>"; };
 		38EA82E61F0A38D900207394 /* NGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGView.m; sourceTree = "<group>"; };
-		38EA82E71F0A38D900207394 /* NGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGWebView.h; sourceTree = "<group>"; };
-		38EA82E81F0A38D900207394 /* NGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGWebView.m; sourceTree = "<group>"; };
 		38EA82E91F0A38D900207394 /* NGWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGWindow.h; sourceTree = "<group>"; };
 		38EA82EA1F0A38D900207394 /* NGWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGWindow.m; sourceTree = "<group>"; };
 		38EA82EE1F0A38D900207394 /* NGAutoHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAutoHeightTextView.h; sourceTree = "<group>"; };
@@ -814,8 +802,6 @@
 				38EA82841F0A38D900207394 /* NGAudioPlayer.m */,
 				38EA82871F0A38D900207394 /* NGBorder.h */,
 				38EA82881F0A38D900207394 /* NGBorder.m */,
-				38EA82891F0A38D900207394 /* NGCalendarNotification.h */,
-				38EA828A1F0A38D900207394 /* NGCalendarNotification.m */,
 				38EA828B1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.h */,
 				38EA828C1F0A38D900207394 /* NGCollectionViewLeftAlignedLayout.m */,
 				38EA828D1F0A38D900207394 /* NGColor.h */,
@@ -834,8 +820,6 @@
 				38EA82A41F0A38D900207394 /* NGJsonKit.m */,
 				38EA82A51F0A38D900207394 /* NGLocalNotification.h */,
 				38EA82A61F0A38D900207394 /* NGLocalNotification.m */,
-				38EA82A71F0A38D900207394 /* NGLocation.h */,
-				38EA82A81F0A38D900207394 /* NGLocation.m */,
 				38EA82A91F0A38D900207394 /* NGLog.h */,
 				38EA82AA1F0A38D900207394 /* NGLog.m */,
 				38EA82AB1F0A38D900207394 /* NGMask.h */,
@@ -932,8 +916,6 @@
 				38EA82E41F0A38D900207394 /* NGTopWindow.m */,
 				38EA82E51F0A38D900207394 /* NGView.h */,
 				38EA82E61F0A38D900207394 /* NGView.m */,
-				38EA82E71F0A38D900207394 /* NGWebView.h */,
-				38EA82E81F0A38D900207394 /* NGWebView.m */,
 				38EA82E91F0A38D900207394 /* NGWindow.h */,
 				38EA82EA1F0A38D900207394 /* NGWindow.m */,
 			);
@@ -988,7 +970,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A9F93923BF253E001CFD50 /* NGTopWindow.h in Headers */,
-				38A9F90323BF2535001CFD50 /* NGLocation.h in Headers */,
 				38A9F8FF23BF2535001CFD50 /* NGFont.h in Headers */,
 				38A9F8FA23BF2535001CFD50 /* NGCollectionViewLeftAlignedLayout.h in Headers */,
 				38A9F90C23BF2535001CFD50 /* NGViewMaker.h in Headers */,
@@ -1040,7 +1021,6 @@
 				38A9F95223BF266E001CFD50 /* NSObject+runtime.h in Headers */,
 				38A9F8D423BF2518001CFD50 /* UIViewController+base.h in Headers */,
 				38A9F8D623BF2518001CFD50 /* UIViewController+custom.h in Headers */,
-				38A9F93B23BF253E001CFD50 /* NGWebView.h in Headers */,
 				38A9F8C423BF24FD001CFD50 /* NSString+ConvertType.h in Headers */,
 				38A9F93623BF253E001CFD50 /* NGTableViewCell.h in Headers */,
 				38A9F8F323BF252F001CFD50 /* NGClientInfo.h in Headers */,
@@ -1095,7 +1075,6 @@
 				38A9F94223BF253E001CFD50 /* NGPriceAndScoreLabel.h in Headers */,
 				38A9F8F223BF252F001CFD50 /* NGSizeDefine.h in Headers */,
 				38A9F93A23BF253E001CFD50 /* NGView.h in Headers */,
-				38A9F8F923BF2535001CFD50 /* NGCalendarNotification.h in Headers */,
 				38A9F8DE23BF251D001CFD50 /* UILabel+Attribute.h in Headers */,
 				38A9F8F623BF252F001CFD50 /* NGVCAnimation.h in Headers */,
 				38A9F8D923BF251D001CFD50 /* UIButton+LayoutStyle.h in Headers */,
@@ -1256,7 +1235,6 @@
 				388EF6CE1F32C22100AE3826 /* NGVCAnimation.m in Sources */,
 				388EF6FE1F32C22100AE3826 /* NGAudioPlayer.m in Sources */,
 				388EF7021F32C22100AE3826 /* NGBorder.m in Sources */,
-				388EF7041F32C22100AE3826 /* NGCalendarNotification.m in Sources */,
 				388EF7061F32C22100AE3826 /* NGCollectionViewLeftAlignedLayout.m in Sources */,
 				388EF7081F32C22100AE3826 /* NGColor.m in Sources */,
 				388EF70A1F32C22100AE3826 /* NGConstraintHelper.m in Sources */,
@@ -1266,7 +1244,6 @@
 				388EF71C1F32C22100AE3826 /* NGIPAddress.m in Sources */,
 				388EF71E1F32C22100AE3826 /* NGJsonKit.m in Sources */,
 				388EF7201F32C22100AE3826 /* NGLocalNotification.m in Sources */,
-				388EF7221F32C22100AE3826 /* NGLocation.m in Sources */,
 				388EF7241F32C22100AE3826 /* NGLog.m in Sources */,
 				388EF7261F32C22100AE3826 /* NGMask.m in Sources */,
 				388EF7281F32C22100AE3826 /* NGMD5Sha.m in Sources */,
@@ -1296,7 +1273,6 @@
 				388EF75A1F32C22100AE3826 /* NGTabView.m in Sources */,
 				388EF75C1F32C22100AE3826 /* NGTopWindow.m in Sources */,
 				388EF75E1F32C22100AE3826 /* NGView.m in Sources */,
-				388EF7601F32C22100AE3826 /* NGWebView.m in Sources */,
 				38A9F94D23BF266E001CFD50 /* NSObject+coder.m in Sources */,
 				388EF7621F32C22100AE3826 /* NGWindow.m in Sources */,
 				388EF7661F32C22100AE3826 /* NGAutoHeightTextView.m in Sources */,
