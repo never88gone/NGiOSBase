@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NGiOSBase"
-  s.version      = "0.3.9"
+  s.version      = "0.4.0"
   s.summary      = "This is base lib of NGiOSBase."
 
   s.description  = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.library = 'sqlite3'
   s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.xcconfig = {"OHTER_LINKER_FLAGS" => "-OjbC"}
-  s.dependency "BlocksKit","2.2.5"
+  s.dependency "BlocksKit", :git =>  'https://github.com/never88gone/BlocksKit'
   s.dependency "CocoaLumberjack","3.5.2"
   s.dependency "JSONModel","1.8.0"
   s.dependency "MBProgressHUD","1.1.0"

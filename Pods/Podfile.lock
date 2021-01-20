@@ -1,17 +1,21 @@
 PODS:
-  - BlocksKit (2.2.5):
-    - BlocksKit/All (= 2.2.5)
-  - BlocksKit/All (2.2.5):
+  - BlocksKit (2.2.6):
+    - BlocksKit/All (= 2.2.6)
+  - BlocksKit/All (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
     - BlocksKit/MessageUI
+    - BlocksKit/QuickLook
     - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.5)
-  - BlocksKit/DynamicDelegate (2.2.5)
-  - BlocksKit/MessageUI (2.2.5):
+  - BlocksKit/Core (2.2.6)
+  - BlocksKit/DynamicDelegate (2.2.6)
+  - BlocksKit/MessageUI (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.5):
+  - BlocksKit/QuickLook (2.2.6):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.6):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CocoaLumberjack (3.6.0):
@@ -27,7 +31,7 @@ PODS:
   - SDWebImage/Core (5.4.1)
 
 DEPENDENCIES:
-  - BlocksKit (= 2.2.5)
+  - BlocksKit (from `https://github.com/never88gone/BlocksKit`)
   - CocoaLumberjack (= 3.6.0)
   - JSONModel (= 1.8.0)
   - MagicalRecord (= 2.3.2)
@@ -35,22 +39,30 @@ DEPENDENCIES:
   - SDWebImage (= 5.4.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - BlocksKit
+  https://github.com/CocoaPods/Specs.git:
     - CocoaLumberjack
     - JSONModel
     - MagicalRecord
     - MBProgressHUD
     - SDWebImage
 
+EXTERNAL SOURCES:
+  BlocksKit:
+    :git: https://github.com/never88gone/BlocksKit
+
+CHECKOUT OPTIONS:
+  BlocksKit:
+    :commit: 3f1f48717ba4e46277911607a05a582afb766d0c
+    :git: https://github.com/never88gone/BlocksKit
+
 SPEC CHECKSUMS:
-  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  BlocksKit: 5fae06c13638d9fdb0bbddca3dabfe8f5aa735c5
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
 
-PODFILE CHECKSUM: f56615510ca94c184d1f72e55dd9b8948491be44
+PODFILE CHECKSUM: 336d044ca872d12b75978b8a4fa43c8cb0ea3301
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.10.1
